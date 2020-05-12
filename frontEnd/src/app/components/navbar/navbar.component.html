@@ -13,14 +13,45 @@
   </button>
   <div class="collapse navbar-collapse" id="collapsibleNavId">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" routerLink="/"
-          >Home <span class="sr-only">(current)</span></a
-        >
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="router-link-active" routerLink="/"
+          >{{ "Home" | translate }}
+        </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="countries">Countries</a>
+        <a
+          class="nav-link"
+          routerLinkActive="router-link-active"
+          routerLink="countries"
+          >{{ "Countries" | translate }}</a
+        >
       </li>
     </ul>
+    <div class="dropdown">
+      <button
+        class="btn btn-secondary dropdown-toggle"
+        type="button"
+        id="dropdownMenuButton"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        Languages
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a
+          class="dropdown-item"
+          style="cursor: pointer;"
+          (click)="changeCurrentLang('en')"
+          >English</a
+        >
+        <a
+          class="dropdown-item"
+          style="cursor: pointer;"
+          (click)="changeCurrentLang('fr')"
+          >French</a
+        >
+      </div>
+    </div>
   </div>
 </nav>

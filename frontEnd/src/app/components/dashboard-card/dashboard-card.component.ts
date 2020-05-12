@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from "@angular/core";
+import { TranslateService } from "@ngx-translate/core";
 
 @Component({
   selector: "app-dashboard-card",
@@ -10,7 +11,7 @@ export class DashboardCardComponent implements OnInit {
   @Input("totalRecovered ") totalRecovered;
   @Input("totalDeaths") totalDeaths;
   @Input("totalActive") totalActive;
-  constructor() {}
+  constructor(public translate: TranslateService) {}
 
   ngOnInit() {}
 }

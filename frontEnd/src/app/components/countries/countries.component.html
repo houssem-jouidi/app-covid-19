@@ -3,11 +3,11 @@
 </div>
 
 <div class="jumbotron bg-white text-center">
-  <h1 class="display-4">Corona Covid-19 Tracker Country wise</h1>
+  <h1 class="display-4">{{ "TITLE_CONT" | translate }}</h1>
   <hr />
   <div class="mx-auto">
     <div class="form-group col-lg-5 mx-auto">
-      <label for="c">Select Country</label>
+      <label for="c">{{ "SELECT_CONT" | translate }}</label>
       <select
         class="form-control"
         name=""
@@ -31,16 +31,18 @@
     <table class="table col">
       <thead>
         <tr>
-          <th>Sno</th>
+          <!--  <th>Sno</th>-->
           <th>Date</th>
-          <th>Cases</th>
+          <th>{{ "Cases" | translate }}</th>
         </tr>
       </thead>
       <tbody>
         <tr *ngFor="let cs of SelectedCountryData; index as i">
-          <td scope="row">{{ i + 1 }}</td>
-          <td>{{ cs.date | date }}</td>
-          <td>{{ cs.cases }}</td>
+          <!--  <td *ngIf="cs.cases > 0" scope="row">
+            {{ i + 1 }}
+          </td> -->
+          <td *ngIf="cs.cases > 0">{{ cs.date | date }}</td>
+          <td *ngIf="cs.cases > 0">{{ cs.cases }}</td>
         </tr>
       </tbody>
     </table>

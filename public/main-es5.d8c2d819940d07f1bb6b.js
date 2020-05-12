@@ -11037,6 +11037,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /**
      * Generated bundle index. Do not edit.
      */
+    //# sourceMappingURL=common.js.map
 
     /***/
 
@@ -14830,6 +14831,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /**
      * Generated bundle index. Do not edit.
      */
+    //# sourceMappingURL=http.js.map
 
     /***/
   },
@@ -72079,6 +72081,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /**
      * Generated bundle index. Do not edit.
      */
+    //# sourceMappingURL=core.js.map
 
     /***/
 
@@ -83700,6 +83703,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /**
      * Generated bundle index. Do not edit.
      */
+    //# sourceMappingURL=forms.js.map
 
     /***/
   },
@@ -90183,6 +90187,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /**
      * Generated bundle index. Do not edit.
      */
+    //# sourceMappingURL=platform-browser.js.map
 
     /***/
   },
@@ -102134,6 +102139,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /**
      * Generated bundle index. Do not edit.
      */
+    //# sourceMappingURL=router.js.map
 
     /***/
   },
@@ -102224,6 +102230,2205 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }
 
     var ɵangular_packages_router_router_lNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("ng-component", _angular_router__WEBPACK_IMPORTED_MODULE_1__["ɵangular_packages_router_router_l"], View_ɵangular_packages_router_router_l_Host_0, {}, {}, []);
+    /***/
+
+  },
+
+  /***/
+  "./node_modules/@ngx-translate/core/fesm2015/ngx-translate-core.js":
+  /*!*************************************************************************!*\
+    !*** ./node_modules/@ngx-translate/core/fesm2015/ngx-translate-core.js ***!
+    \*************************************************************************/
+
+  /*! exports provided: DEFAULT_LANGUAGE, FakeMissingTranslationHandler, MissingTranslationHandler, TranslateCompiler, TranslateDefaultParser, TranslateDirective, TranslateFakeCompiler, TranslateFakeLoader, TranslateLoader, TranslateModule, TranslateParser, TranslatePipe, TranslateService, TranslateStore, USE_DEFAULT_LANG, USE_EXTEND, USE_STORE */
+
+  /***/
+  function node_modulesNgxTranslateCoreFesm2015NgxTranslateCoreJs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "DEFAULT_LANGUAGE", function () {
+      return DEFAULT_LANGUAGE;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "FakeMissingTranslationHandler", function () {
+      return FakeMissingTranslationHandler;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "MissingTranslationHandler", function () {
+      return MissingTranslationHandler;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "TranslateCompiler", function () {
+      return TranslateCompiler;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "TranslateDefaultParser", function () {
+      return TranslateDefaultParser;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "TranslateDirective", function () {
+      return TranslateDirective;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "TranslateFakeCompiler", function () {
+      return TranslateFakeCompiler;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "TranslateFakeLoader", function () {
+      return TranslateFakeLoader;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "TranslateLoader", function () {
+      return TranslateLoader;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "TranslateModule", function () {
+      return TranslateModule;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "TranslateParser", function () {
+      return TranslateParser;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "TranslatePipe", function () {
+      return TranslatePipe;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "TranslateService", function () {
+      return TranslateService;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "TranslateStore", function () {
+      return TranslateStore;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "USE_DEFAULT_LANG", function () {
+      return USE_DEFAULT_LANG;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "USE_EXTEND", function () {
+      return USE_EXTEND;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "USE_STORE", function () {
+      return USE_STORE;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! rxjs */
+    "./node_modules/rxjs/_esm2015/index.js");
+    /* harmony import */
+
+
+    var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! rxjs/operators */
+    "./node_modules/rxjs/_esm2015/operators/index.js");
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    /**
+     * @abstract
+     */
+
+
+    var TranslateLoader = function TranslateLoader() {
+      _classCallCheck(this, TranslateLoader);
+    };
+
+    if (false) {}
+    /**
+     * This loader is just a placeholder that does nothing, in case you don't need a loader at all
+     */
+
+
+    var TranslateFakeLoader =
+    /*#__PURE__*/
+    function (_TranslateLoader) {
+      _inherits(TranslateFakeLoader, _TranslateLoader);
+
+      function TranslateFakeLoader() {
+        _classCallCheck(this, TranslateFakeLoader);
+
+        return _possibleConstructorReturn(this, _getPrototypeOf(TranslateFakeLoader).apply(this, arguments));
+      }
+
+      _createClass2(TranslateFakeLoader, [{
+        key: "getTranslation",
+
+        /**
+         * @param {?} lang
+         * @return {?}
+         */
+        value: function getTranslation(lang) {
+          return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["of"])({});
+        }
+      }]);
+
+      return TranslateFakeLoader;
+    }(TranslateLoader);
+
+    TranslateFakeLoader.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }];
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    /**
+     * @record
+     */
+
+    function MissingTranslationHandlerParams() {}
+
+    if (false) {}
+    /**
+     * @abstract
+     */
+
+
+    var MissingTranslationHandler = function MissingTranslationHandler() {
+      _classCallCheck(this, MissingTranslationHandler);
+    };
+
+    if (false) {}
+    /**
+     * This handler is just a placeholder that does nothing, in case you don't need a missing translation handler at all
+     */
+
+
+    var FakeMissingTranslationHandler =
+    /*#__PURE__*/
+    function () {
+      function FakeMissingTranslationHandler() {
+        _classCallCheck(this, FakeMissingTranslationHandler);
+      }
+
+      _createClass2(FakeMissingTranslationHandler, [{
+        key: "handle",
+
+        /**
+         * @param {?} params
+         * @return {?}
+         */
+        value: function handle(params) {
+          return params.key;
+        }
+      }]);
+
+      return FakeMissingTranslationHandler;
+    }();
+
+    FakeMissingTranslationHandler.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }];
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    /* tslint:disable */
+
+    /**
+     * Determines if two objects or two values are equivalent.
+     *
+     * Two objects or values are considered equivalent if at least one of the following is true:
+     *
+     * * Both objects or values pass `===` comparison.
+     * * Both objects or values are of the same type and all of their properties are equal by
+     *   comparing them with `equals`.
+     *
+     * @param {?} o1 Object or value to compare.
+     * @param {?} o2 Object or value to compare.
+     * @return {?} true if arguments are equal.
+     */
+
+    function equals(o1, o2) {
+      if (o1 === o2) return true;
+      if (o1 === null || o2 === null) return false;
+      if (o1 !== o1 && o2 !== o2) return true; // NaN === NaN
+      // NaN === NaN
+
+      /** @type {?} */
+
+      var t1 = typeof o1;
+      /** @type {?} */
+
+      var t2 = typeof o2;
+      /** @type {?} */
+
+      var length;
+      /** @type {?} */
+
+      var key;
+      /** @type {?} */
+
+      var keySet;
+
+      if (t1 == t2 && t1 == 'object') {
+        if (Array.isArray(o1)) {
+          if (!Array.isArray(o2)) return false;
+
+          if ((length = o1.length) == o2.length) {
+            for (key = 0; key < length; key++) {
+              if (!equals(o1[key], o2[key])) return false;
+            }
+
+            return true;
+          }
+        } else {
+          if (Array.isArray(o2)) {
+            return false;
+          }
+
+          keySet = Object.create(null);
+
+          for (key in o1) {
+            if (!equals(o1[key], o2[key])) {
+              return false;
+            }
+
+            keySet[key] = true;
+          }
+
+          for (key in o2) {
+            if (!(key in keySet) && typeof o2[key] !== 'undefined') {
+              return false;
+            }
+          }
+
+          return true;
+        }
+      }
+
+      return false;
+    }
+    /* tslint:enable */
+
+    /**
+     * @param {?} value
+     * @return {?}
+     */
+
+
+    function isDefined(value) {
+      return typeof value !== 'undefined' && value !== null;
+    }
+    /**
+     * @param {?} item
+     * @return {?}
+     */
+
+
+    function isObject(item) {
+      return item && typeof item === 'object' && !Array.isArray(item);
+    }
+    /**
+     * @param {?} target
+     * @param {?} source
+     * @return {?}
+     */
+
+
+    function mergeDeep(target, source) {
+      /** @type {?} */
+      var output = Object.assign({}, target);
+
+      if (isObject(target) && isObject(source)) {
+        Object.keys(source).forEach(
+        /**
+        * @param {?} key
+        * @return {?}
+        */
+        function (key) {
+          if (isObject(source[key])) {
+            if (!(key in target)) {
+              Object.assign(output, _defineProperty({}, key, source[key]));
+            } else {
+              output[key] = mergeDeep(target[key], source[key]);
+            }
+          } else {
+            Object.assign(output, _defineProperty({}, key, source[key]));
+          }
+        });
+      }
+
+      return output;
+    }
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    /**
+     * @abstract
+     */
+
+
+    var TranslateParser = function TranslateParser() {
+      _classCallCheck(this, TranslateParser);
+    };
+
+    if (false) {}
+
+    var TranslateDefaultParser =
+    /*#__PURE__*/
+    function (_TranslateParser) {
+      _inherits(TranslateDefaultParser, _TranslateParser);
+
+      function TranslateDefaultParser() {
+        var _this161;
+
+        _classCallCheck(this, TranslateDefaultParser);
+
+        _this161 = _possibleConstructorReturn(this, _getPrototypeOf(TranslateDefaultParser).apply(this, arguments));
+        _this161.templateMatcher = /{{\s?([^{}\s]*)\s?}}/g;
+        return _this161;
+      }
+      /**
+       * @param {?} expr
+       * @param {?=} params
+       * @return {?}
+       */
+
+
+      _createClass2(TranslateDefaultParser, [{
+        key: "interpolate",
+        value: function interpolate(expr, params) {
+          /** @type {?} */
+          var result;
+
+          if (typeof expr === 'string') {
+            result = this.interpolateString(expr, params);
+          } else if (typeof expr === 'function') {
+            result = this.interpolateFunction(expr, params);
+          } else {
+            // this should not happen, but an unrelated TranslateService test depends on it
+            result =
+            /** @type {?} */
+            expr;
+          }
+
+          return result;
+        }
+        /**
+         * @param {?} target
+         * @param {?} key
+         * @return {?}
+         */
+
+      }, {
+        key: "getValue",
+        value: function getValue(target, key) {
+          /** @type {?} */
+          var keys = typeof key === 'string' ? key.split('.') : [key];
+          key = '';
+
+          do {
+            key += keys.shift();
+
+            if (isDefined(target) && isDefined(target[key]) && (typeof target[key] === 'object' || !keys.length)) {
+              target = target[key];
+              key = '';
+            } else if (!keys.length) {
+              target = undefined;
+            } else {
+              key += '.';
+            }
+          } while (keys.length);
+
+          return target;
+        }
+        /**
+         * @private
+         * @param {?} fn
+         * @param {?=} params
+         * @return {?}
+         */
+
+      }, {
+        key: "interpolateFunction",
+        value: function interpolateFunction(fn, params) {
+          return fn(params);
+        }
+        /**
+         * @private
+         * @param {?} expr
+         * @param {?=} params
+         * @return {?}
+         */
+
+      }, {
+        key: "interpolateString",
+        value: function interpolateString(expr, params) {
+          var _this162 = this;
+
+          if (!params) {
+            return expr;
+          }
+
+          return expr.replace(this.templateMatcher,
+          /**
+          * @param {?} substring
+          * @param {?} b
+          * @return {?}
+          */
+          function (substring, b) {
+            /** @type {?} */
+            var r = _this162.getValue(params, b);
+
+            return isDefined(r) ? r : substring;
+          });
+        }
+      }]);
+
+      return TranslateDefaultParser;
+    }(TranslateParser);
+
+    TranslateDefaultParser.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }];
+
+    if (false) {}
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    /**
+     * @abstract
+     */
+
+
+    var TranslateCompiler = function TranslateCompiler() {
+      _classCallCheck(this, TranslateCompiler);
+    };
+
+    if (false) {}
+    /**
+     * This compiler is just a placeholder that does nothing, in case you don't need a compiler at all
+     */
+
+
+    var TranslateFakeCompiler =
+    /*#__PURE__*/
+    function (_TranslateCompiler) {
+      _inherits(TranslateFakeCompiler, _TranslateCompiler);
+
+      function TranslateFakeCompiler() {
+        _classCallCheck(this, TranslateFakeCompiler);
+
+        return _possibleConstructorReturn(this, _getPrototypeOf(TranslateFakeCompiler).apply(this, arguments));
+      }
+
+      _createClass2(TranslateFakeCompiler, [{
+        key: "compile",
+
+        /**
+         * @param {?} value
+         * @param {?} lang
+         * @return {?}
+         */
+        value: function compile(value, lang) {
+          return value;
+        }
+        /**
+         * @param {?} translations
+         * @param {?} lang
+         * @return {?}
+         */
+
+      }, {
+        key: "compileTranslations",
+        value: function compileTranslations(translations, lang) {
+          return translations;
+        }
+      }]);
+
+      return TranslateFakeCompiler;
+    }(TranslateCompiler);
+
+    TranslateFakeCompiler.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }];
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    var TranslateStore = function TranslateStore() {
+      _classCallCheck(this, TranslateStore);
+
+      /**
+       * The lang currently used
+       */
+      this.currentLang = this.defaultLang;
+      /**
+       * a list of translations per lang
+       */
+
+      this.translations = {};
+      /**
+       * an array of langs
+       */
+
+      this.langs = [];
+      /**
+       * An EventEmitter to listen to translation change events
+       * onTranslationChange.subscribe((params: TranslationChangeEvent) => {
+       *     // do something
+       * });
+       */
+
+      this.onTranslationChange = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+      /**
+       * An EventEmitter to listen to lang change events
+       * onLangChange.subscribe((params: LangChangeEvent) => {
+       *     // do something
+       * });
+       */
+
+      this.onLangChange = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+      /**
+       * An EventEmitter to listen to default lang change events
+       * onDefaultLangChange.subscribe((params: DefaultLangChangeEvent) => {
+       *     // do something
+       * });
+       */
+
+      this.onDefaultLangChange = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+    };
+
+    if (false) {}
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    /** @type {?} */
+
+
+    var USE_STORE = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["InjectionToken"]('USE_STORE');
+    /** @type {?} */
+
+    var USE_DEFAULT_LANG = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["InjectionToken"]('USE_DEFAULT_LANG');
+    /** @type {?} */
+
+    var DEFAULT_LANGUAGE = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["InjectionToken"]('DEFAULT_LANGUAGE');
+    /** @type {?} */
+
+    var USE_EXTEND = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["InjectionToken"]('USE_EXTEND');
+    /**
+     * @record
+     */
+
+    function TranslationChangeEvent() {}
+
+    if (false) {}
+    /**
+     * @record
+     */
+
+
+    function LangChangeEvent() {}
+
+    if (false) {}
+    /**
+     * @record
+     */
+
+
+    function DefaultLangChangeEvent() {}
+
+    if (false) {}
+
+    var TranslateService =
+    /*#__PURE__*/
+    function () {
+      /**
+       *
+       * @param {?} store an instance of the store (that is supposed to be unique)
+       * @param {?} currentLoader An instance of the loader currently used
+       * @param {?} compiler An instance of the compiler currently used
+       * @param {?} parser An instance of the parser currently used
+       * @param {?} missingTranslationHandler A handler for missing translations.
+       * @param {?=} useDefaultLang whether we should use default language translation when current language translation is missing.
+       * @param {?=} isolate whether this service should use the store or not
+       * @param {?=} extend To make a child module extend (and use) translations from parent modules.
+       * @param {?=} defaultLanguage Set the default language using configuration
+       */
+      function TranslateService(store, currentLoader, compiler, parser, missingTranslationHandler) {
+        var useDefaultLang = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : true;
+        var isolate = arguments.length > 6 && arguments[6] !== undefined ? arguments[6] : false;
+        var extend = arguments.length > 7 && arguments[7] !== undefined ? arguments[7] : false;
+        var defaultLanguage = arguments.length > 8 ? arguments[8] : undefined;
+
+        _classCallCheck(this, TranslateService);
+
+        this.store = store;
+        this.currentLoader = currentLoader;
+        this.compiler = compiler;
+        this.parser = parser;
+        this.missingTranslationHandler = missingTranslationHandler;
+        this.useDefaultLang = useDefaultLang;
+        this.isolate = isolate;
+        this.extend = extend;
+        this.pending = false;
+        this._onTranslationChange = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this._onLangChange = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this._onDefaultLangChange = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this._langs = [];
+        this._translations = {};
+        this._translationRequests = {};
+        /** set the default language from configuration */
+
+        if (defaultLanguage) {
+          this.setDefaultLang(defaultLanguage);
+        }
+      }
+      /**
+       * An EventEmitter to listen to translation change events
+       * onTranslationChange.subscribe((params: TranslationChangeEvent) => {
+       *     // do something
+       * });
+       * @return {?}
+       */
+
+
+      _createClass2(TranslateService, [{
+        key: "setDefaultLang",
+
+        /**
+         * Sets the default language to use as a fallback
+         * @param {?} lang
+         * @return {?}
+         */
+        value: function setDefaultLang(lang) {
+          var _this163 = this;
+
+          if (lang === this.defaultLang) {
+            return;
+          }
+          /** @type {?} */
+
+
+          var pending = this.retrieveTranslations(lang);
+
+          if (typeof pending !== "undefined") {
+            // on init set the defaultLang immediately
+            if (this.defaultLang == null) {
+              this.defaultLang = lang;
+            }
+
+            pending.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["take"])(1)).subscribe(
+            /**
+            * @param {?} res
+            * @return {?}
+            */
+            function (res) {
+              _this163.changeDefaultLang(lang);
+            });
+          } else {
+            // we already have this language
+            this.changeDefaultLang(lang);
+          }
+        }
+        /**
+         * Gets the default language used
+         * @return {?}
+         */
+
+      }, {
+        key: "getDefaultLang",
+        value: function getDefaultLang() {
+          return this.defaultLang;
+        }
+        /**
+         * Changes the lang currently used
+         * @param {?} lang
+         * @return {?}
+         */
+
+      }, {
+        key: "use",
+        value: function use(lang) {
+          var _this164 = this;
+
+          // don't change the language if the language given is already selected
+          if (lang === this.currentLang) {
+            return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["of"])(this.translations[lang]);
+          }
+          /** @type {?} */
+
+
+          var pending = this.retrieveTranslations(lang);
+
+          if (typeof pending !== "undefined") {
+            // on init set the currentLang immediately
+            if (!this.currentLang) {
+              this.currentLang = lang;
+            }
+
+            pending.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["take"])(1)).subscribe(
+            /**
+            * @param {?} res
+            * @return {?}
+            */
+            function (res) {
+              _this164.changeLang(lang);
+            });
+            return pending;
+          } else {
+            // we have this language, return an Observable
+            this.changeLang(lang);
+            return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["of"])(this.translations[lang]);
+          }
+        }
+        /**
+         * Retrieves the given translations
+         * @private
+         * @param {?} lang
+         * @return {?}
+         */
+
+      }, {
+        key: "retrieveTranslations",
+        value: function retrieveTranslations(lang) {
+          /** @type {?} */
+          var pending; // if this language is unavailable or extend is true, ask for it
+
+          if (typeof this.translations[lang] === "undefined" || this.extend) {
+            this._translationRequests[lang] = this._translationRequests[lang] || this.getTranslation(lang);
+            pending = this._translationRequests[lang];
+          }
+
+          return pending;
+        }
+        /**
+         * Gets an object of translations for a given language with the current loader
+         * and passes it through the compiler
+         * @param {?} lang
+         * @return {?}
+         */
+
+      }, {
+        key: "getTranslation",
+        value: function getTranslation(lang) {
+          var _this165 = this;
+
+          this.pending = true;
+          /** @type {?} */
+
+          var loadingTranslations = this.currentLoader.getTranslation(lang).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["shareReplay"])(1), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["take"])(1));
+          this.loadingTranslations = loadingTranslations.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(
+          /**
+          * @param {?} res
+          * @return {?}
+          */
+          function (res) {
+            return _this165.compiler.compileTranslations(res, lang);
+          }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["shareReplay"])(1), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["take"])(1));
+          this.loadingTranslations.subscribe({
+            next:
+            /**
+            * @param {?} res
+            * @return {?}
+            */
+            function next(res) {
+              _this165.translations[lang] = _this165.extend && _this165.translations[lang] ? Object.assign(Object.assign({}, res), _this165.translations[lang]) : res;
+
+              _this165.updateLangs();
+
+              _this165.pending = false;
+            },
+            error:
+            /**
+            * @param {?} err
+            * @return {?}
+            */
+            function error(err) {
+              _this165.pending = false;
+            }
+          });
+          return loadingTranslations;
+        }
+        /**
+         * Manually sets an object of translations for a given language
+         * after passing it through the compiler
+         * @param {?} lang
+         * @param {?} translations
+         * @param {?=} shouldMerge
+         * @return {?}
+         */
+
+      }, {
+        key: "setTranslation",
+        value: function setTranslation(lang, translations) {
+          var shouldMerge = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
+          translations = this.compiler.compileTranslations(translations, lang);
+
+          if ((shouldMerge || this.extend) && this.translations[lang]) {
+            this.translations[lang] = mergeDeep(this.translations[lang], translations);
+          } else {
+            this.translations[lang] = translations;
+          }
+
+          this.updateLangs();
+          this.onTranslationChange.emit({
+            lang: lang,
+            translations: this.translations[lang]
+          });
+        }
+        /**
+         * Returns an array of currently available langs
+         * @return {?}
+         */
+
+      }, {
+        key: "getLangs",
+        value: function getLangs() {
+          return this.langs;
+        }
+        /**
+         * Add available langs
+         * @param {?} langs
+         * @return {?}
+         */
+
+      }, {
+        key: "addLangs",
+        value: function addLangs(langs) {
+          var _this166 = this;
+
+          langs.forEach(
+          /**
+          * @param {?} lang
+          * @return {?}
+          */
+          function (lang) {
+            if (_this166.langs.indexOf(lang) === -1) {
+              _this166.langs.push(lang);
+            }
+          });
+        }
+        /**
+         * Update the list of available langs
+         * @private
+         * @return {?}
+         */
+
+      }, {
+        key: "updateLangs",
+        value: function updateLangs() {
+          this.addLangs(Object.keys(this.translations));
+        }
+        /**
+         * Returns the parsed result of the translations
+         * @param {?} translations
+         * @param {?} key
+         * @param {?=} interpolateParams
+         * @return {?}
+         */
+
+      }, {
+        key: "getParsedResult",
+        value: function getParsedResult(translations, key, interpolateParams) {
+          /** @type {?} */
+          var res;
+
+          if (key instanceof Array) {
+            /** @type {?} */
+            var result = {};
+            /** @type {?} */
+
+            var observables = false;
+            var _iteratorNormalCompletion24 = true;
+            var _didIteratorError24 = false;
+            var _iteratorError24 = undefined;
+
+            try {
+              for (var _iterator24 = key[Symbol.iterator](), _step24; !(_iteratorNormalCompletion24 = (_step24 = _iterator24.next()).done); _iteratorNormalCompletion24 = true) {
+                var k = _step24.value;
+                result[k] = this.getParsedResult(translations, k, interpolateParams);
+
+                if (Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["isObservable"])(result[k])) {
+                  observables = true;
+                }
+              }
+            } catch (err) {
+              _didIteratorError24 = true;
+              _iteratorError24 = err;
+            } finally {
+              try {
+                if (!_iteratorNormalCompletion24 && _iterator24.return != null) {
+                  _iterator24.return();
+                }
+              } finally {
+                if (_didIteratorError24) {
+                  throw _iteratorError24;
+                }
+              }
+            }
+
+            if (observables) {
+              /** @type {?} */
+              var sources = key.map(
+              /**
+              * @param {?} k
+              * @return {?}
+              */
+              function (k) {
+                return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["isObservable"])(result[k]) ? result[k] : Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["of"])(
+                /** @type {?} */
+                result[k]);
+              });
+              return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["forkJoin"])(sources).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(
+              /**
+              * @param {?} arr
+              * @return {?}
+              */
+              function (arr) {
+                /** @type {?} */
+                var obj = {};
+                arr.forEach(
+                /**
+                * @param {?} value
+                * @param {?} index
+                * @return {?}
+                */
+                function (value, index) {
+                  obj[key[index]] = value;
+                });
+                return obj;
+              }));
+            }
+
+            return result;
+          }
+
+          if (translations) {
+            res = this.parser.interpolate(this.parser.getValue(translations, key), interpolateParams);
+          }
+
+          if (typeof res === "undefined" && this.defaultLang != null && this.defaultLang !== this.currentLang && this.useDefaultLang) {
+            res = this.parser.interpolate(this.parser.getValue(this.translations[this.defaultLang], key), interpolateParams);
+          }
+
+          if (typeof res === "undefined") {
+            /** @type {?} */
+            var params = {
+              key: key,
+              translateService: this
+            };
+
+            if (typeof interpolateParams !== 'undefined') {
+              params.interpolateParams = interpolateParams;
+            }
+
+            res = this.missingTranslationHandler.handle(params);
+          }
+
+          return typeof res !== "undefined" ? res : key;
+        }
+        /**
+         * Gets the translated value of a key (or an array of keys)
+         * @param {?} key
+         * @param {?=} interpolateParams
+         * @return {?} the translated key, or an object of translated keys
+         */
+
+      }, {
+        key: "get",
+        value: function get(key, interpolateParams) {
+          var _this167 = this;
+
+          if (!isDefined(key) || !key.length) {
+            throw new Error("Parameter \"key\" required");
+          } // check if we are loading a new translation to use
+
+
+          if (this.pending) {
+            return this.loadingTranslations.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["concatMap"])(
+            /**
+            * @param {?} res
+            * @return {?}
+            */
+            function (res) {
+              res = _this167.getParsedResult(res, key, interpolateParams);
+              return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["isObservable"])(res) ? res : Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["of"])(res);
+            }));
+          } else {
+            /** @type {?} */
+            var res = this.getParsedResult(this.translations[this.currentLang], key, interpolateParams);
+            return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["isObservable"])(res) ? res : Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["of"])(res);
+          }
+        }
+        /**
+         * Returns a stream of translated values of a key (or an array of keys) which updates
+         * whenever the translation changes.
+         * @param {?} key
+         * @param {?=} interpolateParams
+         * @return {?} A stream of the translated key, or an object of translated keys
+         */
+
+      }, {
+        key: "getStreamOnTranslationChange",
+        value: function getStreamOnTranslationChange(key, interpolateParams) {
+          var _this168 = this;
+
+          if (!isDefined(key) || !key.length) {
+            throw new Error("Parameter \"key\" required");
+          }
+
+          return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["concat"])(Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["defer"])(
+          /**
+          * @return {?}
+          */
+          function () {
+            return _this168.get(key, interpolateParams);
+          }), this.onTranslationChange.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["switchMap"])(
+          /**
+          * @param {?} event
+          * @return {?}
+          */
+          function (event) {
+            /** @type {?} */
+            var res = _this168.getParsedResult(event.translations, key, interpolateParams);
+
+            if (typeof res.subscribe === 'function') {
+              return res;
+            } else {
+              return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["of"])(res);
+            }
+          })));
+        }
+        /**
+         * Returns a stream of translated values of a key (or an array of keys) which updates
+         * whenever the language changes.
+         * @param {?} key
+         * @param {?=} interpolateParams
+         * @return {?} A stream of the translated key, or an object of translated keys
+         */
+
+      }, {
+        key: "stream",
+        value: function stream(key, interpolateParams) {
+          var _this169 = this;
+
+          if (!isDefined(key) || !key.length) {
+            throw new Error("Parameter \"key\" required");
+          }
+
+          return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["concat"])(Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["defer"])(
+          /**
+          * @return {?}
+          */
+          function () {
+            return _this169.get(key, interpolateParams);
+          }), this.onLangChange.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["switchMap"])(
+          /**
+          * @param {?} event
+          * @return {?}
+          */
+          function (event) {
+            /** @type {?} */
+            var res = _this169.getParsedResult(event.translations, key, interpolateParams);
+
+            return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["isObservable"])(res) ? res : Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["of"])(res);
+          })));
+        }
+        /**
+         * Returns a translation instantly from the internal state of loaded translation.
+         * All rules regarding the current language, the preferred language of even fallback languages will be used except any promise handling.
+         * @param {?} key
+         * @param {?=} interpolateParams
+         * @return {?}
+         */
+
+      }, {
+        key: "instant",
+        value: function instant(key, interpolateParams) {
+          if (!isDefined(key) || !key.length) {
+            throw new Error("Parameter \"key\" required");
+          }
+          /** @type {?} */
+
+
+          var res = this.getParsedResult(this.translations[this.currentLang], key, interpolateParams);
+
+          if (Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["isObservable"])(res)) {
+            if (key instanceof Array) {
+              /** @type {?} */
+              var obj = {};
+              key.forEach(
+              /**
+              * @param {?} value
+              * @param {?} index
+              * @return {?}
+              */
+              function (value, index) {
+                obj[key[index]] = key[index];
+              });
+              return obj;
+            }
+
+            return key;
+          } else {
+            return res;
+          }
+        }
+        /**
+         * Sets the translated value of a key, after compiling it
+         * @param {?} key
+         * @param {?} value
+         * @param {?=} lang
+         * @return {?}
+         */
+
+      }, {
+        key: "set",
+        value: function set(key, value) {
+          var lang = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : this.currentLang;
+          this.translations[lang][key] = this.compiler.compile(value, lang);
+          this.updateLangs();
+          this.onTranslationChange.emit({
+            lang: lang,
+            translations: this.translations[lang]
+          });
+        }
+        /**
+         * Changes the current lang
+         * @private
+         * @param {?} lang
+         * @return {?}
+         */
+
+      }, {
+        key: "changeLang",
+        value: function changeLang(lang) {
+          this.currentLang = lang;
+          this.onLangChange.emit({
+            lang: lang,
+            translations: this.translations[lang]
+          }); // if there is no default lang, use the one that we just set
+
+          if (this.defaultLang == null) {
+            this.changeDefaultLang(lang);
+          }
+        }
+        /**
+         * Changes the default lang
+         * @private
+         * @param {?} lang
+         * @return {?}
+         */
+
+      }, {
+        key: "changeDefaultLang",
+        value: function changeDefaultLang(lang) {
+          this.defaultLang = lang;
+          this.onDefaultLangChange.emit({
+            lang: lang,
+            translations: this.translations[lang]
+          });
+        }
+        /**
+         * Allows to reload the lang file from the file
+         * @param {?} lang
+         * @return {?}
+         */
+
+      }, {
+        key: "reloadLang",
+        value: function reloadLang(lang) {
+          this.resetLang(lang);
+          return this.getTranslation(lang);
+        }
+        /**
+         * Deletes inner translation
+         * @param {?} lang
+         * @return {?}
+         */
+
+      }, {
+        key: "resetLang",
+        value: function resetLang(lang) {
+          this._translationRequests[lang] = undefined;
+          this.translations[lang] = undefined;
+        }
+        /**
+         * Returns the language code name from the browser, e.g. "de"
+         * @return {?}
+         */
+
+      }, {
+        key: "getBrowserLang",
+        value: function getBrowserLang() {
+          if (typeof window === 'undefined' || typeof window.navigator === 'undefined') {
+            return undefined;
+          }
+          /** @type {?} */
+
+
+          var browserLang = window.navigator.languages ? window.navigator.languages[0] : null;
+          browserLang = browserLang || window.navigator.language || window.navigator.browserLanguage || window.navigator.userLanguage;
+
+          if (typeof browserLang === 'undefined') {
+            return undefined;
+          }
+
+          if (browserLang.indexOf('-') !== -1) {
+            browserLang = browserLang.split('-')[0];
+          }
+
+          if (browserLang.indexOf('_') !== -1) {
+            browserLang = browserLang.split('_')[0];
+          }
+
+          return browserLang;
+        }
+        /**
+         * Returns the culture language code name from the browser, e.g. "de-DE"
+         * @return {?}
+         */
+
+      }, {
+        key: "getBrowserCultureLang",
+        value: function getBrowserCultureLang() {
+          if (typeof window === 'undefined' || typeof window.navigator === 'undefined') {
+            return undefined;
+          }
+          /** @type {?} */
+
+
+          var browserCultureLang = window.navigator.languages ? window.navigator.languages[0] : null;
+          browserCultureLang = browserCultureLang || window.navigator.language || window.navigator.browserLanguage || window.navigator.userLanguage;
+          return browserCultureLang;
+        }
+      }, {
+        key: "onTranslationChange",
+        get: function get() {
+          return this.isolate ? this._onTranslationChange : this.store.onTranslationChange;
+        }
+        /**
+         * An EventEmitter to listen to lang change events
+         * onLangChange.subscribe((params: LangChangeEvent) => {
+         *     // do something
+         * });
+         * @return {?}
+         */
+
+      }, {
+        key: "onLangChange",
+        get: function get() {
+          return this.isolate ? this._onLangChange : this.store.onLangChange;
+        }
+        /**
+         * An EventEmitter to listen to default lang change events
+         * onDefaultLangChange.subscribe((params: DefaultLangChangeEvent) => {
+         *     // do something
+         * });
+         * @return {?}
+         */
+
+      }, {
+        key: "onDefaultLangChange",
+        get: function get() {
+          return this.isolate ? this._onDefaultLangChange : this.store.onDefaultLangChange;
+        }
+        /**
+         * The default lang to fallback when translations are missing on the current lang
+         * @return {?}
+         */
+
+      }, {
+        key: "defaultLang",
+        get: function get() {
+          return this.isolate ? this._defaultLang : this.store.defaultLang;
+        }
+        /**
+         * @param {?} defaultLang
+         * @return {?}
+         */
+        ,
+        set: function set(defaultLang) {
+          if (this.isolate) {
+            this._defaultLang = defaultLang;
+          } else {
+            this.store.defaultLang = defaultLang;
+          }
+        }
+        /**
+         * The lang currently used
+         * @return {?}
+         */
+
+      }, {
+        key: "currentLang",
+        get: function get() {
+          return this.isolate ? this._currentLang : this.store.currentLang;
+        }
+        /**
+         * @param {?} currentLang
+         * @return {?}
+         */
+        ,
+        set: function set(currentLang) {
+          if (this.isolate) {
+            this._currentLang = currentLang;
+          } else {
+            this.store.currentLang = currentLang;
+          }
+        }
+        /**
+         * an array of langs
+         * @return {?}
+         */
+
+      }, {
+        key: "langs",
+        get: function get() {
+          return this.isolate ? this._langs : this.store.langs;
+        }
+        /**
+         * @param {?} langs
+         * @return {?}
+         */
+        ,
+        set: function set(langs) {
+          if (this.isolate) {
+            this._langs = langs;
+          } else {
+            this.store.langs = langs;
+          }
+        }
+        /**
+         * a list of translations per lang
+         * @return {?}
+         */
+
+      }, {
+        key: "translations",
+        get: function get() {
+          return this.isolate ? this._translations : this.store.translations;
+        }
+        /**
+         * @param {?} translations
+         * @return {?}
+         */
+        ,
+        set: function set(translations) {
+          if (this.isolate) {
+            this._translations = translations;
+          } else {
+            this.store.translations = translations;
+          }
+        }
+      }]);
+
+      return TranslateService;
+    }();
+
+    TranslateService.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }];
+    /** @nocollapse */
+
+    TranslateService.ctorParameters = function () {
+      return [{
+        type: TranslateStore
+      }, {
+        type: TranslateLoader
+      }, {
+        type: TranslateCompiler
+      }, {
+        type: TranslateParser
+      }, {
+        type: MissingTranslationHandler
+      }, {
+        type: Boolean,
+        decorators: [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"],
+          args: [USE_DEFAULT_LANG]
+        }]
+      }, {
+        type: Boolean,
+        decorators: [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"],
+          args: [USE_STORE]
+        }]
+      }, {
+        type: Boolean,
+        decorators: [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"],
+          args: [USE_EXTEND]
+        }]
+      }, {
+        type: String,
+        decorators: [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"],
+          args: [DEFAULT_LANGUAGE]
+        }]
+      }];
+    };
+
+    if (false) {}
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+
+    var TranslateDirective =
+    /*#__PURE__*/
+    function () {
+      /**
+       * @param {?} translateService
+       * @param {?} element
+       * @param {?} _ref
+       */
+      function TranslateDirective(translateService, element, _ref) {
+        var _this170 = this;
+
+        _classCallCheck(this, TranslateDirective);
+
+        this.translateService = translateService;
+        this.element = element;
+        this._ref = _ref; // subscribe to onTranslationChange event, in case the translations of the current lang change
+
+        if (!this.onTranslationChangeSub) {
+          this.onTranslationChangeSub = this.translateService.onTranslationChange.subscribe(
+          /**
+          * @param {?} event
+          * @return {?}
+          */
+          function (event) {
+            if (event.lang === _this170.translateService.currentLang) {
+              _this170.checkNodes(true, event.translations);
+            }
+          });
+        } // subscribe to onLangChange event, in case the language changes
+
+
+        if (!this.onLangChangeSub) {
+          this.onLangChangeSub = this.translateService.onLangChange.subscribe(
+          /**
+          * @param {?} event
+          * @return {?}
+          */
+          function (event) {
+            _this170.checkNodes(true, event.translations);
+          });
+        } // subscribe to onDefaultLangChange event, in case the default language changes
+
+
+        if (!this.onDefaultLangChangeSub) {
+          this.onDefaultLangChangeSub = this.translateService.onDefaultLangChange.subscribe(
+          /**
+          * @param {?} event
+          * @return {?}
+          */
+          function (event) {
+            _this170.checkNodes(true);
+          });
+        }
+      }
+      /**
+       * @param {?} key
+       * @return {?}
+       */
+
+
+      _createClass2(TranslateDirective, [{
+        key: "ngAfterViewChecked",
+
+        /**
+         * @return {?}
+         */
+        value: function ngAfterViewChecked() {
+          this.checkNodes();
+        }
+        /**
+         * @param {?=} forceUpdate
+         * @param {?=} translations
+         * @return {?}
+         */
+
+      }, {
+        key: "checkNodes",
+        value: function checkNodes() {
+          var forceUpdate = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
+          var translations = arguments.length > 1 ? arguments[1] : undefined;
+
+          /** @type {?} */
+          var nodes = this.element.nativeElement.childNodes; // if the element is empty
+
+          if (!nodes.length) {
+            // we add the key as content
+            this.setContent(this.element.nativeElement, this.key);
+            nodes = this.element.nativeElement.childNodes;
+          }
+
+          for (var i = 0; i < nodes.length; ++i) {
+            /** @type {?} */
+            var node = nodes[i];
+
+            if (node.nodeType === 3) {
+              // node type 3 is a text node
+              // node type 3 is a text node
+
+              /** @type {?} */
+              var key = void 0;
+
+              if (forceUpdate) {
+                node.lastKey = null;
+              }
+
+              if (isDefined(node.lookupKey)) {
+                key = node.lookupKey;
+              } else if (this.key) {
+                key = this.key;
+              } else {
+                /** @type {?} */
+                var content = this.getContent(node);
+                /** @type {?} */
+
+                var trimmedContent = content.trim();
+
+                if (trimmedContent.length) {
+                  node.lookupKey = trimmedContent; // we want to use the content as a key, not the translation value
+
+                  if (content !== node.currentValue) {
+                    key = trimmedContent; // the content was changed from the user, we'll use it as a reference if needed
+
+                    node.originalContent = content || node.originalContent;
+                  } else if (node.originalContent) {
+                    // the content seems ok, but the lang has changed
+                    // the current content is the translation, not the key, use the last real content as key
+                    key = node.originalContent.trim();
+                  } else if (content !== node.currentValue) {
+                    // we want to use the content as a key, not the translation value
+                    key = trimmedContent; // the content was changed from the user, we'll use it as a reference if needed
+
+                    node.originalContent = content || node.originalContent;
+                  }
+                }
+              }
+
+              this.updateValue(key, node, translations);
+            }
+          }
+        }
+        /**
+         * @param {?} key
+         * @param {?} node
+         * @param {?} translations
+         * @return {?}
+         */
+
+      }, {
+        key: "updateValue",
+        value: function updateValue(key, node, translations) {
+          var _this171 = this;
+
+          if (key) {
+            if (node.lastKey === key && this.lastParams === this.currentParams) {
+              return;
+            }
+
+            this.lastParams = this.currentParams;
+            /** @type {?} */
+
+            var onTranslation =
+            /**
+            * @param {?} res
+            * @return {?}
+            */
+            function onTranslation(res) {
+              if (res !== key) {
+                node.lastKey = key;
+              }
+
+              if (!node.originalContent) {
+                node.originalContent = _this171.getContent(node);
+              }
+
+              node.currentValue = isDefined(res) ? res : node.originalContent || key; // we replace in the original content to preserve spaces that we might have trimmed
+
+              _this171.setContent(node, _this171.key ? node.currentValue : node.originalContent.replace(key, node.currentValue));
+
+              _this171._ref.markForCheck();
+            };
+
+            if (isDefined(translations)) {
+              /** @type {?} */
+              var res = this.translateService.getParsedResult(translations, key, this.currentParams);
+
+              if (Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["isObservable"])(res)) {
+                res.subscribe(onTranslation);
+              } else {
+                onTranslation(res);
+              }
+            } else {
+              this.translateService.get(key, this.currentParams).subscribe(onTranslation);
+            }
+          }
+        }
+        /**
+         * @param {?} node
+         * @return {?}
+         */
+
+      }, {
+        key: "getContent",
+        value: function getContent(node) {
+          return isDefined(node.textContent) ? node.textContent : node.data;
+        }
+        /**
+         * @param {?} node
+         * @param {?} content
+         * @return {?}
+         */
+
+      }, {
+        key: "setContent",
+        value: function setContent(node, content) {
+          if (isDefined(node.textContent)) {
+            node.textContent = content;
+          } else {
+            node.data = content;
+          }
+        }
+        /**
+         * @return {?}
+         */
+
+      }, {
+        key: "ngOnDestroy",
+        value: function ngOnDestroy() {
+          if (this.onLangChangeSub) {
+            this.onLangChangeSub.unsubscribe();
+          }
+
+          if (this.onDefaultLangChangeSub) {
+            this.onDefaultLangChangeSub.unsubscribe();
+          }
+
+          if (this.onTranslationChangeSub) {
+            this.onTranslationChangeSub.unsubscribe();
+          }
+        }
+      }, {
+        key: "translate",
+        set: function set(key) {
+          if (key) {
+            this.key = key;
+            this.checkNodes();
+          }
+        }
+        /**
+         * @param {?} params
+         * @return {?}
+         */
+
+      }, {
+        key: "translateParams",
+        set: function set(params) {
+          if (!equals(this.currentParams, params)) {
+            this.currentParams = params;
+            this.checkNodes(true);
+          }
+        }
+      }]);
+
+      return TranslateDirective;
+    }();
+
+    TranslateDirective.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
+      args: [{
+        selector: '[translate],[ngx-translate]'
+      }]
+    }];
+    /** @nocollapse */
+
+    TranslateDirective.ctorParameters = function () {
+      return [{
+        type: TranslateService
+      }, {
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"]
+      }, {
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"]
+      }];
+    };
+
+    TranslateDirective.propDecorators = {
+      translate: [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+      }],
+      translateParams: [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+      }]
+    };
+
+    if (false) {}
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+
+    var TranslatePipe =
+    /*#__PURE__*/
+    function () {
+      /**
+       * @param {?} translate
+       * @param {?} _ref
+       */
+      function TranslatePipe(translate, _ref) {
+        _classCallCheck(this, TranslatePipe);
+
+        this.translate = translate;
+        this._ref = _ref;
+        this.value = '';
+      }
+      /**
+       * @param {?} key
+       * @param {?=} interpolateParams
+       * @param {?=} translations
+       * @return {?}
+       */
+
+
+      _createClass2(TranslatePipe, [{
+        key: "updateValue",
+        value: function updateValue(key, interpolateParams, translations) {
+          var _this172 = this;
+
+          /** @type {?} */
+          var onTranslation =
+          /**
+          * @param {?} res
+          * @return {?}
+          */
+          function onTranslation(res) {
+            _this172.value = res !== undefined ? res : key;
+            _this172.lastKey = key;
+
+            _this172._ref.markForCheck();
+          };
+
+          if (translations) {
+            /** @type {?} */
+            var res = this.translate.getParsedResult(translations, key, interpolateParams);
+
+            if (Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["isObservable"])(res.subscribe)) {
+              res.subscribe(onTranslation);
+            } else {
+              onTranslation(res);
+            }
+          }
+
+          this.translate.get(key, interpolateParams).subscribe(onTranslation);
+        }
+        /**
+         * @param {?} query
+         * @param {...?} args
+         * @return {?}
+         */
+
+      }, {
+        key: "transform",
+        value: function transform(query) {
+          var _this173 = this;
+
+          if (!query || !query.length) {
+            return query;
+          } // if we ask another time for the same key, return the last value
+
+
+          for (var _len14 = arguments.length, args = new Array(_len14 > 1 ? _len14 - 1 : 0), _key14 = 1; _key14 < _len14; _key14++) {
+            args[_key14 - 1] = arguments[_key14];
+          }
+
+          if (equals(query, this.lastKey) && equals(args, this.lastParams)) {
+            return this.value;
+          }
+          /** @type {?} */
+
+
+          var interpolateParams;
+
+          if (isDefined(args[0]) && args.length) {
+            if (typeof args[0] === 'string' && args[0].length) {
+              // we accept objects written in the template such as {n:1}, {'n':1}, {n:'v'}
+              // which is why we might need to change it to real JSON objects such as {"n":1} or {"n":"v"}
+
+              /** @type {?} */
+              var validArgs = args[0].replace(/(\')?([a-zA-Z0-9_]+)(\')?(\s)?:/g, '"$2":').replace(/:(\s)?(\')(.*?)(\')/g, ':"$3"');
+
+              try {
+                interpolateParams = JSON.parse(validArgs);
+              } catch (e) {
+                throw new SyntaxError("Wrong parameter in TranslatePipe. Expected a valid Object, received: ".concat(args[0]));
+              }
+            } else if (typeof args[0] === 'object' && !Array.isArray(args[0])) {
+              interpolateParams = args[0];
+            }
+          } // store the query, in case it changes
+
+
+          this.lastKey = query; // store the params, in case they change
+
+          this.lastParams = args; // set the value
+
+          this.updateValue(query, interpolateParams); // if there is a subscription to onLangChange, clean it
+
+          this._dispose(); // subscribe to onTranslationChange event, in case the translations change
+
+
+          if (!this.onTranslationChange) {
+            this.onTranslationChange = this.translate.onTranslationChange.subscribe(
+            /**
+            * @param {?} event
+            * @return {?}
+            */
+            function (event) {
+              if (_this173.lastKey && event.lang === _this173.translate.currentLang) {
+                _this173.lastKey = null;
+
+                _this173.updateValue(query, interpolateParams, event.translations);
+              }
+            });
+          } // subscribe to onLangChange event, in case the language changes
+
+
+          if (!this.onLangChange) {
+            this.onLangChange = this.translate.onLangChange.subscribe(
+            /**
+            * @param {?} event
+            * @return {?}
+            */
+            function (event) {
+              if (_this173.lastKey) {
+                _this173.lastKey = null; // we want to make sure it doesn't return the same value until it's been updated
+
+                _this173.updateValue(query, interpolateParams, event.translations);
+              }
+            });
+          } // subscribe to onDefaultLangChange event, in case the default language changes
+
+
+          if (!this.onDefaultLangChange) {
+            this.onDefaultLangChange = this.translate.onDefaultLangChange.subscribe(
+            /**
+            * @return {?}
+            */
+            function () {
+              if (_this173.lastKey) {
+                _this173.lastKey = null; // we want to make sure it doesn't return the same value until it's been updated
+
+                _this173.updateValue(query, interpolateParams);
+              }
+            });
+          }
+
+          return this.value;
+        }
+        /**
+         * Clean any existing subscription to change events
+         * @private
+         * @return {?}
+         */
+
+      }, {
+        key: "_dispose",
+        value: function _dispose() {
+          if (typeof this.onTranslationChange !== 'undefined') {
+            this.onTranslationChange.unsubscribe();
+            this.onTranslationChange = undefined;
+          }
+
+          if (typeof this.onLangChange !== 'undefined') {
+            this.onLangChange.unsubscribe();
+            this.onLangChange = undefined;
+          }
+
+          if (typeof this.onDefaultLangChange !== 'undefined') {
+            this.onDefaultLangChange.unsubscribe();
+            this.onDefaultLangChange = undefined;
+          }
+        }
+        /**
+         * @return {?}
+         */
+
+      }, {
+        key: "ngOnDestroy",
+        value: function ngOnDestroy() {
+          this._dispose();
+        }
+      }]);
+
+      return TranslatePipe;
+    }();
+
+    TranslatePipe.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }, {
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
+      args: [{
+        name: 'translate',
+        pure: false // required to update the value when the promise is resolved
+
+      }]
+    }];
+    /** @nocollapse */
+
+    TranslatePipe.ctorParameters = function () {
+      return [{
+        type: TranslateService
+      }, {
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"]
+      }];
+    };
+
+    if (false) {}
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    /**
+     * @record
+     */
+
+
+    function TranslateModuleConfig() {}
+
+    if (false) {}
+
+    var TranslateModule =
+    /*#__PURE__*/
+    function () {
+      function TranslateModule() {
+        _classCallCheck(this, TranslateModule);
+      }
+
+      _createClass2(TranslateModule, null, [{
+        key: "forRoot",
+
+        /**
+         * Use this method in your root module to provide the TranslateService
+         * @param {?=} config
+         * @return {?}
+         */
+        value: function forRoot() {
+          var config = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+          return {
+            ngModule: TranslateModule,
+            providers: [config.loader || {
+              provide: TranslateLoader,
+              useClass: TranslateFakeLoader
+            }, config.compiler || {
+              provide: TranslateCompiler,
+              useClass: TranslateFakeCompiler
+            }, config.parser || {
+              provide: TranslateParser,
+              useClass: TranslateDefaultParser
+            }, config.missingTranslationHandler || {
+              provide: MissingTranslationHandler,
+              useClass: FakeMissingTranslationHandler
+            }, TranslateStore, {
+              provide: USE_STORE,
+              useValue: config.isolate
+            }, {
+              provide: USE_DEFAULT_LANG,
+              useValue: config.useDefaultLang
+            }, {
+              provide: USE_EXTEND,
+              useValue: config.extend
+            }, {
+              provide: DEFAULT_LANGUAGE,
+              useValue: config.defaultLanguage
+            }, TranslateService]
+          };
+        }
+        /**
+         * Use this method in your other (non root) modules to import the directive/pipe
+         * @param {?=} config
+         * @return {?}
+         */
+
+      }, {
+        key: "forChild",
+        value: function forChild() {
+          var config = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+          return {
+            ngModule: TranslateModule,
+            providers: [config.loader || {
+              provide: TranslateLoader,
+              useClass: TranslateFakeLoader
+            }, config.compiler || {
+              provide: TranslateCompiler,
+              useClass: TranslateFakeCompiler
+            }, config.parser || {
+              provide: TranslateParser,
+              useClass: TranslateDefaultParser
+            }, config.missingTranslationHandler || {
+              provide: MissingTranslationHandler,
+              useClass: FakeMissingTranslationHandler
+            }, {
+              provide: USE_STORE,
+              useValue: config.isolate
+            }, {
+              provide: USE_DEFAULT_LANG,
+              useValue: config.useDefaultLang
+            }, {
+              provide: USE_EXTEND,
+              useValue: config.extend
+            }, {
+              provide: DEFAULT_LANGUAGE,
+              useValue: config.defaultLanguage
+            }, TranslateService]
+          };
+        }
+      }]);
+
+      return TranslateModule;
+    }();
+
+    TranslateModule.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
+      args: [{
+        declarations: [TranslatePipe, TranslateDirective],
+        exports: [TranslatePipe, TranslateDirective]
+      }]
+    }];
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+    //# sourceMappingURL=ngx-translate-core.js.map
+
+    /***/
+  },
+
+  /***/
+  "./node_modules/@ngx-translate/http-loader/fesm2015/ngx-translate-http-loader.js":
+  /*!***************************************************************************************!*\
+    !*** ./node_modules/@ngx-translate/http-loader/fesm2015/ngx-translate-http-loader.js ***!
+    \***************************************************************************************/
+
+  /*! exports provided: TranslateHttpLoader */
+
+  /***/
+  function node_modulesNgxTranslateHttpLoaderFesm2015NgxTranslateHttpLoaderJs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "TranslateHttpLoader", function () {
+      return TranslateHttpLoader;
+    });
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingReturn,uselessCode} checked by tsc
+     */
+
+
+    var TranslateHttpLoader =
+    /*#__PURE__*/
+    function () {
+      /**
+       * @param {?} http
+       * @param {?=} prefix
+       * @param {?=} suffix
+       */
+      function TranslateHttpLoader(http) {
+        var prefix = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : "/assets/i18n/";
+        var suffix = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : ".json";
+
+        _classCallCheck(this, TranslateHttpLoader);
+
+        this.http = http;
+        this.prefix = prefix;
+        this.suffix = suffix;
+      }
+      /**
+       * Gets the translations from the server
+       * @param {?} lang
+       * @return {?}
+       */
+
+
+      _createClass2(TranslateHttpLoader, [{
+        key: "getTranslation",
+        value: function getTranslation(lang) {
+          return this.http.get("".concat(this.prefix).concat(lang).concat(this.suffix));
+        }
+      }]);
+
+      return TranslateHttpLoader;
+    }();
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingReturn,uselessCode} checked by tsc
+     */
+
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingReturn,uselessCode} checked by tsc
+     */
+
     /***/
 
   },
@@ -102682,23 +104887,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "addEventListeners",
         value: function addEventListeners() {
-          var _this161 = this;
+          var _this174 = this;
 
           google.visualization.events.addOneTimeListener(this.editor, 'ok', function () {
-            google.visualization.events.removeAllListeners(_this161.editor);
+            google.visualization.events.removeAllListeners(_this174.editor);
 
-            var updatedChartWrapper = _this161.editor.getChartWrapper();
+            var updatedChartWrapper = _this174.editor.getChartWrapper();
 
-            _this161.doneSubject.next(updatedChartWrapper);
+            _this174.doneSubject.next(updatedChartWrapper);
 
-            _this161.doneSubject.complete();
+            _this174.doneSubject.complete();
           });
           google.visualization.events.addOneTimeListener(this.editor, 'cancel', function () {
-            google.visualization.events.removeAllListeners(_this161.editor);
+            google.visualization.events.removeAllListeners(_this174.editor);
 
-            _this161.doneSubject.next(null);
+            _this174.doneSubject.next(null);
 
-            _this161.doneSubject.complete();
+            _this174.doneSubject.complete();
           });
         }
       }]);
@@ -102758,23 +104963,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "loadChartPackages",
         value: function loadChartPackages() {
-          var _this162 = this;
+          var _this175 = this;
 
-          for (var _len14 = arguments.length, packages = new Array(_len14), _key14 = 0; _key14 < _len14; _key14++) {
-            packages[_key14] = arguments[_key14];
+          for (var _len15 = arguments.length, packages = new Array(_len15), _key15 = 0; _key15 < _len15; _key15++) {
+            packages[_key15] = arguments[_key15];
           }
 
           return this.loadGoogleCharts().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["switchMap"])(function () {
             return new rxjs__WEBPACK_IMPORTED_MODULE_0__["Observable"](function (observer) {
               var config = {
                 packages: packages,
-                language: _this162.localeId,
-                mapsApiKey: _this162.config.mapsApiKey,
-                safeMode: _this162.config.safeMode
+                language: _this175.localeId,
+                mapsApiKey: _this175.config.mapsApiKey,
+                safeMode: _this175.config.safeMode
               };
-              google.charts.load(_this162.config.version, config);
+              google.charts.load(_this175.config.version, config);
               google.charts.setOnLoadCallback(function () {
-                _this162.zone.run(function () {
+                _this175.zone.run(function () {
                   observer.next();
                   observer.complete();
                 });
@@ -102792,7 +104997,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "loadGoogleCharts",
         value: function loadGoogleCharts() {
-          var _this163 = this;
+          var _this176 = this;
 
           if (this.isGoogleChartsAvailable()) {
             return Object(rxjs__WEBPACK_IMPORTED_MODULE_0__["of"])(null);
@@ -102800,18 +105005,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             var script = this.createGoogleChartsScript();
 
             script.onload = function () {
-              _this163.zone.run(function () {
-                _this163.scriptLoadSubject.next();
+              _this176.zone.run(function () {
+                _this176.scriptLoadSubject.next();
 
-                _this163.scriptLoadSubject.complete();
+                _this176.scriptLoadSubject.complete();
               });
             };
 
             script.onerror = function () {
-              _this163.zone.run(function () {
+              _this176.zone.run(function () {
                 console.error('Failed to load the google charts script!');
 
-                _this163.scriptLoadSubject.error(new Error('Failed to load the google charts script!'));
+                _this176.scriptLoadSubject.error(new Error('Failed to load the google charts script!'));
               });
             };
           }
@@ -102826,11 +105031,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "getGoogleChartsScript",
         value: function getGoogleChartsScript() {
-          var _this164 = this;
+          var _this177 = this;
 
           var pageScripts = Array.from(document.getElementsByTagName('script'));
           return pageScripts.find(function (script) {
-            return script.src === _this164.scriptSource;
+            return script.src === _this177.scriptSource;
           });
         }
       }, {
@@ -102896,14 +105101,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(ChartEditorComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this165 = this;
+          var _this178 = this;
 
           this.scriptLoaderService.loadChartPackages('charteditor').subscribe(function () {
-            _this165.editor = new google.visualization.ChartEditor();
+            _this178.editor = new google.visualization.ChartEditor();
 
-            _this165.initializedSubject.next(_this165.editor);
+            _this178.initializedSubject.next(_this178.editor);
 
-            _this165.initializedSubject.complete();
+            _this178.initializedSubject.complete();
           });
         }
       }, {
@@ -103038,12 +105243,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(ControlWrapperComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this166 = this;
+          var _this179 = this;
 
           this.loaderService.loadChartPackages('controls').subscribe(function () {
-            _this166.createControlWrapper();
+            _this179.createControlWrapper();
 
-            _this166.initialized = true;
+            _this179.initialized = true;
           });
         }
       }, {
@@ -103080,17 +105285,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "addEventListeners",
         value: function addEventListeners() {
-          var _this167 = this;
+          var _this180 = this;
 
           google.visualization.events.removeAllListeners(this._controlWrapper);
           google.visualization.events.addListener(this._controlWrapper, 'ready', function (event) {
-            return _this167.ready.emit(event);
+            return _this180.ready.emit(event);
           });
           google.visualization.events.addListener(this._controlWrapper, 'error', function (event) {
-            return _this167.error.emit(event);
+            return _this180.error.emit(event);
           });
           google.visualization.events.addListener(this._controlWrapper, 'statechange', function (event) {
-            return _this167.stateChange.emit(event);
+            return _this180.stateChange.emit(event);
           });
         }
       }, {
@@ -103161,14 +105366,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(DashboardComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this168 = this;
+          var _this181 = this;
 
           this.loaderService.loadChartPackages('controls').subscribe(function () {
-            _this168.createDataTable();
+            _this181.createDataTable();
 
-            _this168.createDashboard();
+            _this181.createDashboard();
 
-            _this168.initialized = true;
+            _this181.initialized = true;
           });
         }
       }, {
@@ -103186,7 +105391,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "createDashboard",
         value: function createDashboard() {
-          var _this169 = this;
+          var _this182 = this;
 
           // TODO: This should happen in the control wrapper
           // However, I don't yet know how to do this because then `bind()` would get called multiple times
@@ -103210,17 +105415,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           // before we can compose them together to create the dashboard
 
           Object(rxjs__WEBPACK_IMPORTED_MODULE_0__["combineLatest"])([].concat(_toConsumableArray(controlWrappersReady$), _toConsumableArray(chartsReady$))).subscribe(function () {
-            _this169.dashboard = new google.visualization.Dashboard(_this169.element.nativeElement);
+            _this182.dashboard = new google.visualization.Dashboard(_this182.element.nativeElement);
 
-            _this169.initializeBindings();
+            _this182.initializeBindings();
 
-            _this169.dashboard.draw(_this169.dataTable);
+            _this182.dashboard.draw(_this182.dataTable);
           });
         }
       }, {
         key: "initializeBindings",
         value: function initializeBindings() {
-          var _this170 = this;
+          var _this183 = this;
 
           this.controlWrappers.forEach(function (control) {
             if (Array.isArray(control.for)) {
@@ -103228,9 +105433,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                 return chart.chartWrapper;
               });
 
-              _this170.dashboard.bind(control.controlWrapper, chartWrappers);
+              _this183.dashboard.bind(control.controlWrapper, chartWrappers);
             } else {
-              _this170.dashboard.bind(control.controlWrapper, control.for.chartWrapper);
+              _this183.dashboard.bind(control.controlWrapper, control.for.chartWrapper);
             }
           });
         }
@@ -103322,27 +105527,27 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(GoogleChartComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this171 = this;
+          var _this184 = this;
 
           // We don't need to load any chart packages, the chart wrapper will handle this for us
           this.scriptLoaderService.loadChartPackages().subscribe(function () {
-            _this171.createDataTable(); // Only ever create the wrapper once to allow animations to happen when someting changes.
+            _this184.createDataTable(); // Only ever create the wrapper once to allow animations to happen when someting changes.
 
 
-            _this171.wrapper = new google.visualization.ChartWrapper({
-              container: _this171.element.nativeElement,
-              chartType: _this171.type,
-              dataTable: _this171.dataTable,
-              options: _this171.mergeOptions()
+            _this184.wrapper = new google.visualization.ChartWrapper({
+              container: _this184.element.nativeElement,
+              chartType: _this184.type,
+              dataTable: _this184.dataTable,
+              options: _this184.mergeOptions()
             });
 
-            _this171.registerChartEvents();
+            _this184.registerChartEvents();
 
-            _this171.wrapperReadySubject.next(_this171.wrapper);
+            _this184.wrapperReadySubject.next(_this184.wrapper);
 
-            _this171.initialized = true;
+            _this184.initialized = true;
 
-            _this171.drawChart();
+            _this184.drawChart();
           });
         }
       }, {
@@ -103404,7 +105609,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "updateResizeListener",
         value: function updateResizeListener() {
-          var _this172 = this;
+          var _this185 = this;
 
           if (this.resizeSubscription != null) {
             this.resizeSubscription.unsubscribe();
@@ -103413,8 +105618,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           if (this.dynamicResize) {
             this.resizeSubscription = Object(rxjs__WEBPACK_IMPORTED_MODULE_0__["fromEvent"])(window, 'resize').pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["debounceTime"])(100)).subscribe(function () {
-              if (_this172.initialized) {
-                _this172.drawChart();
+              if (_this185.initialized) {
+                _this185.drawChart();
               }
             });
           }
@@ -103435,26 +105640,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             return;
           }
 
-          var _iteratorNormalCompletion24 = true;
-          var _didIteratorError24 = false;
-          var _iteratorError24 = undefined;
+          var _iteratorNormalCompletion25 = true;
+          var _didIteratorError25 = false;
+          var _iteratorError25 = undefined;
 
           try {
-            for (var _iterator24 = this.formatters[Symbol.iterator](), _step24; !(_iteratorNormalCompletion24 = (_step24 = _iterator24.next()).done); _iteratorNormalCompletion24 = true) {
-              var val = _step24.value;
+            for (var _iterator25 = this.formatters[Symbol.iterator](), _step25; !(_iteratorNormalCompletion25 = (_step25 = _iterator25.next()).done); _iteratorNormalCompletion25 = true) {
+              var val = _step25.value;
               val.formatter.format(dataTable, val.colIndex);
             }
           } catch (err) {
-            _didIteratorError24 = true;
-            _iteratorError24 = err;
+            _didIteratorError25 = true;
+            _iteratorError25 = err;
           } finally {
             try {
-              if (!_iteratorNormalCompletion24 && _iterator24.return != null) {
-                _iterator24.return();
+              if (!_iteratorNormalCompletion25 && _iterator25.return != null) {
+                _iterator25.return();
               }
             } finally {
-              if (_didIteratorError24) {
-                throw _iteratorError24;
+              if (_didIteratorError25) {
+                throw _iteratorError25;
               }
             }
           }
@@ -103462,7 +105667,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "registerChartEvents",
         value: function registerChartEvents() {
-          var _this173 = this;
+          var _this186 = this;
 
           google.visualization.events.removeAllListeners(this.wrapper);
 
@@ -103472,27 +105677,27 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           registerChartEvent(this.wrapper, 'ready', function () {
             // This could also be done by checking if we already subscribed to the events
-            google.visualization.events.removeAllListeners(_this173.chart);
-            registerChartEvent(_this173.chart, 'onmouseover', function (event) {
-              return _this173.mouseover.emit(event);
+            google.visualization.events.removeAllListeners(_this186.chart);
+            registerChartEvent(_this186.chart, 'onmouseover', function (event) {
+              return _this186.mouseover.emit(event);
             });
-            registerChartEvent(_this173.chart, 'onmouseout', function (event) {
-              return _this173.mouseleave.emit(event);
+            registerChartEvent(_this186.chart, 'onmouseout', function (event) {
+              return _this186.mouseleave.emit(event);
             });
-            registerChartEvent(_this173.chart, 'select', function () {
-              var selection = _this173.chart.getSelection();
+            registerChartEvent(_this186.chart, 'select', function () {
+              var selection = _this186.chart.getSelection();
 
-              _this173.select.emit({
+              _this186.select.emit({
                 selection: selection
               });
             });
 
-            _this173.ready.emit({
-              chart: _this173.chart
+            _this186.ready.emit({
+              chart: _this186.chart
             });
           });
           registerChartEvent(this.wrapper, 'error', function (error) {
-            return _this173.error.emit(error);
+            return _this186.error.emit(error);
           });
         }
       }, {
@@ -103589,30 +105794,30 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(ChartWrapperComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this174 = this;
+          var _this187 = this;
 
           // We don't need to load any chart packages, the chart wrapper will handle this else for us
           this.scriptLoaderService.loadChartPackages().subscribe(function () {
-            if (!_this174.specs) {
-              _this174.specs = {};
+            if (!_this187.specs) {
+              _this187.specs = {};
             }
 
-            var _a = _this174.specs,
+            var _a = _this187.specs,
                 containerId = _a.containerId,
                 container = _a.container,
                 specs = Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__rest"])(_a, ["containerId", "container"]); // Only ever create the wrapper once to allow animations to happen if something changes.
 
-            _this174.wrapper = new google.visualization.ChartWrapper(Object.assign(Object.assign({}, specs), {
-              container: _this174.element.nativeElement
+            _this187.wrapper = new google.visualization.ChartWrapper(Object.assign(Object.assign({}, specs), {
+              container: _this187.element.nativeElement
             }));
 
-            _this174.registerChartEvents();
+            _this187.registerChartEvents();
 
-            _this174.wrapperReadySubject.next(_this174.wrapper);
+            _this187.wrapperReadySubject.next(_this187.wrapper);
 
-            _this174.drawChart();
+            _this187.drawChart();
 
-            _this174.initialized = true;
+            _this187.initialized = true;
           });
         }
       }, {
@@ -103654,7 +105859,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "registerChartEvents",
         value: function registerChartEvents() {
-          var _this175 = this;
+          var _this188 = this;
 
           google.visualization.events.removeAllListeners(this.wrapper);
 
@@ -103663,17 +105868,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           };
 
           registerChartEvent(this.wrapper, 'ready', function () {
-            return _this175.ready.emit({
-              chart: _this175.chart
+            return _this188.ready.emit({
+              chart: _this188.chart
             });
           });
           registerChartEvent(this.wrapper, 'error', function (error) {
-            return _this175.error.emit(error);
+            return _this188.error.emit(error);
           });
           registerChartEvent(this.wrapper, 'select', function () {
-            var selection = _this175.chart.getSelection();
+            var selection = _this188.chart.getSelection();
 
-            _this175.select.emit({
+            _this188.select.emit({
               selection: selection
             });
           });
@@ -103771,6 +105976,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /**
      * Generated bundle index. Do not edit.
      */
+    //# sourceMappingURL=angular-google-charts.js.map
 
     /***/
   },
@@ -104417,7 +106623,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     __webpack_require__.d(__webpack_exports__, "config", function () {
       return _internal_config__WEBPACK_IMPORTED_MODULE_50__["config"];
-    });
+    }); //# sourceMappingURL=index.js.map
+
     /***/
 
   },
@@ -104460,15 +106667,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(AsyncSubject, _Subject__WEBPACK_IMP);
 
       function AsyncSubject() {
-        var _this176;
+        var _this189;
 
         _classCallCheck(this, AsyncSubject);
 
-        _this176 = _possibleConstructorReturn(this, _getPrototypeOf(AsyncSubject).apply(this, arguments));
-        _this176.value = null;
-        _this176.hasNext = false;
-        _this176.hasCompleted = false;
-        return _this176;
+        _this189 = _possibleConstructorReturn(this, _getPrototypeOf(AsyncSubject).apply(this, arguments));
+        _this189.value = null;
+        _this189.hasNext = false;
+        _this189.hasCompleted = false;
+        return _this189;
       }
 
       _createClass2(AsyncSubject, [{
@@ -104514,7 +106721,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return AsyncSubject;
-    }(_Subject__WEBPACK_IMPORTED_MODULE_0__["Subject"]);
+    }(_Subject__WEBPACK_IMPORTED_MODULE_0__["Subject"]); //# sourceMappingURL=AsyncSubject.js.map
+
     /***/
 
   },
@@ -104557,13 +106765,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(BehaviorSubject, _Subject__WEBPACK_IMP2);
 
       function BehaviorSubject(_value) {
-        var _this177;
+        var _this190;
 
         _classCallCheck(this, BehaviorSubject);
 
-        _this177 = _possibleConstructorReturn(this, _getPrototypeOf(BehaviorSubject).call(this));
-        _this177._value = _value;
-        return _this177;
+        _this190 = _possibleConstructorReturn(this, _getPrototypeOf(BehaviorSubject).call(this));
+        _this190._value = _value;
+        return _this190;
       }
 
       _createClass2(BehaviorSubject, [{
@@ -104601,7 +106809,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return BehaviorSubject;
-    }(_Subject__WEBPACK_IMPORTED_MODULE_0__["Subject"]);
+    }(_Subject__WEBPACK_IMPORTED_MODULE_0__["Subject"]); //# sourceMappingURL=BehaviorSubject.js.map
+
     /***/
 
   },
@@ -104638,16 +106847,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(InnerSubscriber, _Subscriber__WEBPACK_);
 
       function InnerSubscriber(parent, outerValue, outerIndex) {
-        var _this178;
+        var _this191;
 
         _classCallCheck(this, InnerSubscriber);
 
-        _this178 = _possibleConstructorReturn(this, _getPrototypeOf(InnerSubscriber).call(this));
-        _this178.parent = parent;
-        _this178.outerValue = outerValue;
-        _this178.outerIndex = outerIndex;
-        _this178.index = 0;
-        return _this178;
+        _this191 = _possibleConstructorReturn(this, _getPrototypeOf(InnerSubscriber).call(this));
+        _this191.parent = parent;
+        _this191.outerValue = outerValue;
+        _this191.outerIndex = outerIndex;
+        _this191.index = 0;
+        return _this191;
       }
 
       _createClass2(InnerSubscriber, [{
@@ -104670,7 +106879,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return InnerSubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=InnerSubscriber.js.map
+
     /***/
 
   },
@@ -104821,7 +107031,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }();
 
     Notification.completeNotification = new Notification("C");
-    Notification.undefinedValueNotification = new Notification("N", undefined);
+    Notification.undefinedValueNotification = new Notification("N", undefined); //# sourceMappingURL=Notification.js.map
+
     /***/
   },
 
@@ -104941,12 +107152,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "forEach",
         value: function forEach(next, promiseCtor) {
-          var _this179 = this;
+          var _this192 = this;
 
           promiseCtor = getPromiseCtor(promiseCtor);
           return new promiseCtor(function (resolve, reject) {
             var subscription;
-            subscription = _this179.subscribe(function (value) {
+            subscription = _this192.subscribe(function (value) {
               try {
                 next(value);
               } catch (err) {
@@ -104973,8 +107184,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "pipe",
         value: function pipe() {
-          for (var _len15 = arguments.length, operations = new Array(_len15), _key15 = 0; _key15 < _len15; _key15++) {
-            operations[_key15] = arguments[_key15];
+          for (var _len16 = arguments.length, operations = new Array(_len16), _key16 = 0; _key16 < _len16; _key16++) {
+            operations[_key16] = arguments[_key16];
           }
 
           if (operations.length === 0) {
@@ -104986,13 +107197,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "toPromise",
         value: function toPromise(promiseCtor) {
-          var _this180 = this;
+          var _this193 = this;
 
           promiseCtor = getPromiseCtor(promiseCtor);
           return new promiseCtor(function (resolve, reject) {
             var value;
 
-            _this180.subscribe(function (x) {
+            _this193.subscribe(function (x) {
               return value = x;
             }, function (err) {
               return reject(err);
@@ -105020,7 +107231,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
 
       return promiseCtor;
-    }
+    } //# sourceMappingURL=Observable.js.map
+
     /***/
 
   },
@@ -105068,7 +107280,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
       },
       complete: function complete() {}
-    };
+    }; //# sourceMappingURL=Observer.js.map
+
     /***/
   },
 
@@ -105127,7 +107340,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return OuterSubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=OuterSubscriber.js.map
+
     /***/
 
   },
@@ -105194,7 +107408,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(ReplaySubject, _Subject__WEBPACK_IMP3);
 
       function ReplaySubject() {
-        var _this181;
+        var _this194;
 
         var bufferSize = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : Number.POSITIVE_INFINITY;
         var windowTime = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : Number.POSITIVE_INFINITY;
@@ -105202,21 +107416,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _classCallCheck(this, ReplaySubject);
 
-        _this181 = _possibleConstructorReturn(this, _getPrototypeOf(ReplaySubject).call(this));
-        _this181.scheduler = scheduler;
-        _this181._events = [];
-        _this181._infiniteTimeWindow = false;
-        _this181._bufferSize = bufferSize < 1 ? 1 : bufferSize;
-        _this181._windowTime = windowTime < 1 ? 1 : windowTime;
+        _this194 = _possibleConstructorReturn(this, _getPrototypeOf(ReplaySubject).call(this));
+        _this194.scheduler = scheduler;
+        _this194._events = [];
+        _this194._infiniteTimeWindow = false;
+        _this194._bufferSize = bufferSize < 1 ? 1 : bufferSize;
+        _this194._windowTime = windowTime < 1 ? 1 : windowTime;
 
         if (windowTime === Number.POSITIVE_INFINITY) {
-          _this181._infiniteTimeWindow = true;
-          _this181.next = _this181.nextInfiniteTimeWindow;
+          _this194._infiniteTimeWindow = true;
+          _this194.next = _this194.nextInfiniteTimeWindow;
         } else {
-          _this181.next = _this181.nextTimeWindow;
+          _this194.next = _this194.nextTimeWindow;
         }
 
-        return _this181;
+        return _this194;
       }
 
       _createClass2(ReplaySubject, [{
@@ -105327,7 +107541,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
       this.time = time;
       this.value = value;
-    };
+    }; //# sourceMappingURL=ReplaySubject.js.map
+
     /***/
 
   },
@@ -105378,7 +107593,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     Scheduler.now = function () {
       return Date.now();
-    };
+    }; //# sourceMappingURL=Scheduler.js.map
+
     /***/
 
   },
@@ -105457,13 +107673,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(SubjectSubscriber, _Subscriber__WEBPACK_3);
 
       function SubjectSubscriber(destination) {
-        var _this182;
+        var _this195;
 
         _classCallCheck(this, SubjectSubscriber);
 
-        _this182 = _possibleConstructorReturn(this, _getPrototypeOf(SubjectSubscriber).call(this, destination));
-        _this182.destination = destination;
-        return _this182;
+        _this195 = _possibleConstructorReturn(this, _getPrototypeOf(SubjectSubscriber).call(this, destination));
+        _this195.destination = destination;
+        return _this195;
       }
 
       return SubjectSubscriber;
@@ -105475,17 +107691,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(Subject, _Observable__WEBPACK_);
 
       function Subject() {
-        var _this183;
+        var _this196;
 
         _classCallCheck(this, Subject);
 
-        _this183 = _possibleConstructorReturn(this, _getPrototypeOf(Subject).call(this));
-        _this183.observers = [];
-        _this183.closed = false;
-        _this183.isStopped = false;
-        _this183.hasError = false;
-        _this183.thrownError = null;
-        return _this183;
+        _this196 = _possibleConstructorReturn(this, _getPrototypeOf(Subject).call(this));
+        _this196.observers = [];
+        _this196.closed = false;
+        _this196.isStopped = false;
+        _this196.hasError = false;
+        _this196.thrownError = null;
+        return _this196;
       }
 
       _createClass2(Subject, [{
@@ -105509,10 +107725,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           if (!this.isStopped) {
             var observers = this.observers;
-            var _len16 = observers.length;
+            var _len17 = observers.length;
             var copy = observers.slice();
 
-            for (var i = 0; i < _len16; i++) {
+            for (var i = 0; i < _len17; i++) {
               copy[i].next(value);
             }
           }
@@ -105609,14 +107825,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(AnonymousSubject, _Subject);
 
       function AnonymousSubject(destination, source) {
-        var _this184;
+        var _this197;
 
         _classCallCheck(this, AnonymousSubject);
 
-        _this184 = _possibleConstructorReturn(this, _getPrototypeOf(AnonymousSubject).call(this));
-        _this184.destination = destination;
-        _this184.source = source;
-        return _this184;
+        _this197 = _possibleConstructorReturn(this, _getPrototypeOf(AnonymousSubject).call(this));
+        _this197.destination = destination;
+        _this197.source = source;
+        return _this197;
       }
 
       _createClass2(AnonymousSubject, [{
@@ -105660,7 +107876,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return AnonymousSubject;
-    }(Subject);
+    }(Subject); //# sourceMappingURL=Subject.js.map
+
     /***/
 
   },
@@ -105697,15 +107914,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(SubjectSubscription, _Subscription__WEBPAC);
 
       function SubjectSubscription(subject, subscriber) {
-        var _this185;
+        var _this198;
 
         _classCallCheck(this, SubjectSubscription);
 
-        _this185 = _possibleConstructorReturn(this, _getPrototypeOf(SubjectSubscription).call(this));
-        _this185.subject = subject;
-        _this185.subscriber = subscriber;
-        _this185.closed = false;
-        return _this185;
+        _this198 = _possibleConstructorReturn(this, _getPrototypeOf(SubjectSubscription).call(this));
+        _this198.subject = subject;
+        _this198.subscriber = subscriber;
+        _this198.closed = false;
+        return _this198;
       }
 
       _createClass2(SubjectSubscription, [{
@@ -105733,7 +107950,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return SubjectSubscription;
-    }(_Subscription__WEBPACK_IMPORTED_MODULE_0__["Subscription"]);
+    }(_Subscription__WEBPACK_IMPORTED_MODULE_0__["Subscription"]); //# sourceMappingURL=SubjectSubscription.js.map
+
     /***/
 
   },
@@ -105806,47 +108024,47 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(Subscriber, _Subscription__WEBPAC2);
 
       function Subscriber(destinationOrNext, error, complete) {
-        var _this186;
+        var _this199;
 
         _classCallCheck(this, Subscriber);
 
-        _this186 = _possibleConstructorReturn(this, _getPrototypeOf(Subscriber).call(this));
-        _this186.syncErrorValue = null;
-        _this186.syncErrorThrown = false;
-        _this186.syncErrorThrowable = false;
-        _this186.isStopped = false;
+        _this199 = _possibleConstructorReturn(this, _getPrototypeOf(Subscriber).call(this));
+        _this199.syncErrorValue = null;
+        _this199.syncErrorThrown = false;
+        _this199.syncErrorThrowable = false;
+        _this199.isStopped = false;
 
         switch (arguments.length) {
           case 0:
-            _this186.destination = _Observer__WEBPACK_IMPORTED_MODULE_1__["empty"];
+            _this199.destination = _Observer__WEBPACK_IMPORTED_MODULE_1__["empty"];
             break;
 
           case 1:
             if (!destinationOrNext) {
-              _this186.destination = _Observer__WEBPACK_IMPORTED_MODULE_1__["empty"];
+              _this199.destination = _Observer__WEBPACK_IMPORTED_MODULE_1__["empty"];
               break;
             }
 
             if (typeof destinationOrNext === 'object') {
               if (destinationOrNext instanceof Subscriber) {
-                _this186.syncErrorThrowable = destinationOrNext.syncErrorThrowable;
-                _this186.destination = destinationOrNext;
-                destinationOrNext.add(_assertThisInitialized(_this186));
+                _this199.syncErrorThrowable = destinationOrNext.syncErrorThrowable;
+                _this199.destination = destinationOrNext;
+                destinationOrNext.add(_assertThisInitialized(_this199));
               } else {
-                _this186.syncErrorThrowable = true;
-                _this186.destination = new SafeSubscriber(_assertThisInitialized(_this186), destinationOrNext);
+                _this199.syncErrorThrowable = true;
+                _this199.destination = new SafeSubscriber(_assertThisInitialized(_this199), destinationOrNext);
               }
 
               break;
             }
 
           default:
-            _this186.syncErrorThrowable = true;
-            _this186.destination = new SafeSubscriber(_assertThisInitialized(_this186), destinationOrNext, error, complete);
+            _this199.syncErrorThrowable = true;
+            _this199.destination = new SafeSubscriber(_assertThisInitialized(_this199), destinationOrNext, error, complete);
             break;
         }
 
-        return _this186;
+        return _this199;
       }
 
       _createClass2(Subscriber, [{
@@ -105939,15 +108157,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(SafeSubscriber, _Subscriber);
 
       function SafeSubscriber(_parentSubscriber, observerOrNext, error, complete) {
-        var _this187;
+        var _this200;
 
         _classCallCheck(this, SafeSubscriber);
 
-        _this187 = _possibleConstructorReturn(this, _getPrototypeOf(SafeSubscriber).call(this));
-        _this187._parentSubscriber = _parentSubscriber;
+        _this200 = _possibleConstructorReturn(this, _getPrototypeOf(SafeSubscriber).call(this));
+        _this200._parentSubscriber = _parentSubscriber;
         var next;
 
-        var context = _assertThisInitialized(_this187);
+        var context = _assertThisInitialized(_this200);
 
         if (Object(_util_isFunction__WEBPACK_IMPORTED_MODULE_0__["isFunction"])(observerOrNext)) {
           next = observerOrNext;
@@ -105960,18 +108178,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             context = Object.create(observerOrNext);
 
             if (Object(_util_isFunction__WEBPACK_IMPORTED_MODULE_0__["isFunction"])(context.unsubscribe)) {
-              _this187.add(context.unsubscribe.bind(context));
+              _this200.add(context.unsubscribe.bind(context));
             }
 
-            context.unsubscribe = _this187.unsubscribe.bind(_assertThisInitialized(_this187));
+            context.unsubscribe = _this200.unsubscribe.bind(_assertThisInitialized(_this200));
           }
         }
 
-        _this187._context = context;
-        _this187._next = next;
-        _this187._error = error;
-        _this187._complete = complete;
-        return _this187;
+        _this200._context = context;
+        _this200._next = next;
+        _this200._error = error;
+        _this200._complete = complete;
+        return _this200;
       }
 
       _createClass2(SafeSubscriber, [{
@@ -106027,14 +108245,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "complete",
         value: function complete() {
-          var _this188 = this;
+          var _this201 = this;
 
           if (!this.isStopped) {
             var _parentSubscriber = this._parentSubscriber;
 
             if (this._complete) {
               var wrappedComplete = function wrappedComplete() {
-                return _this188._complete.call(_this188._context);
+                return _this201._complete.call(_this201._context);
               };
 
               if (!_config__WEBPACK_IMPORTED_MODULE_4__["config"].useDeprecatedSynchronousErrorHandling || !_parentSubscriber.syncErrorThrowable) {
@@ -106100,7 +108318,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return SafeSubscriber;
-    }(Subscriber);
+    }(Subscriber); //# sourceMappingURL=Subscriber.js.map
+
     /***/
 
   },
@@ -106323,7 +108542,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return errors.reduce(function (errs, err) {
         return errs.concat(err instanceof _util_UnsubscriptionError__WEBPACK_IMPORTED_MODULE_3__["UnsubscriptionError"] ? err.errors : err);
       }, []);
-    }
+    } //# sourceMappingURL=Subscription.js.map
+
     /***/
 
   },
@@ -106367,7 +108587,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         return _enable_super_gross_mode_that_will_cause_bad_things;
       }
 
-    };
+    }; //# sourceMappingURL=config.js.map
+
     /***/
   },
 
@@ -106433,16 +108654,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(ConnectableObservable, _Observable__WEBPACK_2);
 
       function ConnectableObservable(source, subjectFactory) {
-        var _this189;
+        var _this202;
 
         _classCallCheck(this, ConnectableObservable);
 
-        _this189 = _possibleConstructorReturn(this, _getPrototypeOf(ConnectableObservable).call(this));
-        _this189.source = source;
-        _this189.subjectFactory = subjectFactory;
-        _this189._refCount = 0;
-        _this189._isComplete = false;
-        return _this189;
+        _this202 = _possibleConstructorReturn(this, _getPrototypeOf(ConnectableObservable).call(this));
+        _this202.source = source;
+        _this202.subjectFactory = subjectFactory;
+        _this202._refCount = 0;
+        _this202._isComplete = false;
+        return _this202;
       }
 
       _createClass2(ConnectableObservable, [{
@@ -106532,13 +108753,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(ConnectableSubscriber, _Subject__WEBPACK_IMP4);
 
       function ConnectableSubscriber(destination, connectable) {
-        var _this190;
+        var _this203;
 
         _classCallCheck(this, ConnectableSubscriber);
 
-        _this190 = _possibleConstructorReturn(this, _getPrototypeOf(ConnectableSubscriber).call(this, destination));
-        _this190.connectable = connectable;
-        return _this190;
+        _this203 = _possibleConstructorReturn(this, _getPrototypeOf(ConnectableSubscriber).call(this, destination));
+        _this203.connectable = connectable;
+        return _this203;
       }
 
       _createClass2(ConnectableSubscriber, [{
@@ -106613,13 +108834,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(RefCountSubscriber, _Subscriber__WEBPACK_4);
 
       function RefCountSubscriber(destination, connectable) {
-        var _this191;
+        var _this204;
 
         _classCallCheck(this, RefCountSubscriber);
 
-        _this191 = _possibleConstructorReturn(this, _getPrototypeOf(RefCountSubscriber).call(this, destination));
-        _this191.connectable = connectable;
-        return _this191;
+        _this204 = _possibleConstructorReturn(this, _getPrototypeOf(RefCountSubscriber).call(this, destination));
+        _this204.connectable = connectable;
+        return _this204;
       }
 
       _createClass2(RefCountSubscriber, [{
@@ -106658,7 +108879,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return RefCountSubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_2__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_2__["Subscriber"]); //# sourceMappingURL=ConnectableObservable.js.map
+
     /***/
 
   },
@@ -106707,27 +108929,27 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(SubscribeOnObservable, _Observable__WEBPACK_3);
 
       function SubscribeOnObservable(source) {
-        var _this192;
+        var _this205;
 
         var delayTime = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
         var scheduler = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : _scheduler_asap__WEBPACK_IMPORTED_MODULE_1__["asap"];
 
         _classCallCheck(this, SubscribeOnObservable);
 
-        _this192 = _possibleConstructorReturn(this, _getPrototypeOf(SubscribeOnObservable).call(this));
-        _this192.source = source;
-        _this192.delayTime = delayTime;
-        _this192.scheduler = scheduler;
+        _this205 = _possibleConstructorReturn(this, _getPrototypeOf(SubscribeOnObservable).call(this));
+        _this205.source = source;
+        _this205.delayTime = delayTime;
+        _this205.scheduler = scheduler;
 
         if (!Object(_util_isNumeric__WEBPACK_IMPORTED_MODULE_2__["isNumeric"])(delayTime) || delayTime < 0) {
-          _this192.delayTime = 0;
+          _this205.delayTime = 0;
         }
 
         if (!scheduler || typeof scheduler.schedule !== 'function') {
-          _this192.scheduler = _scheduler_asap__WEBPACK_IMPORTED_MODULE_1__["asap"];
+          _this205.scheduler = _scheduler_asap__WEBPACK_IMPORTED_MODULE_1__["asap"];
         }
 
-        return _this192;
+        return _this205;
       }
 
       _createClass2(SubscribeOnObservable, [{
@@ -106758,7 +108980,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return SubscribeOnObservable;
-    }(_Observable__WEBPACK_IMPORTED_MODULE_0__["Observable"]);
+    }(_Observable__WEBPACK_IMPORTED_MODULE_0__["Observable"]); //# sourceMappingURL=SubscribeOnObservable.js.map
+
     /***/
 
   },
@@ -106833,8 +109056,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
 
       return function () {
-        for (var _len17 = arguments.length, args = new Array(_len17), _key16 = 0; _key16 < _len17; _key16++) {
-          args[_key16] = arguments[_key16];
+        for (var _len18 = arguments.length, args = new Array(_len18), _key17 = 0; _key17 < _len18; _key17++) {
+          args[_key17] = arguments[_key17];
         }
 
         var context = this;
@@ -106851,8 +109074,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               subject = new _AsyncSubject__WEBPACK_IMPORTED_MODULE_1__["AsyncSubject"]();
 
               var handler = function handler() {
-                for (var _len18 = arguments.length, innerArgs = new Array(_len18), _key17 = 0; _key17 < _len18; _key17++) {
-                  innerArgs[_key17] = arguments[_key17];
+                for (var _len19 = arguments.length, innerArgs = new Array(_len19), _key18 = 0; _key18 < _len19; _key18++) {
+                  innerArgs[_key18] = arguments[_key18];
                 }
 
                 subject.next(innerArgs.length <= 1 ? innerArgs[0] : innerArgs);
@@ -106884,7 +109107,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }
 
     function dispatch(state) {
-      var _this193 = this;
+      var _this206 = this;
 
       var self = this;
       var args = state.args,
@@ -106899,13 +109122,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         subject = params.subject = new _AsyncSubject__WEBPACK_IMPORTED_MODULE_1__["AsyncSubject"]();
 
         var handler = function handler() {
-          for (var _len19 = arguments.length, innerArgs = new Array(_len19), _key18 = 0; _key18 < _len19; _key18++) {
-            innerArgs[_key18] = arguments[_key18];
+          for (var _len20 = arguments.length, innerArgs = new Array(_len20), _key19 = 0; _key19 < _len20; _key19++) {
+            innerArgs[_key19] = arguments[_key19];
           }
 
           var value = innerArgs.length <= 1 ? innerArgs[0] : innerArgs;
 
-          _this193.add(scheduler.schedule(dispatchNext, 0, {
+          _this206.add(scheduler.schedule(dispatchNext, 0, {
             value: value,
             subject: subject
           }));
@@ -106932,7 +109155,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       var err = state.err,
           subject = state.subject;
       subject.error(err);
-    }
+    } //# sourceMappingURL=bindCallback.js.map
+
     /***/
 
   },
@@ -107007,8 +109231,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
 
       return function () {
-        for (var _len20 = arguments.length, args = new Array(_len20), _key19 = 0; _key19 < _len20; _key19++) {
-          args[_key19] = arguments[_key19];
+        for (var _len21 = arguments.length, args = new Array(_len21), _key20 = 0; _key20 < _len21; _key20++) {
+          args[_key20] = arguments[_key20];
         }
 
         var params = {
@@ -107027,8 +109251,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               subject = params.subject = new _AsyncSubject__WEBPACK_IMPORTED_MODULE_1__["AsyncSubject"]();
 
               var handler = function handler() {
-                for (var _len21 = arguments.length, innerArgs = new Array(_len21), _key20 = 0; _key20 < _len21; _key20++) {
-                  innerArgs[_key20] = arguments[_key20];
+                for (var _len22 = arguments.length, innerArgs = new Array(_len22), _key21 = 0; _key21 < _len22; _key21++) {
+                  innerArgs[_key21] = arguments[_key21];
                 }
 
                 var err = innerArgs.shift();
@@ -107066,7 +109290,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }
 
     function dispatch(state) {
-      var _this194 = this;
+      var _this207 = this;
 
       var params = state.params,
           subscriber = state.subscriber,
@@ -107080,21 +109304,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         subject = params.subject = new _AsyncSubject__WEBPACK_IMPORTED_MODULE_1__["AsyncSubject"]();
 
         var handler = function handler() {
-          for (var _len22 = arguments.length, innerArgs = new Array(_len22), _key21 = 0; _key21 < _len22; _key21++) {
-            innerArgs[_key21] = arguments[_key21];
+          for (var _len23 = arguments.length, innerArgs = new Array(_len23), _key22 = 0; _key22 < _len23; _key22++) {
+            innerArgs[_key22] = arguments[_key22];
           }
 
           var err = innerArgs.shift();
 
           if (err) {
-            _this194.add(scheduler.schedule(dispatchError, 0, {
+            _this207.add(scheduler.schedule(dispatchError, 0, {
               err: err,
               subject: subject
             }));
           } else {
             var value = innerArgs.length <= 1 ? innerArgs[0] : innerArgs;
 
-            _this194.add(scheduler.schedule(dispatchNext, 0, {
+            _this207.add(scheduler.schedule(dispatchNext, 0, {
               value: value,
               subject: subject
             }));
@@ -107125,7 +109349,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       var err = arg.err,
           subject = arg.subject;
       subject.error(err);
-    }
+    } //# sourceMappingURL=bindNodeCallback.js.map
+
     /***/
 
   },
@@ -107195,8 +109420,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var NONE = {};
 
     function combineLatest() {
-      for (var _len23 = arguments.length, observables = new Array(_len23), _key22 = 0; _key22 < _len23; _key22++) {
-        observables[_key22] = arguments[_key22];
+      for (var _len24 = arguments.length, observables = new Array(_len24), _key23 = 0; _key23 < _len24; _key23++) {
+        observables[_key23] = arguments[_key23];
       }
 
       var resultSelector = null;
@@ -107242,16 +109467,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(CombineLatestSubscriber, _OuterSubscriber__WEB);
 
       function CombineLatestSubscriber(destination, resultSelector) {
-        var _this195;
+        var _this208;
 
         _classCallCheck(this, CombineLatestSubscriber);
 
-        _this195 = _possibleConstructorReturn(this, _getPrototypeOf(CombineLatestSubscriber).call(this, destination));
-        _this195.resultSelector = resultSelector;
-        _this195.active = 0;
-        _this195.values = [];
-        _this195.observables = [];
-        return _this195;
+        _this208 = _possibleConstructorReturn(this, _getPrototypeOf(CombineLatestSubscriber).call(this, destination));
+        _this208.resultSelector = resultSelector;
+        _this208.active = 0;
+        _this208.values = [];
+        _this208.observables = [];
+        return _this208;
       }
 
       _createClass2(CombineLatestSubscriber, [{
@@ -107318,7 +109543,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return CombineLatestSubscriber;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_2__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_2__["OuterSubscriber"]); //# sourceMappingURL=combineLatest.js.map
+
     /***/
 
   },
@@ -107357,7 +109583,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function concat() {
       return Object(_operators_concatAll__WEBPACK_IMPORTED_MODULE_1__["concatAll"])()(Object(_of__WEBPACK_IMPORTED_MODULE_0__["of"]).apply(void 0, arguments));
-    }
+    } //# sourceMappingURL=concat.js.map
+
     /***/
 
   },
@@ -107414,7 +109641,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         var source = input ? Object(_from__WEBPACK_IMPORTED_MODULE_1__["from"])(input) : Object(_empty__WEBPACK_IMPORTED_MODULE_2__["empty"])();
         return source.subscribe(subscriber);
       });
-    }
+    } //# sourceMappingURL=defer.js.map
+
     /***/
 
   },
@@ -107471,7 +109699,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           return subscriber.complete();
         });
       });
-    }
+    } //# sourceMappingURL=empty.js.map
+
     /***/
 
   },
@@ -107533,8 +109762,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     "./node_modules/rxjs/_esm2015/internal/operators/map.js");
 
     function forkJoin() {
-      for (var _len24 = arguments.length, sources = new Array(_len24), _key23 = 0; _key23 < _len24; _key23++) {
-        sources[_key23] = arguments[_key23];
+      for (var _len25 = arguments.length, sources = new Array(_len25), _key24 = 0; _key24 < _len25; _key24++) {
+        sources[_key24] = arguments[_key24];
       }
 
       var resultSelector;
@@ -107568,27 +109797,27 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(ForkJoinSubscriber, _OuterSubscriber__WEB2);
 
       function ForkJoinSubscriber(destination, sources) {
-        var _this196;
+        var _this209;
 
         _classCallCheck(this, ForkJoinSubscriber);
 
-        _this196 = _possibleConstructorReturn(this, _getPrototypeOf(ForkJoinSubscriber).call(this, destination));
-        _this196.sources = sources;
-        _this196.completed = 0;
-        _this196.haveValues = 0;
+        _this209 = _possibleConstructorReturn(this, _getPrototypeOf(ForkJoinSubscriber).call(this, destination));
+        _this209.sources = sources;
+        _this209.completed = 0;
+        _this209.haveValues = 0;
         var len = sources.length;
-        _this196.values = new Array(len);
+        _this209.values = new Array(len);
 
         for (var i = 0; i < len; i++) {
           var source = sources[i];
-          var innerSubscription = Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_3__["subscribeToResult"])(_assertThisInitialized(_this196), source, null, i);
+          var innerSubscription = Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_3__["subscribeToResult"])(_assertThisInitialized(_this209), source, null, i);
 
           if (innerSubscription) {
-            _this196.add(innerSubscription);
+            _this209.add(innerSubscription);
           }
         }
 
-        return _this196;
+        return _this209;
       }
 
       _createClass2(ForkJoinSubscriber, [{
@@ -107629,7 +109858,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return ForkJoinSubscriber;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_4__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_4__["OuterSubscriber"]); //# sourceMappingURL=forkJoin.js.map
+
     /***/
 
   },
@@ -107736,7 +109966,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
 
       throw new TypeError((input !== null && typeof input || input) + ' is not observable');
-    }
+    } //# sourceMappingURL=from.js.map
+
     /***/
 
   },
@@ -107801,7 +110032,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           return sub;
         });
       }
-    }
+    } //# sourceMappingURL=fromArray.js.map
+
     /***/
 
   },
@@ -107902,7 +110134,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           return _source2.removeListener(eventName, handler);
         };
       } else if (sourceObj && sourceObj.length) {
-        for (var i = 0, _len25 = sourceObj.length; i < _len25; i++) {
+        for (var i = 0, _len26 = sourceObj.length; i < _len26; i++) {
           setupSubscription(sourceObj[i], eventName, handler, subscriber, options);
         }
       } else {
@@ -107922,7 +110154,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function isEventTarget(sourceObj) {
       return sourceObj && typeof sourceObj.addEventListener === 'function' && typeof sourceObj.removeEventListener === 'function';
-    }
+    } //# sourceMappingURL=fromEvent.js.map
+
     /***/
 
   },
@@ -107980,8 +110213,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
       return new _Observable__WEBPACK_IMPORTED_MODULE_0__["Observable"](function (subscriber) {
         var handler = function handler() {
-          for (var _len26 = arguments.length, e = new Array(_len26), _key24 = 0; _key24 < _len26; _key24++) {
-            e[_key24] = arguments[_key24];
+          for (var _len27 = arguments.length, e = new Array(_len27), _key25 = 0; _key25 < _len27; _key25++) {
+            e[_key25] = arguments[_key25];
           }
 
           return subscriber.next(e.length === 1 ? e[0] : e);
@@ -108004,7 +110237,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           return removeHandler(handler, retValue);
         };
       });
-    }
+    } //# sourceMappingURL=fromEventPattern.js.map
+
     /***/
 
   },
@@ -108099,7 +110333,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           return sub;
         });
       }
-    }
+    } //# sourceMappingURL=fromIterable.js.map
+
     /***/
 
   },
@@ -108178,7 +110413,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           return sub;
         });
       }
-    }
+    } //# sourceMappingURL=fromObservable.js.map
+
     /***/
 
   },
@@ -108244,7 +110480,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           return sub;
         });
       }
-    }
+    } //# sourceMappingURL=fromPromise.js.map
+
     /***/
 
   },
@@ -108423,7 +110660,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
 
       return this.schedule(state);
-    }
+    } //# sourceMappingURL=generate.js.map
+
     /***/
 
   },
@@ -108466,7 +110704,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return Object(_defer__WEBPACK_IMPORTED_MODULE_0__["defer"])(function () {
         return condition() ? trueResult : falseResult;
       });
-    }
+    } //# sourceMappingURL=iif.js.map
+
     /***/
 
   },
@@ -108541,7 +110780,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         counter: counter + 1,
         period: period
       }, period);
-    }
+    } //# sourceMappingURL=interval.js.map
+
     /***/
 
   },
@@ -108594,8 +110834,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       var concurrent = Number.POSITIVE_INFINITY;
       var scheduler = null;
 
-      for (var _len27 = arguments.length, observables = new Array(_len27), _key25 = 0; _key25 < _len27; _key25++) {
-        observables[_key25] = arguments[_key25];
+      for (var _len28 = arguments.length, observables = new Array(_len28), _key26 = 0; _key26 < _len28; _key26++) {
+        observables[_key26] = arguments[_key26];
       }
 
       var last = observables[observables.length - 1];
@@ -108615,7 +110855,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
 
       return Object(_operators_mergeAll__WEBPACK_IMPORTED_MODULE_2__["mergeAll"])(concurrent)(Object(_fromArray__WEBPACK_IMPORTED_MODULE_3__["fromArray"])(observables, scheduler));
-    }
+    } //# sourceMappingURL=merge.js.map
+
     /***/
 
   },
@@ -108662,7 +110903,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function never() {
       return NEVER;
-    }
+    } //# sourceMappingURL=never.js.map
+
     /***/
 
   },
@@ -108712,8 +110954,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     "./node_modules/rxjs/_esm2015/internal/observable/scalar.js");
 
     function of() {
-      for (var _len28 = arguments.length, args = new Array(_len28), _key26 = 0; _key26 < _len28; _key26++) {
-        args[_key26] = arguments[_key26];
+      for (var _len29 = arguments.length, args = new Array(_len29), _key27 = 0; _key27 < _len29; _key27++) {
+        args[_key27] = arguments[_key27];
       }
 
       var scheduler = args[args.length - 1];
@@ -108734,7 +110976,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         default:
           return Object(_fromArray__WEBPACK_IMPORTED_MODULE_1__["fromArray"])(args, scheduler);
       }
-    }
+    } //# sourceMappingURL=of.js.map
+
     /***/
 
   },
@@ -108784,8 +111027,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     "./node_modules/rxjs/_esm2015/internal/observable/empty.js");
 
     function onErrorResumeNext() {
-      for (var _len29 = arguments.length, sources = new Array(_len29), _key27 = 0; _key27 < _len29; _key27++) {
-        sources[_key27] = arguments[_key27];
+      for (var _len30 = arguments.length, sources = new Array(_len30), _key28 = 0; _key28 < _len30; _key28++) {
+        sources[_key28] = arguments[_key28];
       }
 
       if (sources.length === 0) {
@@ -108812,7 +111055,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           complete: subNext
         });
       });
-    }
+    } //# sourceMappingURL=onErrorResumeNext.js.map
+
     /***/
 
   },
@@ -108908,7 +111152,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           subscriber.complete();
         }
       }
-    }
+    } //# sourceMappingURL=pairs.js.map
+
     /***/
 
   },
@@ -108970,8 +111215,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     "./node_modules/rxjs/_esm2015/internal/util/subscribeToResult.js");
 
     function race() {
-      for (var _len30 = arguments.length, observables = new Array(_len30), _key28 = 0; _key28 < _len30; _key28++) {
-        observables[_key28] = arguments[_key28];
+      for (var _len31 = arguments.length, observables = new Array(_len31), _key29 = 0; _key29 < _len31; _key29++) {
+        observables[_key29] = arguments[_key29];
       }
 
       if (observables.length === 1) {
@@ -109008,15 +111253,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(RaceSubscriber, _OuterSubscriber__WEB3);
 
       function RaceSubscriber(destination) {
-        var _this197;
+        var _this210;
 
         _classCallCheck(this, RaceSubscriber);
 
-        _this197 = _possibleConstructorReturn(this, _getPrototypeOf(RaceSubscriber).call(this, destination));
-        _this197.hasFirst = false;
-        _this197.observables = [];
-        _this197.subscriptions = [];
-        return _this197;
+        _this210 = _possibleConstructorReturn(this, _getPrototypeOf(RaceSubscriber).call(this, destination));
+        _this210.hasFirst = false;
+        _this210.observables = [];
+        _this210.subscriptions = [];
+        return _this210;
       }
 
       _createClass2(RaceSubscriber, [{
@@ -109069,7 +111314,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return RaceSubscriber;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_2__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_2__["OuterSubscriber"]); //# sourceMappingURL=race.js.map
+
     /***/
 
   },
@@ -109165,7 +111411,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       state.index = index + 1;
       state.start = start + 1;
       this.schedule(state);
-    }
+    } //# sourceMappingURL=range.js.map
+
     /***/
 
   },
@@ -109204,7 +111451,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       result._isScalar = true;
       result.value = value;
       return result;
-    }
+    } //# sourceMappingURL=scalar.js.map
+
     /***/
 
   },
@@ -109254,7 +111502,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       var error = _ref15.error,
           subscriber = _ref15.subscriber;
       subscriber.error(error);
-    }
+    } //# sourceMappingURL=throwError.js.map
+
     /***/
 
   },
@@ -109343,7 +111592,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
       state.index = index + 1;
       this.schedule(state, period);
-    }
+    } //# sourceMappingURL=timer.js.map
+
     /***/
 
   },
@@ -109416,7 +111666,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           }
         };
       });
-    }
+    } //# sourceMappingURL=using.js.map
+
     /***/
 
   },
@@ -109490,8 +111741,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     "./node_modules/rxjs/_esm2015/internal/symbol/iterator.js");
 
     function zip() {
-      for (var _len31 = arguments.length, observables = new Array(_len31), _key29 = 0; _key29 < _len31; _key29++) {
-        observables[_key29] = arguments[_key29];
+      for (var _len32 = arguments.length, observables = new Array(_len32), _key30 = 0; _key30 < _len32; _key30++) {
+        observables[_key30] = arguments[_key30];
       }
 
       var resultSelector = observables[observables.length - 1];
@@ -109528,18 +111779,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(ZipSubscriber, _Subscriber__WEBPACK_5);
 
       function ZipSubscriber(destination, resultSelector) {
-        var _this198;
+        var _this211;
 
         var values = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : Object.create(null);
 
         _classCallCheck(this, ZipSubscriber);
 
-        _this198 = _possibleConstructorReturn(this, _getPrototypeOf(ZipSubscriber).call(this, destination));
-        _this198.iterators = [];
-        _this198.active = 0;
-        _this198.resultSelector = typeof resultSelector === 'function' ? resultSelector : null;
-        _this198.values = values;
-        return _this198;
+        _this211 = _possibleConstructorReturn(this, _getPrototypeOf(ZipSubscriber).call(this, destination));
+        _this211.iterators = [];
+        _this211.active = 0;
+        _this211.resultSelector = typeof resultSelector === 'function' ? resultSelector : null;
+        _this211.values = values;
+        return _this211;
       }
 
       _createClass2(ZipSubscriber, [{
@@ -109608,11 +111859,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           var args = [];
 
           for (var _i27 = 0; _i27 < len; _i27++) {
-            var _iterator25 = iterators[_i27];
+            var _iterator26 = iterators[_i27];
 
-            var result = _iterator25.next();
+            var result = _iterator26.next();
 
-            if (_iterator25.hasCompleted()) {
+            if (_iterator26.hasCompleted()) {
               shouldComplete = true;
             }
 
@@ -109737,17 +111988,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(ZipBufferIterator, _OuterSubscriber__WEB4);
 
       function ZipBufferIterator(destination, parent, observable) {
-        var _this199;
+        var _this212;
 
         _classCallCheck(this, ZipBufferIterator);
 
-        _this199 = _possibleConstructorReturn(this, _getPrototypeOf(ZipBufferIterator).call(this, destination));
-        _this199.parent = parent;
-        _this199.observable = observable;
-        _this199.stillUnsubscribed = true;
-        _this199.buffer = [];
-        _this199.isComplete = false;
-        return _this199;
+        _this212 = _possibleConstructorReturn(this, _getPrototypeOf(ZipBufferIterator).call(this, destination));
+        _this212.parent = parent;
+        _this212.observable = observable;
+        _this212.stillUnsubscribed = true;
+        _this212.buffer = [];
+        _this212.isComplete = false;
+        return _this212;
       }
 
       _createClass2(ZipBufferIterator, [{
@@ -109806,7 +112057,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return ZipBufferIterator;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_3__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_3__["OuterSubscriber"]); //# sourceMappingURL=zip.js.map
+
     /***/
 
   },
@@ -109874,14 +112126,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(AuditSubscriber, _OuterSubscriber__WEB5);
 
       function AuditSubscriber(destination, durationSelector) {
-        var _this200;
+        var _this213;
 
         _classCallCheck(this, AuditSubscriber);
 
-        _this200 = _possibleConstructorReturn(this, _getPrototypeOf(AuditSubscriber).call(this, destination));
-        _this200.durationSelector = durationSelector;
-        _this200.hasValue = false;
-        return _this200;
+        _this213 = _possibleConstructorReturn(this, _getPrototypeOf(AuditSubscriber).call(this, destination));
+        _this213.durationSelector = durationSelector;
+        _this213.hasValue = false;
+        return _this213;
       }
 
       _createClass2(AuditSubscriber, [{
@@ -109941,7 +112193,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return AuditSubscriber;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["OuterSubscriber"]); //# sourceMappingURL=audit.js.map
+
     /***/
 
   },
@@ -109989,7 +112242,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return Object(_audit__WEBPACK_IMPORTED_MODULE_1__["audit"])(function () {
         return Object(_observable_timer__WEBPACK_IMPORTED_MODULE_2__["timer"])(duration, scheduler);
       });
-    }
+    } //# sourceMappingURL=auditTime.js.map
+
     /***/
 
   },
@@ -110057,16 +112311,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(BufferSubscriber, _OuterSubscriber__WEB6);
 
       function BufferSubscriber(destination, closingNotifier) {
-        var _this201;
+        var _this214;
 
         _classCallCheck(this, BufferSubscriber);
 
-        _this201 = _possibleConstructorReturn(this, _getPrototypeOf(BufferSubscriber).call(this, destination));
-        _this201.buffer = [];
+        _this214 = _possibleConstructorReturn(this, _getPrototypeOf(BufferSubscriber).call(this, destination));
+        _this214.buffer = [];
 
-        _this201.add(Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_1__["subscribeToResult"])(_assertThisInitialized(_this201), closingNotifier));
+        _this214.add(Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_1__["subscribeToResult"])(_assertThisInitialized(_this214), closingNotifier));
 
-        return _this201;
+        return _this214;
       }
 
       _createClass2(BufferSubscriber, [{
@@ -110084,7 +112338,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return BufferSubscriber;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["OuterSubscriber"]); //# sourceMappingURL=buffer.js.map
+
     /***/
 
   },
@@ -110154,14 +112409,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(BufferCountSubscriber, _Subscriber__WEBPACK_6);
 
       function BufferCountSubscriber(destination, bufferSize) {
-        var _this202;
+        var _this215;
 
         _classCallCheck(this, BufferCountSubscriber);
 
-        _this202 = _possibleConstructorReturn(this, _getPrototypeOf(BufferCountSubscriber).call(this, destination));
-        _this202.bufferSize = bufferSize;
-        _this202.buffer = [];
-        return _this202;
+        _this215 = _possibleConstructorReturn(this, _getPrototypeOf(BufferCountSubscriber).call(this, destination));
+        _this215.bufferSize = bufferSize;
+        _this215.buffer = [];
+        return _this215;
       }
 
       _createClass2(BufferCountSubscriber, [{
@@ -110197,16 +112452,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(BufferSkipCountSubscriber, _Subscriber__WEBPACK_7);
 
       function BufferSkipCountSubscriber(destination, bufferSize, startBufferEvery) {
-        var _this203;
+        var _this216;
 
         _classCallCheck(this, BufferSkipCountSubscriber);
 
-        _this203 = _possibleConstructorReturn(this, _getPrototypeOf(BufferSkipCountSubscriber).call(this, destination));
-        _this203.bufferSize = bufferSize;
-        _this203.startBufferEvery = startBufferEvery;
-        _this203.buffers = [];
-        _this203.count = 0;
-        return _this203;
+        _this216 = _possibleConstructorReturn(this, _getPrototypeOf(BufferSkipCountSubscriber).call(this, destination));
+        _this216.bufferSize = bufferSize;
+        _this216.startBufferEvery = startBufferEvery;
+        _this216.buffers = [];
+        _this216.count = 0;
+        return _this216;
       }
 
       _createClass2(BufferSkipCountSubscriber, [{
@@ -110251,7 +112506,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return BufferSkipCountSubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=bufferCount.js.map
+
     /***/
 
   },
@@ -110354,47 +112610,47 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(BufferTimeSubscriber, _Subscriber__WEBPACK_8);
 
       function BufferTimeSubscriber(destination, bufferTimeSpan, bufferCreationInterval, maxBufferSize, scheduler) {
-        var _this204;
+        var _this217;
 
         _classCallCheck(this, BufferTimeSubscriber);
 
-        _this204 = _possibleConstructorReturn(this, _getPrototypeOf(BufferTimeSubscriber).call(this, destination));
-        _this204.bufferTimeSpan = bufferTimeSpan;
-        _this204.bufferCreationInterval = bufferCreationInterval;
-        _this204.maxBufferSize = maxBufferSize;
-        _this204.scheduler = scheduler;
-        _this204.contexts = [];
+        _this217 = _possibleConstructorReturn(this, _getPrototypeOf(BufferTimeSubscriber).call(this, destination));
+        _this217.bufferTimeSpan = bufferTimeSpan;
+        _this217.bufferCreationInterval = bufferCreationInterval;
+        _this217.maxBufferSize = maxBufferSize;
+        _this217.scheduler = scheduler;
+        _this217.contexts = [];
 
-        var context = _this204.openContext();
+        var context = _this217.openContext();
 
-        _this204.timespanOnly = bufferCreationInterval == null || bufferCreationInterval < 0;
+        _this217.timespanOnly = bufferCreationInterval == null || bufferCreationInterval < 0;
 
-        if (_this204.timespanOnly) {
+        if (_this217.timespanOnly) {
           var timeSpanOnlyState = {
-            subscriber: _assertThisInitialized(_this204),
+            subscriber: _assertThisInitialized(_this217),
             context: context,
             bufferTimeSpan: bufferTimeSpan
           };
 
-          _this204.add(context.closeAction = scheduler.schedule(dispatchBufferTimeSpanOnly, bufferTimeSpan, timeSpanOnlyState));
+          _this217.add(context.closeAction = scheduler.schedule(dispatchBufferTimeSpanOnly, bufferTimeSpan, timeSpanOnlyState));
         } else {
           var closeState = {
-            subscriber: _assertThisInitialized(_this204),
+            subscriber: _assertThisInitialized(_this217),
             context: context
           };
           var creationState = {
             bufferTimeSpan: bufferTimeSpan,
             bufferCreationInterval: bufferCreationInterval,
-            subscriber: _assertThisInitialized(_this204),
+            subscriber: _assertThisInitialized(_this217),
             scheduler: scheduler
           };
 
-          _this204.add(context.closeAction = scheduler.schedule(dispatchBufferClose, bufferTimeSpan, closeState));
+          _this217.add(context.closeAction = scheduler.schedule(dispatchBufferClose, bufferTimeSpan, closeState));
 
-          _this204.add(scheduler.schedule(dispatchBufferCreation, bufferCreationInterval, creationState));
+          _this217.add(scheduler.schedule(dispatchBufferCreation, bufferCreationInterval, creationState));
         }
 
-        return _this204;
+        return _this217;
       }
 
       _createClass2(BufferTimeSubscriber, [{
@@ -110520,7 +112776,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       var subscriber = arg.subscriber,
           context = arg.context;
       subscriber.closeContext(context);
-    }
+    } //# sourceMappingURL=bufferTime.js.map
+
     /***/
 
   },
@@ -110595,18 +112852,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(BufferToggleSubscriber, _OuterSubscriber__WEB7);
 
       function BufferToggleSubscriber(destination, openings, closingSelector) {
-        var _this205;
+        var _this218;
 
         _classCallCheck(this, BufferToggleSubscriber);
 
-        _this205 = _possibleConstructorReturn(this, _getPrototypeOf(BufferToggleSubscriber).call(this, destination));
-        _this205.openings = openings;
-        _this205.closingSelector = closingSelector;
-        _this205.contexts = [];
+        _this218 = _possibleConstructorReturn(this, _getPrototypeOf(BufferToggleSubscriber).call(this, destination));
+        _this218.openings = openings;
+        _this218.closingSelector = closingSelector;
+        _this218.contexts = [];
 
-        _this205.add(Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_1__["subscribeToResult"])(_assertThisInitialized(_this205), openings));
+        _this218.add(Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_1__["subscribeToResult"])(_assertThisInitialized(_this218), openings));
 
-        return _this205;
+        return _this218;
       }
 
       _createClass2(BufferToggleSubscriber, [{
@@ -110714,7 +112971,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return BufferToggleSubscriber;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_2__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_2__["OuterSubscriber"]); //# sourceMappingURL=bufferToggle.js.map
+
     /***/
 
   },
@@ -110788,17 +113046,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(BufferWhenSubscriber, _OuterSubscriber__WEB8);
 
       function BufferWhenSubscriber(destination, closingSelector) {
-        var _this206;
+        var _this219;
 
         _classCallCheck(this, BufferWhenSubscriber);
 
-        _this206 = _possibleConstructorReturn(this, _getPrototypeOf(BufferWhenSubscriber).call(this, destination));
-        _this206.closingSelector = closingSelector;
-        _this206.subscribing = false;
+        _this219 = _possibleConstructorReturn(this, _getPrototypeOf(BufferWhenSubscriber).call(this, destination));
+        _this219.closingSelector = closingSelector;
+        _this219.subscribing = false;
 
-        _this206.openBuffer();
+        _this219.openBuffer();
 
-        return _this206;
+        return _this219;
       }
 
       _createClass2(BufferWhenSubscriber, [{
@@ -110873,7 +113131,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return BufferWhenSubscriber;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_1__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_1__["OuterSubscriber"]); //# sourceMappingURL=bufferWhen.js.map
+
     /***/
 
   },
@@ -110949,14 +113208,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(CatchSubscriber, _OuterSubscriber__WEB9);
 
       function CatchSubscriber(destination, selector, caught) {
-        var _this207;
+        var _this220;
 
         _classCallCheck(this, CatchSubscriber);
 
-        _this207 = _possibleConstructorReturn(this, _getPrototypeOf(CatchSubscriber).call(this, destination));
-        _this207.selector = selector;
-        _this207.caught = caught;
-        return _this207;
+        _this220 = _possibleConstructorReturn(this, _getPrototypeOf(CatchSubscriber).call(this, destination));
+        _this220.selector = selector;
+        _this220.caught = caught;
+        return _this220;
       }
 
       _createClass2(CatchSubscriber, [{
@@ -110983,7 +113242,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return CatchSubscriber;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["OuterSubscriber"]); //# sourceMappingURL=catchError.js.map
+
     /***/
 
   },
@@ -111018,7 +113278,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return function (source) {
         return source.lift(new _observable_combineLatest__WEBPACK_IMPORTED_MODULE_0__["CombineLatestOperator"](project));
       };
-    }
+    } //# sourceMappingURL=combineAll.js.map
+
     /***/
 
   },
@@ -111064,8 +113325,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var none = {};
 
     function combineLatest() {
-      for (var _len32 = arguments.length, observables = new Array(_len32), _key30 = 0; _key30 < _len32; _key30++) {
-        observables[_key30] = arguments[_key30];
+      for (var _len33 = arguments.length, observables = new Array(_len33), _key31 = 0; _key31 < _len33; _key31++) {
+        observables[_key31] = arguments[_key31];
       }
 
       var project = null;
@@ -111081,7 +113342,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return function (source) {
         return source.lift.call(Object(_observable_from__WEBPACK_IMPORTED_MODULE_2__["from"])([source].concat(_toConsumableArray(observables))), new _observable_combineLatest__WEBPACK_IMPORTED_MODULE_1__["CombineLatestOperator"](project));
       };
-    }
+    } //# sourceMappingURL=combineLatest.js.map
+
     /***/
 
   },
@@ -111113,14 +113375,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     "./node_modules/rxjs/_esm2015/internal/observable/concat.js");
 
     function concat() {
-      for (var _len33 = arguments.length, observables = new Array(_len33), _key31 = 0; _key31 < _len33; _key31++) {
-        observables[_key31] = arguments[_key31];
+      for (var _len34 = arguments.length, observables = new Array(_len34), _key32 = 0; _key32 < _len34; _key32++) {
+        observables[_key32] = arguments[_key32];
       }
 
       return function (source) {
         return source.lift.call(Object(_observable_concat__WEBPACK_IMPORTED_MODULE_0__["concat"]).apply(void 0, [source].concat(observables)));
       };
-    }
+    } //# sourceMappingURL=concat.js.map
+
     /***/
 
   },
@@ -111153,7 +113416,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function concatAll() {
       return Object(_mergeAll__WEBPACK_IMPORTED_MODULE_0__["mergeAll"])(1);
-    }
+    } //# sourceMappingURL=concatAll.js.map
+
     /***/
 
   },
@@ -111186,7 +113450,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function concatMap(project, resultSelector) {
       return Object(_mergeMap__WEBPACK_IMPORTED_MODULE_0__["mergeMap"])(project, resultSelector, 1);
-    }
+    } //# sourceMappingURL=concatMap.js.map
+
     /***/
 
   },
@@ -111221,7 +113486,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return Object(_concatMap__WEBPACK_IMPORTED_MODULE_0__["concatMap"])(function () {
         return innerObservable;
       }, resultSelector);
-    }
+    } //# sourceMappingURL=concatMapTo.js.map
+
     /***/
 
   },
@@ -111284,16 +113550,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(CountSubscriber, _Subscriber__WEBPACK_9);
 
       function CountSubscriber(destination, predicate, source) {
-        var _this208;
+        var _this221;
 
         _classCallCheck(this, CountSubscriber);
 
-        _this208 = _possibleConstructorReturn(this, _getPrototypeOf(CountSubscriber).call(this, destination));
-        _this208.predicate = predicate;
-        _this208.source = source;
-        _this208.count = 0;
-        _this208.index = 0;
-        return _this208;
+        _this221 = _possibleConstructorReturn(this, _getPrototypeOf(CountSubscriber).call(this, destination));
+        _this221.predicate = predicate;
+        _this221.source = source;
+        _this221.count = 0;
+        _this221.index = 0;
+        return _this221;
       }
 
       _createClass2(CountSubscriber, [{
@@ -111330,7 +113596,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return CountSubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=count.js.map
+
     /***/
 
   },
@@ -111398,15 +113665,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(DebounceSubscriber, _OuterSubscriber__WEB10);
 
       function DebounceSubscriber(destination, durationSelector) {
-        var _this209;
+        var _this222;
 
         _classCallCheck(this, DebounceSubscriber);
 
-        _this209 = _possibleConstructorReturn(this, _getPrototypeOf(DebounceSubscriber).call(this, destination));
-        _this209.durationSelector = durationSelector;
-        _this209.hasValue = false;
-        _this209.durationSubscription = null;
-        return _this209;
+        _this222 = _possibleConstructorReturn(this, _getPrototypeOf(DebounceSubscriber).call(this, destination));
+        _this222.durationSelector = durationSelector;
+        _this222.hasValue = false;
+        _this222.durationSubscription = null;
+        return _this222;
       }
 
       _createClass2(DebounceSubscriber, [{
@@ -111478,7 +113745,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return DebounceSubscriber;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["OuterSubscriber"]); //# sourceMappingURL=debounce.js.map
+
     /***/
 
   },
@@ -111548,17 +113816,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(DebounceTimeSubscriber, _Subscriber__WEBPACK_10);
 
       function DebounceTimeSubscriber(destination, dueTime, scheduler) {
-        var _this210;
+        var _this223;
 
         _classCallCheck(this, DebounceTimeSubscriber);
 
-        _this210 = _possibleConstructorReturn(this, _getPrototypeOf(DebounceTimeSubscriber).call(this, destination));
-        _this210.dueTime = dueTime;
-        _this210.scheduler = scheduler;
-        _this210.debouncedSubscription = null;
-        _this210.lastValue = null;
-        _this210.hasValue = false;
-        return _this210;
+        _this223 = _possibleConstructorReturn(this, _getPrototypeOf(DebounceTimeSubscriber).call(this, destination));
+        _this223.dueTime = dueTime;
+        _this223.scheduler = scheduler;
+        _this223.debouncedSubscription = null;
+        _this223.lastValue = null;
+        _this223.hasValue = false;
+        return _this223;
       }
 
       _createClass2(DebounceTimeSubscriber, [{
@@ -111605,7 +113873,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function dispatchNext(subscriber) {
       subscriber.debouncedNext();
-    }
+    } //# sourceMappingURL=debounceTime.js.map
+
     /***/
 
   },
@@ -111668,14 +113937,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(DefaultIfEmptySubscriber, _Subscriber__WEBPACK_11);
 
       function DefaultIfEmptySubscriber(destination, defaultValue) {
-        var _this211;
+        var _this224;
 
         _classCallCheck(this, DefaultIfEmptySubscriber);
 
-        _this211 = _possibleConstructorReturn(this, _getPrototypeOf(DefaultIfEmptySubscriber).call(this, destination));
-        _this211.defaultValue = defaultValue;
-        _this211.isEmpty = true;
-        return _this211;
+        _this224 = _possibleConstructorReturn(this, _getPrototypeOf(DefaultIfEmptySubscriber).call(this, destination));
+        _this224.defaultValue = defaultValue;
+        _this224.isEmpty = true;
+        return _this224;
       }
 
       _createClass2(DefaultIfEmptySubscriber, [{
@@ -111696,7 +113965,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return DefaultIfEmptySubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=defaultIfEmpty.js.map
+
     /***/
 
   },
@@ -111780,17 +114050,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(DelaySubscriber, _Subscriber__WEBPACK_12);
 
       function DelaySubscriber(destination, delay, scheduler) {
-        var _this212;
+        var _this225;
 
         _classCallCheck(this, DelaySubscriber);
 
-        _this212 = _possibleConstructorReturn(this, _getPrototypeOf(DelaySubscriber).call(this, destination));
-        _this212.delay = delay;
-        _this212.scheduler = scheduler;
-        _this212.queue = [];
-        _this212.active = false;
-        _this212.errored = false;
-        return _this212;
+        _this225 = _possibleConstructorReturn(this, _getPrototypeOf(DelaySubscriber).call(this, destination));
+        _this225.delay = delay;
+        _this225.scheduler = scheduler;
+        _this225.queue = [];
+        _this225.active = false;
+        _this225.errored = false;
+        return _this225;
       }
 
       _createClass2(DelaySubscriber, [{
@@ -111869,7 +114139,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
       this.time = time;
       this.notification = notification;
-    };
+    }; //# sourceMappingURL=delay.js.map
+
     /***/
 
   },
@@ -111955,16 +114226,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(DelayWhenSubscriber, _OuterSubscriber__WEB11);
 
       function DelayWhenSubscriber(destination, delayDurationSelector) {
-        var _this213;
+        var _this226;
 
         _classCallCheck(this, DelayWhenSubscriber);
 
-        _this213 = _possibleConstructorReturn(this, _getPrototypeOf(DelayWhenSubscriber).call(this, destination));
-        _this213.delayDurationSelector = delayDurationSelector;
-        _this213.completed = false;
-        _this213.delayNotifierSubscriptions = [];
-        _this213.index = 0;
-        return _this213;
+        _this226 = _possibleConstructorReturn(this, _getPrototypeOf(DelayWhenSubscriber).call(this, destination));
+        _this226.delayDurationSelector = delayDurationSelector;
+        _this226.completed = false;
+        _this226.delayNotifierSubscriptions = [];
+        _this226.index = 0;
+        return _this226;
       }
 
       _createClass2(DelayWhenSubscriber, [{
@@ -112053,14 +114324,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(SubscriptionDelayObservable, _Observable__WEBPACK_4);
 
       function SubscriptionDelayObservable(source, subscriptionDelay) {
-        var _this214;
+        var _this227;
 
         _classCallCheck(this, SubscriptionDelayObservable);
 
-        _this214 = _possibleConstructorReturn(this, _getPrototypeOf(SubscriptionDelayObservable).call(this));
-        _this214.source = source;
-        _this214.subscriptionDelay = subscriptionDelay;
-        return _this214;
+        _this227 = _possibleConstructorReturn(this, _getPrototypeOf(SubscriptionDelayObservable).call(this));
+        _this227.source = source;
+        _this227.subscriptionDelay = subscriptionDelay;
+        return _this227;
       }
 
       _createClass2(SubscriptionDelayObservable, [{
@@ -112079,15 +114350,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(SubscriptionDelaySubscriber, _Subscriber__WEBPACK_13);
 
       function SubscriptionDelaySubscriber(parent, source) {
-        var _this215;
+        var _this228;
 
         _classCallCheck(this, SubscriptionDelaySubscriber);
 
-        _this215 = _possibleConstructorReturn(this, _getPrototypeOf(SubscriptionDelaySubscriber).call(this));
-        _this215.parent = parent;
-        _this215.source = source;
-        _this215.sourceSubscribed = false;
-        return _this215;
+        _this228 = _possibleConstructorReturn(this, _getPrototypeOf(SubscriptionDelaySubscriber).call(this));
+        _this228.parent = parent;
+        _this228.source = source;
+        _this228.sourceSubscribed = false;
+        return _this228;
       }
 
       _createClass2(SubscriptionDelaySubscriber, [{
@@ -112119,7 +114390,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return SubscriptionDelaySubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=delayWhen.js.map
+
     /***/
 
   },
@@ -112192,7 +114464,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return DeMaterializeSubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=dematerialize.js.map
+
     /***/
 
   },
@@ -112267,19 +114540,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(DistinctSubscriber, _OuterSubscriber__WEB12);
 
       function DistinctSubscriber(destination, keySelector, flushes) {
-        var _this216;
+        var _this229;
 
         _classCallCheck(this, DistinctSubscriber);
 
-        _this216 = _possibleConstructorReturn(this, _getPrototypeOf(DistinctSubscriber).call(this, destination));
-        _this216.keySelector = keySelector;
-        _this216.values = new Set();
+        _this229 = _possibleConstructorReturn(this, _getPrototypeOf(DistinctSubscriber).call(this, destination));
+        _this229.keySelector = keySelector;
+        _this229.values = new Set();
 
         if (flushes) {
-          _this216.add(Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_1__["subscribeToResult"])(_assertThisInitialized(_this216), flushes));
+          _this229.add(Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_1__["subscribeToResult"])(_assertThisInitialized(_this229), flushes));
         }
 
-        return _this216;
+        return _this229;
       }
 
       _createClass2(DistinctSubscriber, [{
@@ -112329,7 +114602,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return DistinctSubscriber;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["OuterSubscriber"]); //# sourceMappingURL=distinct.js.map
+
     /***/
 
   },
@@ -112392,19 +114666,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(DistinctUntilChangedSubscriber, _Subscriber__WEBPACK_15);
 
       function DistinctUntilChangedSubscriber(destination, compare, keySelector) {
-        var _this217;
+        var _this230;
 
         _classCallCheck(this, DistinctUntilChangedSubscriber);
 
-        _this217 = _possibleConstructorReturn(this, _getPrototypeOf(DistinctUntilChangedSubscriber).call(this, destination));
-        _this217.keySelector = keySelector;
-        _this217.hasKey = false;
+        _this230 = _possibleConstructorReturn(this, _getPrototypeOf(DistinctUntilChangedSubscriber).call(this, destination));
+        _this230.keySelector = keySelector;
+        _this230.hasKey = false;
 
         if (typeof compare === 'function') {
-          _this217.compare = compare;
+          _this230.compare = compare;
         }
 
-        return _this217;
+        return _this230;
       }
 
       _createClass2(DistinctUntilChangedSubscriber, [{
@@ -112445,7 +114719,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return DistinctUntilChangedSubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=distinctUntilChanged.js.map
+
     /***/
 
   },
@@ -112480,7 +114755,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return Object(_distinctUntilChanged__WEBPACK_IMPORTED_MODULE_0__["distinctUntilChanged"])(function (x, y) {
         return compare ? compare(x[key], y[key]) : x[key] === y[key];
       });
-    }
+    } //# sourceMappingURL=distinctUntilKeyChanged.js.map
+
     /***/
 
   },
@@ -112548,7 +114824,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           return new _util_ArgumentOutOfRangeError__WEBPACK_IMPORTED_MODULE_0__["ArgumentOutOfRangeError"]();
         }));
       };
-    }
+    } //# sourceMappingURL=elementAt.js.map
+
     /***/
 
   },
@@ -112604,8 +114881,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     "./node_modules/rxjs/_esm2015/internal/util/isScheduler.js");
 
     function endWith() {
-      for (var _len34 = arguments.length, array = new Array(_len34), _key32 = 0; _key32 < _len34; _key32++) {
-        array[_key32] = arguments[_key32];
+      for (var _len35 = arguments.length, array = new Array(_len35), _key33 = 0; _key33 < _len35; _key33++) {
+        array[_key33] = arguments[_key33];
       }
 
       return function (source) {
@@ -112627,7 +114904,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           return Object(_observable_concat__WEBPACK_IMPORTED_MODULE_3__["concat"])(source, Object(_observable_empty__WEBPACK_IMPORTED_MODULE_2__["empty"])(scheduler));
         }
       };
-    }
+    } //# sourceMappingURL=endWith.js.map
+
     /***/
 
   },
@@ -112691,17 +114969,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(EverySubscriber, _Subscriber__WEBPACK_16);
 
       function EverySubscriber(destination, predicate, thisArg, source) {
-        var _this218;
+        var _this231;
 
         _classCallCheck(this, EverySubscriber);
 
-        _this218 = _possibleConstructorReturn(this, _getPrototypeOf(EverySubscriber).call(this, destination));
-        _this218.predicate = predicate;
-        _this218.thisArg = thisArg;
-        _this218.source = source;
-        _this218.index = 0;
-        _this218.thisArg = thisArg || _assertThisInitialized(_this218);
-        return _this218;
+        _this231 = _possibleConstructorReturn(this, _getPrototypeOf(EverySubscriber).call(this, destination));
+        _this231.predicate = predicate;
+        _this231.thisArg = thisArg;
+        _this231.source = source;
+        _this231.index = 0;
+        _this231.thisArg = thisArg || _assertThisInitialized(_this231);
+        return _this231;
       }
 
       _createClass2(EverySubscriber, [{
@@ -112734,7 +115012,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return EverySubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=every.js.map
+
     /***/
 
   },
@@ -112800,14 +115079,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(SwitchFirstSubscriber, _OuterSubscriber__WEB13);
 
       function SwitchFirstSubscriber(destination) {
-        var _this219;
+        var _this232;
 
         _classCallCheck(this, SwitchFirstSubscriber);
 
-        _this219 = _possibleConstructorReturn(this, _getPrototypeOf(SwitchFirstSubscriber).call(this, destination));
-        _this219.hasCompleted = false;
-        _this219.hasSubscription = false;
-        return _this219;
+        _this232 = _possibleConstructorReturn(this, _getPrototypeOf(SwitchFirstSubscriber).call(this, destination));
+        _this232.hasCompleted = false;
+        _this232.hasSubscription = false;
+        return _this232;
       }
 
       _createClass2(SwitchFirstSubscriber, [{
@@ -112840,7 +115119,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return SwitchFirstSubscriber;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["OuterSubscriber"]); //# sourceMappingURL=exhaust.js.map
+
     /***/
 
   },
@@ -112936,16 +115216,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(ExhaustMapSubscriber, _OuterSubscriber__WEB14);
 
       function ExhaustMapSubscriber(destination, project) {
-        var _this220;
+        var _this233;
 
         _classCallCheck(this, ExhaustMapSubscriber);
 
-        _this220 = _possibleConstructorReturn(this, _getPrototypeOf(ExhaustMapSubscriber).call(this, destination));
-        _this220.project = project;
-        _this220.hasSubscription = false;
-        _this220.hasCompleted = false;
-        _this220.index = 0;
-        return _this220;
+        _this233 = _possibleConstructorReturn(this, _getPrototypeOf(ExhaustMapSubscriber).call(this, destination));
+        _this233.project = project;
+        _this233.hasSubscription = false;
+        _this233.hasCompleted = false;
+        _this233.index = 0;
+        return _this233;
       }
 
       _createClass2(ExhaustMapSubscriber, [{
@@ -113015,7 +115295,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return ExhaustMapSubscriber;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["OuterSubscriber"]); //# sourceMappingURL=exhaustMap.js.map
+
     /***/
 
   },
@@ -113100,23 +115381,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(ExpandSubscriber, _OuterSubscriber__WEB15);
 
       function ExpandSubscriber(destination, project, concurrent, scheduler) {
-        var _this221;
+        var _this234;
 
         _classCallCheck(this, ExpandSubscriber);
 
-        _this221 = _possibleConstructorReturn(this, _getPrototypeOf(ExpandSubscriber).call(this, destination));
-        _this221.project = project;
-        _this221.concurrent = concurrent;
-        _this221.scheduler = scheduler;
-        _this221.index = 0;
-        _this221.active = 0;
-        _this221.hasCompleted = false;
+        _this234 = _possibleConstructorReturn(this, _getPrototypeOf(ExpandSubscriber).call(this, destination));
+        _this234.project = project;
+        _this234.concurrent = concurrent;
+        _this234.scheduler = scheduler;
+        _this234.index = 0;
+        _this234.active = 0;
+        _this234.hasCompleted = false;
 
         if (concurrent < Number.POSITIVE_INFINITY) {
-          _this221.buffer = [];
+          _this234.buffer = [];
         }
 
-        return _this221;
+        return _this234;
       }
 
       _createClass2(ExpandSubscriber, [{
@@ -113210,7 +115491,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return ExpandSubscriber;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["OuterSubscriber"]); //# sourceMappingURL=expand.js.map
+
     /***/
 
   },
@@ -113273,15 +115555,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(FilterSubscriber, _Subscriber__WEBPACK_17);
 
       function FilterSubscriber(destination, predicate, thisArg) {
-        var _this222;
+        var _this235;
 
         _classCallCheck(this, FilterSubscriber);
 
-        _this222 = _possibleConstructorReturn(this, _getPrototypeOf(FilterSubscriber).call(this, destination));
-        _this222.predicate = predicate;
-        _this222.thisArg = thisArg;
-        _this222.count = 0;
-        return _this222;
+        _this235 = _possibleConstructorReturn(this, _getPrototypeOf(FilterSubscriber).call(this, destination));
+        _this235.predicate = predicate;
+        _this235.thisArg = thisArg;
+        _this235.count = 0;
+        return _this235;
       }
 
       _createClass2(FilterSubscriber, [{
@@ -113303,7 +115585,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return FilterSubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=filter.js.map
+
     /***/
 
   },
@@ -113371,19 +115654,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(FinallySubscriber, _Subscriber__WEBPACK_18);
 
       function FinallySubscriber(destination, callback) {
-        var _this223;
+        var _this236;
 
         _classCallCheck(this, FinallySubscriber);
 
-        _this223 = _possibleConstructorReturn(this, _getPrototypeOf(FinallySubscriber).call(this, destination));
+        _this236 = _possibleConstructorReturn(this, _getPrototypeOf(FinallySubscriber).call(this, destination));
 
-        _this223.add(new _Subscription__WEBPACK_IMPORTED_MODULE_1__["Subscription"](callback));
+        _this236.add(new _Subscription__WEBPACK_IMPORTED_MODULE_1__["Subscription"](callback));
 
-        return _this223;
+        return _this236;
       }
 
       return FinallySubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=finalize.js.map
+
     /***/
 
   },
@@ -113464,17 +115748,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(FindValueSubscriber, _Subscriber__WEBPACK_19);
 
       function FindValueSubscriber(destination, predicate, source, yieldIndex, thisArg) {
-        var _this224;
+        var _this237;
 
         _classCallCheck(this, FindValueSubscriber);
 
-        _this224 = _possibleConstructorReturn(this, _getPrototypeOf(FindValueSubscriber).call(this, destination));
-        _this224.predicate = predicate;
-        _this224.source = source;
-        _this224.yieldIndex = yieldIndex;
-        _this224.thisArg = thisArg;
-        _this224.index = 0;
-        return _this224;
+        _this237 = _possibleConstructorReturn(this, _getPrototypeOf(FindValueSubscriber).call(this, destination));
+        _this237.predicate = predicate;
+        _this237.source = source;
+        _this237.yieldIndex = yieldIndex;
+        _this237.thisArg = thisArg;
+        _this237.index = 0;
+        return _this237;
       }
 
       _createClass2(FindValueSubscriber, [{
@@ -113510,7 +115794,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return FindValueSubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=find.js.map
+
     /***/
 
   },
@@ -113545,7 +115830,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return function (source) {
         return source.lift(new _operators_find__WEBPACK_IMPORTED_MODULE_0__["FindValueOperator"](predicate, source, true, thisArg));
       };
-    }
+    } //# sourceMappingURL=findIndex.js.map
+
     /***/
 
   },
@@ -113615,7 +115901,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           return new _util_EmptyError__WEBPACK_IMPORTED_MODULE_0__["EmptyError"]();
         }));
       };
-    }
+    } //# sourceMappingURL=first.js.map
+
     /***/
 
   },
@@ -113704,19 +115991,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(GroupBySubscriber, _Subscriber__WEBPACK_20);
 
       function GroupBySubscriber(destination, keySelector, elementSelector, durationSelector, subjectSelector) {
-        var _this225;
+        var _this238;
 
         _classCallCheck(this, GroupBySubscriber);
 
-        _this225 = _possibleConstructorReturn(this, _getPrototypeOf(GroupBySubscriber).call(this, destination));
-        _this225.keySelector = keySelector;
-        _this225.elementSelector = elementSelector;
-        _this225.durationSelector = durationSelector;
-        _this225.subjectSelector = subjectSelector;
-        _this225.groups = null;
-        _this225.attemptedToUnsubscribe = false;
-        _this225.count = 0;
-        return _this225;
+        _this238 = _possibleConstructorReturn(this, _getPrototypeOf(GroupBySubscriber).call(this, destination));
+        _this238.keySelector = keySelector;
+        _this238.elementSelector = elementSelector;
+        _this238.durationSelector = durationSelector;
+        _this238.subjectSelector = subjectSelector;
+        _this238.groups = null;
+        _this238.attemptedToUnsubscribe = false;
+        _this238.count = 0;
+        return _this238;
       }
 
       _createClass2(GroupBySubscriber, [{
@@ -113834,15 +116121,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(GroupDurationSubscriber, _Subscriber__WEBPACK_21);
 
       function GroupDurationSubscriber(key, group, parent) {
-        var _this226;
+        var _this239;
 
         _classCallCheck(this, GroupDurationSubscriber);
 
-        _this226 = _possibleConstructorReturn(this, _getPrototypeOf(GroupDurationSubscriber).call(this, group));
-        _this226.key = key;
-        _this226.group = group;
-        _this226.parent = parent;
-        return _this226;
+        _this239 = _possibleConstructorReturn(this, _getPrototypeOf(GroupDurationSubscriber).call(this, group));
+        _this239.key = key;
+        _this239.group = group;
+        _this239.parent = parent;
+        return _this239;
       }
 
       _createClass2(GroupDurationSubscriber, [{
@@ -113872,15 +116159,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(GroupedObservable, _Observable__WEBPACK_5);
 
       function GroupedObservable(key, groupSubject, refCountSubscription) {
-        var _this227;
+        var _this240;
 
         _classCallCheck(this, GroupedObservable);
 
-        _this227 = _possibleConstructorReturn(this, _getPrototypeOf(GroupedObservable).call(this));
-        _this227.key = key;
-        _this227.groupSubject = groupSubject;
-        _this227.refCountSubscription = refCountSubscription;
-        return _this227;
+        _this240 = _possibleConstructorReturn(this, _getPrototypeOf(GroupedObservable).call(this));
+        _this240.key = key;
+        _this240.groupSubject = groupSubject;
+        _this240.refCountSubscription = refCountSubscription;
+        return _this240;
       }
 
       _createClass2(GroupedObservable, [{
@@ -113908,14 +116195,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(InnerRefCountSubscription, _Subscription__WEBPAC3);
 
       function InnerRefCountSubscription(parent) {
-        var _this228;
+        var _this241;
 
         _classCallCheck(this, InnerRefCountSubscription);
 
-        _this228 = _possibleConstructorReturn(this, _getPrototypeOf(InnerRefCountSubscription).call(this));
-        _this228.parent = parent;
+        _this241 = _possibleConstructorReturn(this, _getPrototypeOf(InnerRefCountSubscription).call(this));
+        _this241.parent = parent;
         parent.count++;
-        return _this228;
+        return _this241;
       }
 
       _createClass2(InnerRefCountSubscription, [{
@@ -113936,7 +116223,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return InnerRefCountSubscription;
-    }(_Subscription__WEBPACK_IMPORTED_MODULE_1__["Subscription"]);
+    }(_Subscription__WEBPACK_IMPORTED_MODULE_1__["Subscription"]); //# sourceMappingURL=groupBy.js.map
+
     /***/
 
   },
@@ -114007,7 +116295,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return IgnoreElementsSubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=ignoreElements.js.map
+
     /***/
 
   },
@@ -114092,7 +116381,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return IsEmptySubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=isEmpty.js.map
+
     /***/
 
   },
@@ -114162,7 +116452,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           return new _util_EmptyError__WEBPACK_IMPORTED_MODULE_0__["EmptyError"]();
         }));
       };
-    }
+    } //# sourceMappingURL=last.js.map
+
     /***/
 
   },
@@ -114235,15 +116526,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(MapSubscriber, _Subscriber__WEBPACK_24);
 
       function MapSubscriber(destination, project, thisArg) {
-        var _this229;
+        var _this242;
 
         _classCallCheck(this, MapSubscriber);
 
-        _this229 = _possibleConstructorReturn(this, _getPrototypeOf(MapSubscriber).call(this, destination));
-        _this229.project = project;
-        _this229.count = 0;
-        _this229.thisArg = thisArg || _assertThisInitialized(_this229);
-        return _this229;
+        _this242 = _possibleConstructorReturn(this, _getPrototypeOf(MapSubscriber).call(this, destination));
+        _this242.project = project;
+        _this242.count = 0;
+        _this242.thisArg = thisArg || _assertThisInitialized(_this242);
+        return _this242;
       }
 
       _createClass2(MapSubscriber, [{
@@ -114263,7 +116554,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return MapSubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=map.js.map
+
     /***/
 
   },
@@ -114325,13 +116617,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(MapToSubscriber, _Subscriber__WEBPACK_25);
 
       function MapToSubscriber(destination, value) {
-        var _this230;
+        var _this243;
 
         _classCallCheck(this, MapToSubscriber);
 
-        _this230 = _possibleConstructorReturn(this, _getPrototypeOf(MapToSubscriber).call(this, destination));
-        _this230.value = value;
-        return _this230;
+        _this243 = _possibleConstructorReturn(this, _getPrototypeOf(MapToSubscriber).call(this, destination));
+        _this243.value = value;
+        return _this243;
       }
 
       _createClass2(MapToSubscriber, [{
@@ -114342,7 +116634,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return MapToSubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=mapTo.js.map
+
     /***/
 
   },
@@ -114435,7 +116728,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return MaterializeSubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=materialize.js.map
+
     /***/
 
   },
@@ -114473,7 +116767,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         return x > y ? x : y;
       };
       return Object(_reduce__WEBPACK_IMPORTED_MODULE_0__["reduce"])(max);
-    }
+    } //# sourceMappingURL=max.js.map
+
     /***/
 
   },
@@ -114505,14 +116800,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     "./node_modules/rxjs/_esm2015/internal/observable/merge.js");
 
     function merge() {
-      for (var _len35 = arguments.length, observables = new Array(_len35), _key33 = 0; _key33 < _len35; _key33++) {
-        observables[_key33] = arguments[_key33];
+      for (var _len36 = arguments.length, observables = new Array(_len36), _key34 = 0; _key34 < _len36; _key34++) {
+        observables[_key34] = arguments[_key34];
       }
 
       return function (source) {
         return source.lift.call(Object(_observable_merge__WEBPACK_IMPORTED_MODULE_0__["merge"]).apply(void 0, [source].concat(observables)));
       };
-    }
+    } //# sourceMappingURL=merge.js.map
+
     /***/
 
   },
@@ -114552,7 +116848,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     function mergeAll() {
       var concurrent = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : Number.POSITIVE_INFINITY;
       return Object(_mergeMap__WEBPACK_IMPORTED_MODULE_0__["mergeMap"])(_util_identity__WEBPACK_IMPORTED_MODULE_1__["identity"], concurrent);
-    }
+    } //# sourceMappingURL=mergeAll.js.map
+
     /***/
 
   },
@@ -114667,20 +116964,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(MergeMapSubscriber, _OuterSubscriber__WEB16);
 
       function MergeMapSubscriber(destination, project) {
-        var _this231;
+        var _this244;
 
         var concurrent = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : Number.POSITIVE_INFINITY;
 
         _classCallCheck(this, MergeMapSubscriber);
 
-        _this231 = _possibleConstructorReturn(this, _getPrototypeOf(MergeMapSubscriber).call(this, destination));
-        _this231.project = project;
-        _this231.concurrent = concurrent;
-        _this231.hasCompleted = false;
-        _this231.buffer = [];
-        _this231.active = 0;
-        _this231.index = 0;
-        return _this231;
+        _this244 = _possibleConstructorReturn(this, _getPrototypeOf(MergeMapSubscriber).call(this, destination));
+        _this244.project = project;
+        _this244.concurrent = concurrent;
+        _this244.hasCompleted = false;
+        _this244.buffer = [];
+        _this244.active = 0;
+        _this244.index = 0;
+        return _this244;
       }
 
       _createClass2(MergeMapSubscriber, [{
@@ -114749,7 +117046,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return MergeMapSubscriber;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_1__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_1__["OuterSubscriber"]); //# sourceMappingURL=mergeMap.js.map
+
     /***/
 
   },
@@ -114796,7 +117094,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return Object(_mergeMap__WEBPACK_IMPORTED_MODULE_0__["mergeMap"])(function () {
         return innerObservable;
       }, concurrent);
-    }
+    } //# sourceMappingURL=mergeMapTo.js.map
+
     /***/
 
   },
@@ -114885,20 +117184,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(MergeScanSubscriber, _OuterSubscriber__WEB17);
 
       function MergeScanSubscriber(destination, accumulator, acc, concurrent) {
-        var _this232;
+        var _this245;
 
         _classCallCheck(this, MergeScanSubscriber);
 
-        _this232 = _possibleConstructorReturn(this, _getPrototypeOf(MergeScanSubscriber).call(this, destination));
-        _this232.accumulator = accumulator;
-        _this232.acc = acc;
-        _this232.concurrent = concurrent;
-        _this232.hasValue = false;
-        _this232.hasCompleted = false;
-        _this232.buffer = [];
-        _this232.active = 0;
-        _this232.index = 0;
-        return _this232;
+        _this245 = _possibleConstructorReturn(this, _getPrototypeOf(MergeScanSubscriber).call(this, destination));
+        _this245.accumulator = accumulator;
+        _this245.acc = acc;
+        _this245.concurrent = concurrent;
+        _this245.hasValue = false;
+        _this245.hasCompleted = false;
+        _this245.buffer = [];
+        _this245.active = 0;
+        _this245.index = 0;
+        return _this245;
       }
 
       _createClass2(MergeScanSubscriber, [{
@@ -114975,7 +117274,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return MergeScanSubscriber;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_1__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_1__["OuterSubscriber"]); //# sourceMappingURL=mergeScan.js.map
+
     /***/
 
   },
@@ -115013,7 +117313,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         return x < y ? x : y;
       };
       return Object(_reduce__WEBPACK_IMPORTED_MODULE_0__["reduce"])(min);
-    }
+    } //# sourceMappingURL=min.js.map
+
     /***/
 
   },
@@ -115095,7 +117396,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return MulticastOperator;
-    }();
+    }(); //# sourceMappingURL=multicast.js.map
+
     /***/
 
   },
@@ -115185,16 +117487,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(ObserveOnSubscriber, _Subscriber__WEBPACK_27);
 
       function ObserveOnSubscriber(destination, scheduler) {
-        var _this233;
+        var _this246;
 
         var delay = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 0;
 
         _classCallCheck(this, ObserveOnSubscriber);
 
-        _this233 = _possibleConstructorReturn(this, _getPrototypeOf(ObserveOnSubscriber).call(this, destination));
-        _this233.scheduler = scheduler;
-        _this233.delay = delay;
-        return _this233;
+        _this246 = _possibleConstructorReturn(this, _getPrototypeOf(ObserveOnSubscriber).call(this, destination));
+        _this246.scheduler = scheduler;
+        _this246.delay = delay;
+        return _this246;
       }
 
       _createClass2(ObserveOnSubscriber, [{
@@ -115238,7 +117540,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
       this.notification = notification;
       this.destination = destination;
-    };
+    }; //# sourceMappingURL=observeOn.js.map
+
     /***/
 
   },
@@ -115300,8 +117603,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     "./node_modules/rxjs/_esm2015/internal/util/subscribeToResult.js");
 
     function onErrorResumeNext() {
-      for (var _len36 = arguments.length, nextSources = new Array(_len36), _key34 = 0; _key34 < _len36; _key34++) {
-        nextSources[_key34] = arguments[_key34];
+      for (var _len37 = arguments.length, nextSources = new Array(_len37), _key35 = 0; _key35 < _len37; _key35++) {
+        nextSources[_key35] = arguments[_key35];
       }
 
       if (nextSources.length === 1 && Object(_util_isArray__WEBPACK_IMPORTED_MODULE_1__["isArray"])(nextSources[0])) {
@@ -115314,8 +117617,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }
 
     function onErrorResumeNextStatic() {
-      for (var _len37 = arguments.length, nextSources = new Array(_len37), _key35 = 0; _key35 < _len37; _key35++) {
-        nextSources[_key35] = arguments[_key35];
+      for (var _len38 = arguments.length, nextSources = new Array(_len38), _key36 = 0; _key36 < _len38; _key36++) {
+        nextSources[_key36] = arguments[_key36];
       }
 
       var source = null;
@@ -115353,14 +117656,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(OnErrorResumeNextSubscriber, _OuterSubscriber__WEB18);
 
       function OnErrorResumeNextSubscriber(destination, nextSources) {
-        var _this234;
+        var _this247;
 
         _classCallCheck(this, OnErrorResumeNextSubscriber);
 
-        _this234 = _possibleConstructorReturn(this, _getPrototypeOf(OnErrorResumeNextSubscriber).call(this, destination));
-        _this234.destination = destination;
-        _this234.nextSources = nextSources;
-        return _this234;
+        _this247 = _possibleConstructorReturn(this, _getPrototypeOf(OnErrorResumeNextSubscriber).call(this, destination));
+        _this247.destination = destination;
+        _this247.nextSources = nextSources;
+        return _this247;
       }
 
       _createClass2(OnErrorResumeNextSubscriber, [{
@@ -115402,7 +117705,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return OnErrorResumeNextSubscriber;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_2__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_2__["OuterSubscriber"]); //# sourceMappingURL=onErrorResumeNext.js.map
+
     /***/
 
   },
@@ -115462,13 +117766,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(PairwiseSubscriber, _Subscriber__WEBPACK_28);
 
       function PairwiseSubscriber(destination) {
-        var _this235;
+        var _this248;
 
         _classCallCheck(this, PairwiseSubscriber);
 
-        _this235 = _possibleConstructorReturn(this, _getPrototypeOf(PairwiseSubscriber).call(this, destination));
-        _this235.hasPrev = false;
-        return _this235;
+        _this248 = _possibleConstructorReturn(this, _getPrototypeOf(PairwiseSubscriber).call(this, destination));
+        _this248.hasPrev = false;
+        return _this248;
       }
 
       _createClass2(PairwiseSubscriber, [{
@@ -115485,7 +117789,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return PairwiseSubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=pairwise.js.map
+
     /***/
 
   },
@@ -115526,7 +117831,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return function (source) {
         return [Object(_filter__WEBPACK_IMPORTED_MODULE_1__["filter"])(predicate, thisArg)(source), Object(_filter__WEBPACK_IMPORTED_MODULE_1__["filter"])(Object(_util_not__WEBPACK_IMPORTED_MODULE_0__["not"])(predicate, thisArg))(source)];
       };
-    }
+    } //# sourceMappingURL=partition.js.map
+
     /***/
 
   },
@@ -115558,8 +117864,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     "./node_modules/rxjs/_esm2015/internal/operators/map.js");
 
     function pluck() {
-      for (var _len38 = arguments.length, properties = new Array(_len38), _key36 = 0; _key36 < _len38; _key36++) {
-        properties[_key36] = arguments[_key36];
+      for (var _len39 = arguments.length, properties = new Array(_len39), _key37 = 0; _key37 < _len39; _key37++) {
+        properties[_key37] = arguments[_key37];
       }
 
       var length = properties.length;
@@ -115591,7 +117897,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
 
       return mapper;
-    }
+    } //# sourceMappingURL=pluck.js.map
+
     /***/
 
   },
@@ -115632,7 +117939,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return selector ? Object(_multicast__WEBPACK_IMPORTED_MODULE_1__["multicast"])(function () {
         return new _Subject__WEBPACK_IMPORTED_MODULE_0__["Subject"]();
       }, selector) : Object(_multicast__WEBPACK_IMPORTED_MODULE_1__["multicast"])(new _Subject__WEBPACK_IMPORTED_MODULE_0__["Subject"]());
-    }
+    } //# sourceMappingURL=publish.js.map
+
     /***/
 
   },
@@ -115673,7 +117981,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return function (source) {
         return Object(_multicast__WEBPACK_IMPORTED_MODULE_1__["multicast"])(new _BehaviorSubject__WEBPACK_IMPORTED_MODULE_0__["BehaviorSubject"](value))(source);
       };
-    }
+    } //# sourceMappingURL=publishBehavior.js.map
+
     /***/
 
   },
@@ -115714,7 +118023,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return function (source) {
         return Object(_multicast__WEBPACK_IMPORTED_MODULE_1__["multicast"])(new _AsyncSubject__WEBPACK_IMPORTED_MODULE_0__["AsyncSubject"]())(source);
       };
-    }
+    } //# sourceMappingURL=publishLast.js.map
+
     /***/
 
   },
@@ -115763,7 +118073,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           return subject;
         }, selector)(source);
       };
-    }
+    } //# sourceMappingURL=publishReplay.js.map
+
     /***/
 
   },
@@ -115801,8 +118112,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     "./node_modules/rxjs/_esm2015/internal/observable/race.js");
 
     function race() {
-      for (var _len39 = arguments.length, observables = new Array(_len39), _key37 = 0; _key37 < _len39; _key37++) {
-        observables[_key37] = arguments[_key37];
+      for (var _len40 = arguments.length, observables = new Array(_len40), _key38 = 0; _key38 < _len40; _key38++) {
+        observables[_key38] = arguments[_key38];
       }
 
       return function raceOperatorFunction(source) {
@@ -115812,7 +118123,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         return source.lift.call(Object(_observable_race__WEBPACK_IMPORTED_MODULE_1__["race"]).apply(void 0, [source].concat(_toConsumableArray(observables))));
       };
-    }
+    } //# sourceMappingURL=race.js.map
+
     /***/
 
   },
@@ -115873,7 +118185,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           return accumulator(acc, value, index + 1);
         }), Object(_takeLast__WEBPACK_IMPORTED_MODULE_1__["takeLast"])(1))(source);
       };
-    }
+    } //# sourceMappingURL=reduce.js.map
+
     /***/
 
   },
@@ -115944,13 +118257,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(RefCountSubscriber, _Subscriber__WEBPACK_29);
 
       function RefCountSubscriber(destination, connectable) {
-        var _this236;
+        var _this249;
 
         _classCallCheck(this, RefCountSubscriber);
 
-        _this236 = _possibleConstructorReturn(this, _getPrototypeOf(RefCountSubscriber).call(this, destination));
-        _this236.connectable = connectable;
-        return _this236;
+        _this249 = _possibleConstructorReturn(this, _getPrototypeOf(RefCountSubscriber).call(this, destination));
+        _this249.connectable = connectable;
+        return _this249;
       }
 
       _createClass2(RefCountSubscriber, [{
@@ -115989,7 +118302,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return RefCountSubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=refCount.js.map
+
     /***/
 
   },
@@ -116065,14 +118379,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(RepeatSubscriber, _Subscriber__WEBPACK_30);
 
       function RepeatSubscriber(destination, count, source) {
-        var _this237;
+        var _this250;
 
         _classCallCheck(this, RepeatSubscriber);
 
-        _this237 = _possibleConstructorReturn(this, _getPrototypeOf(RepeatSubscriber).call(this, destination));
-        _this237.count = count;
-        _this237.source = source;
-        return _this237;
+        _this250 = _possibleConstructorReturn(this, _getPrototypeOf(RepeatSubscriber).call(this, destination));
+        _this250.count = count;
+        _this250.source = source;
+        return _this250;
       }
 
       _createClass2(RepeatSubscriber, [{
@@ -116094,7 +118408,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return RepeatSubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=repeat.js.map
+
     /***/
 
   },
@@ -116168,15 +118483,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(RepeatWhenSubscriber, _OuterSubscriber__WEB19);
 
       function RepeatWhenSubscriber(destination, notifier, source) {
-        var _this238;
+        var _this251;
 
         _classCallCheck(this, RepeatWhenSubscriber);
 
-        _this238 = _possibleConstructorReturn(this, _getPrototypeOf(RepeatWhenSubscriber).call(this, destination));
-        _this238.notifier = notifier;
-        _this238.source = source;
-        _this238.sourceIsBeingSubscribedTo = true;
-        return _this238;
+        _this251 = _possibleConstructorReturn(this, _getPrototypeOf(RepeatWhenSubscriber).call(this, destination));
+        _this251.notifier = notifier;
+        _this251.source = source;
+        _this251.sourceIsBeingSubscribedTo = true;
+        return _this251;
       }
 
       _createClass2(RepeatWhenSubscriber, [{
@@ -116259,7 +118574,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return RepeatWhenSubscriber;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_1__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_1__["OuterSubscriber"]); //# sourceMappingURL=repeatWhen.js.map
+
     /***/
 
   },
@@ -116323,14 +118639,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(RetrySubscriber, _Subscriber__WEBPACK_31);
 
       function RetrySubscriber(destination, count, source) {
-        var _this239;
+        var _this252;
 
         _classCallCheck(this, RetrySubscriber);
 
-        _this239 = _possibleConstructorReturn(this, _getPrototypeOf(RetrySubscriber).call(this, destination));
-        _this239.count = count;
-        _this239.source = source;
-        return _this239;
+        _this252 = _possibleConstructorReturn(this, _getPrototypeOf(RetrySubscriber).call(this, destination));
+        _this252.count = count;
+        _this252.source = source;
+        return _this252;
       }
 
       _createClass2(RetrySubscriber, [{
@@ -116352,7 +118668,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return RetrySubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=retry.js.map
+
     /***/
 
   },
@@ -116427,14 +118744,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(RetryWhenSubscriber, _OuterSubscriber__WEB20);
 
       function RetryWhenSubscriber(destination, notifier, source) {
-        var _this240;
+        var _this253;
 
         _classCallCheck(this, RetryWhenSubscriber);
 
-        _this240 = _possibleConstructorReturn(this, _getPrototypeOf(RetryWhenSubscriber).call(this, destination));
-        _this240.notifier = notifier;
-        _this240.source = source;
-        return _this240;
+        _this253 = _possibleConstructorReturn(this, _getPrototypeOf(RetryWhenSubscriber).call(this, destination));
+        _this253.notifier = notifier;
+        _this253.source = source;
+        return _this253;
       }
 
       _createClass2(RetryWhenSubscriber, [{
@@ -116501,7 +118818,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return RetryWhenSubscriber;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_1__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_1__["OuterSubscriber"]); //# sourceMappingURL=retryWhen.js.map
+
     /***/
 
   },
@@ -116572,13 +118890,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(SampleSubscriber, _OuterSubscriber__WEB21);
 
       function SampleSubscriber() {
-        var _this241;
+        var _this254;
 
         _classCallCheck(this, SampleSubscriber);
 
-        _this241 = _possibleConstructorReturn(this, _getPrototypeOf(SampleSubscriber).apply(this, arguments));
-        _this241.hasValue = false;
-        return _this241;
+        _this254 = _possibleConstructorReturn(this, _getPrototypeOf(SampleSubscriber).apply(this, arguments));
+        _this254.hasValue = false;
+        return _this254;
       }
 
       _createClass2(SampleSubscriber, [{
@@ -116608,7 +118926,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return SampleSubscriber;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["OuterSubscriber"]); //# sourceMappingURL=sample.js.map
+
     /***/
 
   },
@@ -116678,21 +118997,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(SampleTimeSubscriber, _Subscriber__WEBPACK_32);
 
       function SampleTimeSubscriber(destination, period, scheduler) {
-        var _this242;
+        var _this255;
 
         _classCallCheck(this, SampleTimeSubscriber);
 
-        _this242 = _possibleConstructorReturn(this, _getPrototypeOf(SampleTimeSubscriber).call(this, destination));
-        _this242.period = period;
-        _this242.scheduler = scheduler;
-        _this242.hasValue = false;
+        _this255 = _possibleConstructorReturn(this, _getPrototypeOf(SampleTimeSubscriber).call(this, destination));
+        _this255.period = period;
+        _this255.scheduler = scheduler;
+        _this255.hasValue = false;
 
-        _this242.add(scheduler.schedule(dispatchNotification, period, {
-          subscriber: _assertThisInitialized(_this242),
+        _this255.add(scheduler.schedule(dispatchNotification, period, {
+          subscriber: _assertThisInitialized(_this255),
           period: period
         }));
 
-        return _this242;
+        return _this255;
       }
 
       _createClass2(SampleTimeSubscriber, [{
@@ -116719,7 +119038,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           period = state.period;
       subscriber.notifyNext();
       this.schedule(state, period);
-    }
+    } //# sourceMappingURL=sampleTime.js.map
+
     /***/
 
   },
@@ -116791,16 +119111,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(ScanSubscriber, _Subscriber__WEBPACK_33);
 
       function ScanSubscriber(destination, accumulator, _seed, hasSeed) {
-        var _this243;
+        var _this256;
 
         _classCallCheck(this, ScanSubscriber);
 
-        _this243 = _possibleConstructorReturn(this, _getPrototypeOf(ScanSubscriber).call(this, destination));
-        _this243.accumulator = accumulator;
-        _this243._seed = _seed;
-        _this243.hasSeed = hasSeed;
-        _this243.index = 0;
-        return _this243;
+        _this256 = _possibleConstructorReturn(this, _getPrototypeOf(ScanSubscriber).call(this, destination));
+        _this256.accumulator = accumulator;
+        _this256._seed = _seed;
+        _this256.hasSeed = hasSeed;
+        _this256.index = 0;
+        return _this256;
       }
 
       _createClass2(ScanSubscriber, [{
@@ -116840,7 +119160,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return ScanSubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=scan.js.map
+
     /***/
 
   },
@@ -116915,20 +119236,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(SequenceEqualSubscriber, _Subscriber__WEBPACK_34);
 
       function SequenceEqualSubscriber(destination, compareTo, comparator) {
-        var _this244;
+        var _this257;
 
         _classCallCheck(this, SequenceEqualSubscriber);
 
-        _this244 = _possibleConstructorReturn(this, _getPrototypeOf(SequenceEqualSubscriber).call(this, destination));
-        _this244.compareTo = compareTo;
-        _this244.comparator = comparator;
-        _this244._a = [];
-        _this244._b = [];
-        _this244._oneComplete = false;
+        _this257 = _possibleConstructorReturn(this, _getPrototypeOf(SequenceEqualSubscriber).call(this, destination));
+        _this257.compareTo = compareTo;
+        _this257.comparator = comparator;
+        _this257._a = [];
+        _this257._b = [];
+        _this257._oneComplete = false;
 
-        _this244.destination.add(compareTo.subscribe(new SequenceEqualCompareToSubscriber(destination, _assertThisInitialized(_this244))));
+        _this257.destination.add(compareTo.subscribe(new SequenceEqualCompareToSubscriber(destination, _assertThisInitialized(_this257))));
 
-        return _this244;
+        return _this257;
       }
 
       _createClass2(SequenceEqualSubscriber, [{
@@ -117016,13 +119337,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(SequenceEqualCompareToSubscriber, _Subscriber__WEBPACK_35);
 
       function SequenceEqualCompareToSubscriber(destination, parent) {
-        var _this245;
+        var _this258;
 
         _classCallCheck(this, SequenceEqualCompareToSubscriber);
 
-        _this245 = _possibleConstructorReturn(this, _getPrototypeOf(SequenceEqualCompareToSubscriber).call(this, destination));
-        _this245.parent = parent;
-        return _this245;
+        _this258 = _possibleConstructorReturn(this, _getPrototypeOf(SequenceEqualCompareToSubscriber).call(this, destination));
+        _this258.parent = parent;
+        return _this258;
       }
 
       _createClass2(SequenceEqualCompareToSubscriber, [{
@@ -117045,7 +119366,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return SequenceEqualCompareToSubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=sequenceEqual.js.map
+
     /***/
 
   },
@@ -117096,7 +119418,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return function (source) {
         return Object(_refCount__WEBPACK_IMPORTED_MODULE_1__["refCount"])()(Object(_multicast__WEBPACK_IMPORTED_MODULE_0__["multicast"])(shareSubjectFactory)(source));
       };
-    }
+    } //# sourceMappingURL=share.js.map
+
     /***/
 
   },
@@ -117191,7 +119514,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           }
         });
       };
-    }
+    } //# sourceMappingURL=shareReplay.js.map
+
     /***/
 
   },
@@ -117260,16 +119584,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(SingleSubscriber, _Subscriber__WEBPACK_36);
 
       function SingleSubscriber(destination, predicate, source) {
-        var _this246;
+        var _this259;
 
         _classCallCheck(this, SingleSubscriber);
 
-        _this246 = _possibleConstructorReturn(this, _getPrototypeOf(SingleSubscriber).call(this, destination));
-        _this246.predicate = predicate;
-        _this246.source = source;
-        _this246.seenValue = false;
-        _this246.index = 0;
-        return _this246;
+        _this259 = _possibleConstructorReturn(this, _getPrototypeOf(SingleSubscriber).call(this, destination));
+        _this259.predicate = predicate;
+        _this259.source = source;
+        _this259.seenValue = false;
+        _this259.index = 0;
+        return _this259;
       }
 
       _createClass2(SingleSubscriber, [{
@@ -117319,7 +119643,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return SingleSubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=single.js.map
+
     /***/
 
   },
@@ -117381,14 +119706,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(SkipSubscriber, _Subscriber__WEBPACK_37);
 
       function SkipSubscriber(destination, total) {
-        var _this247;
+        var _this260;
 
         _classCallCheck(this, SkipSubscriber);
 
-        _this247 = _possibleConstructorReturn(this, _getPrototypeOf(SkipSubscriber).call(this, destination));
-        _this247.total = total;
-        _this247.count = 0;
-        return _this247;
+        _this260 = _possibleConstructorReturn(this, _getPrototypeOf(SkipSubscriber).call(this, destination));
+        _this260.total = total;
+        _this260.count = 0;
+        return _this260;
       }
 
       _createClass2(SkipSubscriber, [{
@@ -117401,7 +119726,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return SkipSubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=skip.js.map
+
     /***/
 
   },
@@ -117477,15 +119803,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(SkipLastSubscriber, _Subscriber__WEBPACK_38);
 
       function SkipLastSubscriber(destination, _skipCount) {
-        var _this248;
+        var _this261;
 
         _classCallCheck(this, SkipLastSubscriber);
 
-        _this248 = _possibleConstructorReturn(this, _getPrototypeOf(SkipLastSubscriber).call(this, destination));
-        _this248._skipCount = _skipCount;
-        _this248._count = 0;
-        _this248._ring = new Array(_skipCount);
-        return _this248;
+        _this261 = _possibleConstructorReturn(this, _getPrototypeOf(SkipLastSubscriber).call(this, destination));
+        _this261._skipCount = _skipCount;
+        _this261._count = 0;
+        _this261._ring = new Array(_skipCount);
+        return _this261;
       }
 
       _createClass2(SkipLastSubscriber, [{
@@ -117507,7 +119833,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return SkipLastSubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=skipLast.js.map
+
     /***/
 
   },
@@ -117581,19 +119908,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(SkipUntilSubscriber, _OuterSubscriber__WEB22);
 
       function SkipUntilSubscriber(destination, notifier) {
-        var _this249;
+        var _this262;
 
         _classCallCheck(this, SkipUntilSubscriber);
 
-        _this249 = _possibleConstructorReturn(this, _getPrototypeOf(SkipUntilSubscriber).call(this, destination));
-        _this249.hasValue = false;
-        var innerSubscriber = new _InnerSubscriber__WEBPACK_IMPORTED_MODULE_1__["InnerSubscriber"](_assertThisInitialized(_this249), undefined, undefined);
+        _this262 = _possibleConstructorReturn(this, _getPrototypeOf(SkipUntilSubscriber).call(this, destination));
+        _this262.hasValue = false;
+        var innerSubscriber = new _InnerSubscriber__WEBPACK_IMPORTED_MODULE_1__["InnerSubscriber"](_assertThisInitialized(_this262), undefined, undefined);
 
-        _this249.add(innerSubscriber);
+        _this262.add(innerSubscriber);
 
-        _this249.innerSubscription = innerSubscriber;
-        Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_2__["subscribeToResult"])(_assertThisInitialized(_this249), notifier, undefined, undefined, innerSubscriber);
-        return _this249;
+        _this262.innerSubscription = innerSubscriber;
+        Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_2__["subscribeToResult"])(_assertThisInitialized(_this262), notifier, undefined, undefined, innerSubscriber);
+        return _this262;
       }
 
       _createClass2(SkipUntilSubscriber, [{
@@ -117618,7 +119945,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return SkipUntilSubscriber;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["OuterSubscriber"]); //# sourceMappingURL=skipUntil.js.map
+
     /***/
 
   },
@@ -117680,15 +120008,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(SkipWhileSubscriber, _Subscriber__WEBPACK_39);
 
       function SkipWhileSubscriber(destination, predicate) {
-        var _this250;
+        var _this263;
 
         _classCallCheck(this, SkipWhileSubscriber);
 
-        _this250 = _possibleConstructorReturn(this, _getPrototypeOf(SkipWhileSubscriber).call(this, destination));
-        _this250.predicate = predicate;
-        _this250.skipping = true;
-        _this250.index = 0;
-        return _this250;
+        _this263 = _possibleConstructorReturn(this, _getPrototypeOf(SkipWhileSubscriber).call(this, destination));
+        _this263.predicate = predicate;
+        _this263.skipping = true;
+        _this263.index = 0;
+        return _this263;
       }
 
       _createClass2(SkipWhileSubscriber, [{
@@ -117717,7 +120045,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return SkipWhileSubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=skipWhile.js.map
+
     /***/
 
   },
@@ -117773,8 +120102,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     "./node_modules/rxjs/_esm2015/internal/util/isScheduler.js");
 
     function startWith() {
-      for (var _len40 = arguments.length, array = new Array(_len40), _key38 = 0; _key38 < _len40; _key38++) {
-        array[_key38] = arguments[_key38];
+      for (var _len41 = arguments.length, array = new Array(_len41), _key39 = 0; _key39 < _len41; _key39++) {
+        array[_key39] = arguments[_key39];
       }
 
       return function (source) {
@@ -117796,7 +120125,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           return Object(_observable_concat__WEBPACK_IMPORTED_MODULE_3__["concat"])(Object(_observable_empty__WEBPACK_IMPORTED_MODULE_2__["empty"])(scheduler), source);
         }
       };
-    }
+    } //# sourceMappingURL=startWith.js.map
+
     /***/
 
   },
@@ -117852,7 +120182,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return SubscribeOnOperator;
-    }();
+    }(); //# sourceMappingURL=subscribeOn.js.map
+
     /***/
 
   },
@@ -117891,7 +120222,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function switchAll() {
       return Object(_switchMap__WEBPACK_IMPORTED_MODULE_0__["switchMap"])(_util_identity__WEBPACK_IMPORTED_MODULE_1__["identity"]);
-    }
+    } //# sourceMappingURL=switchAll.js.map
+
     /***/
 
   },
@@ -117987,14 +120319,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(SwitchMapSubscriber, _OuterSubscriber__WEB23);
 
       function SwitchMapSubscriber(destination, project) {
-        var _this251;
+        var _this264;
 
         _classCallCheck(this, SwitchMapSubscriber);
 
-        _this251 = _possibleConstructorReturn(this, _getPrototypeOf(SwitchMapSubscriber).call(this, destination));
-        _this251.project = project;
-        _this251.index = 0;
-        return _this251;
+        _this264 = _possibleConstructorReturn(this, _getPrototypeOf(SwitchMapSubscriber).call(this, destination));
+        _this264.project = project;
+        _this264.index = 0;
+        return _this264;
       }
 
       _createClass2(SwitchMapSubscriber, [{
@@ -118061,7 +120393,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return SwitchMapSubscriber;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["OuterSubscriber"]); //# sourceMappingURL=switchMap.js.map
+
     /***/
 
   },
@@ -118098,7 +120431,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, resultSelector) : Object(_switchMap__WEBPACK_IMPORTED_MODULE_0__["switchMap"])(function () {
         return innerObservable;
       });
-    }
+    } //# sourceMappingURL=switchMapTo.js.map
+
     /***/
 
   },
@@ -118180,14 +120514,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(TakeSubscriber, _Subscriber__WEBPACK_40);
 
       function TakeSubscriber(destination, total) {
-        var _this252;
+        var _this265;
 
         _classCallCheck(this, TakeSubscriber);
 
-        _this252 = _possibleConstructorReturn(this, _getPrototypeOf(TakeSubscriber).call(this, destination));
-        _this252.total = total;
-        _this252.count = 0;
-        return _this252;
+        _this265 = _possibleConstructorReturn(this, _getPrototypeOf(TakeSubscriber).call(this, destination));
+        _this265.total = total;
+        _this265.count = 0;
+        return _this265;
       }
 
       _createClass2(TakeSubscriber, [{
@@ -118208,7 +120542,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return TakeSubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=take.js.map
+
     /***/
 
   },
@@ -118290,15 +120625,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(TakeLastSubscriber, _Subscriber__WEBPACK_41);
 
       function TakeLastSubscriber(destination, total) {
-        var _this253;
+        var _this266;
 
         _classCallCheck(this, TakeLastSubscriber);
 
-        _this253 = _possibleConstructorReturn(this, _getPrototypeOf(TakeLastSubscriber).call(this, destination));
-        _this253.total = total;
-        _this253.ring = new Array();
-        _this253.count = 0;
-        return _this253;
+        _this266 = _possibleConstructorReturn(this, _getPrototypeOf(TakeLastSubscriber).call(this, destination));
+        _this266.total = total;
+        _this266.ring = new Array();
+        _this266.count = 0;
+        return _this266;
       }
 
       _createClass2(TakeLastSubscriber, [{
@@ -118336,7 +120671,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return TakeLastSubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=takeLast.js.map
+
     /***/
 
   },
@@ -118412,13 +120748,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(TakeUntilSubscriber, _OuterSubscriber__WEB24);
 
       function TakeUntilSubscriber(destination) {
-        var _this254;
+        var _this267;
 
         _classCallCheck(this, TakeUntilSubscriber);
 
-        _this254 = _possibleConstructorReturn(this, _getPrototypeOf(TakeUntilSubscriber).call(this, destination));
-        _this254.seenValue = false;
-        return _this254;
+        _this267 = _possibleConstructorReturn(this, _getPrototypeOf(TakeUntilSubscriber).call(this, destination));
+        _this267.seenValue = false;
+        return _this267;
       }
 
       _createClass2(TakeUntilSubscriber, [{
@@ -118433,7 +120769,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return TakeUntilSubscriber;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["OuterSubscriber"]); //# sourceMappingURL=takeUntil.js.map
+
     /***/
 
   },
@@ -118497,15 +120834,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(TakeWhileSubscriber, _Subscriber__WEBPACK_42);
 
       function TakeWhileSubscriber(destination, predicate, inclusive) {
-        var _this255;
+        var _this268;
 
         _classCallCheck(this, TakeWhileSubscriber);
 
-        _this255 = _possibleConstructorReturn(this, _getPrototypeOf(TakeWhileSubscriber).call(this, destination));
-        _this255.predicate = predicate;
-        _this255.inclusive = inclusive;
-        _this255.index = 0;
-        return _this255;
+        _this268 = _possibleConstructorReturn(this, _getPrototypeOf(TakeWhileSubscriber).call(this, destination));
+        _this268.predicate = predicate;
+        _this268.inclusive = inclusive;
+        _this268.index = 0;
+        return _this268;
       }
 
       _createClass2(TakeWhileSubscriber, [{
@@ -118541,7 +120878,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return TakeWhileSubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=takeWhile.js.map
+
     /***/
 
   },
@@ -118617,28 +120955,28 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(TapSubscriber, _Subscriber__WEBPACK_43);
 
       function TapSubscriber(destination, observerOrNext, error, complete) {
-        var _this256;
+        var _this269;
 
         _classCallCheck(this, TapSubscriber);
 
-        _this256 = _possibleConstructorReturn(this, _getPrototypeOf(TapSubscriber).call(this, destination));
-        _this256._tapNext = _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
-        _this256._tapError = _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
-        _this256._tapComplete = _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
-        _this256._tapError = error || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
-        _this256._tapComplete = complete || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
+        _this269 = _possibleConstructorReturn(this, _getPrototypeOf(TapSubscriber).call(this, destination));
+        _this269._tapNext = _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
+        _this269._tapError = _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
+        _this269._tapComplete = _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
+        _this269._tapError = error || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
+        _this269._tapComplete = complete || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
 
         if (Object(_util_isFunction__WEBPACK_IMPORTED_MODULE_2__["isFunction"])(observerOrNext)) {
-          _this256._context = _assertThisInitialized(_this256);
-          _this256._tapNext = observerOrNext;
+          _this269._context = _assertThisInitialized(_this269);
+          _this269._tapNext = observerOrNext;
         } else if (observerOrNext) {
-          _this256._context = observerOrNext;
-          _this256._tapNext = observerOrNext.next || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
-          _this256._tapError = observerOrNext.error || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
-          _this256._tapComplete = observerOrNext.complete || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
+          _this269._context = observerOrNext;
+          _this269._tapNext = observerOrNext.next || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
+          _this269._tapError = observerOrNext.error || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
+          _this269._tapComplete = observerOrNext.complete || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
         }
 
-        return _this256;
+        return _this269;
       }
 
       _createClass2(TapSubscriber, [{
@@ -118680,7 +121018,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return TapSubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=tap.js.map
+
     /***/
 
   },
@@ -118762,17 +121101,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(ThrottleSubscriber, _OuterSubscriber__WEB25);
 
       function ThrottleSubscriber(destination, durationSelector, _leading, _trailing) {
-        var _this257;
+        var _this270;
 
         _classCallCheck(this, ThrottleSubscriber);
 
-        _this257 = _possibleConstructorReturn(this, _getPrototypeOf(ThrottleSubscriber).call(this, destination));
-        _this257.destination = destination;
-        _this257.durationSelector = durationSelector;
-        _this257._leading = _leading;
-        _this257._trailing = _trailing;
-        _this257._hasValue = false;
-        return _this257;
+        _this270 = _possibleConstructorReturn(this, _getPrototypeOf(ThrottleSubscriber).call(this, destination));
+        _this270.destination = destination;
+        _this270.durationSelector = durationSelector;
+        _this270._leading = _leading;
+        _this270._trailing = _trailing;
+        _this270._hasValue = false;
+        return _this270;
       }
 
       _createClass2(ThrottleSubscriber, [{
@@ -118851,7 +121190,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return ThrottleSubscriber;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["OuterSubscriber"]); //# sourceMappingURL=throttle.js.map
+
     /***/
 
   },
@@ -118930,18 +121270,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(ThrottleTimeSubscriber, _Subscriber__WEBPACK_44);
 
       function ThrottleTimeSubscriber(destination, duration, scheduler, leading, trailing) {
-        var _this258;
+        var _this271;
 
         _classCallCheck(this, ThrottleTimeSubscriber);
 
-        _this258 = _possibleConstructorReturn(this, _getPrototypeOf(ThrottleTimeSubscriber).call(this, destination));
-        _this258.duration = duration;
-        _this258.scheduler = scheduler;
-        _this258.leading = leading;
-        _this258.trailing = trailing;
-        _this258._hasTrailingValue = false;
-        _this258._trailingValue = null;
-        return _this258;
+        _this271 = _possibleConstructorReturn(this, _getPrototypeOf(ThrottleTimeSubscriber).call(this, destination));
+        _this271.duration = duration;
+        _this271.scheduler = scheduler;
+        _this271.leading = leading;
+        _this271.trailing = trailing;
+        _this271._hasTrailingValue = false;
+        _this271._trailingValue = null;
+        return _this271;
       }
 
       _createClass2(ThrottleTimeSubscriber, [{
@@ -118997,7 +121337,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     function dispatchNext(arg) {
       var subscriber = arg.subscriber;
       subscriber.clearThrottle();
-    }
+    } //# sourceMappingURL=throttleTime.js.map
+
     /***/
 
   },
@@ -119051,7 +121392,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function defaultErrorFactory() {
       return new _util_EmptyError__WEBPACK_IMPORTED_MODULE_1__["EmptyError"]();
-    }
+    } //# sourceMappingURL=throwIfEmpty.js.map
+
     /***/
 
   },
@@ -119136,7 +121478,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
       this.value = value;
       this.interval = interval;
-    };
+    }; //# sourceMappingURL=timeInterval.js.map
+
     /***/
 
   },
@@ -119188,7 +121531,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     function timeout(due) {
       var scheduler = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : _scheduler_async__WEBPACK_IMPORTED_MODULE_0__["async"];
       return Object(_timeoutWith__WEBPACK_IMPORTED_MODULE_2__["timeoutWith"])(due, Object(_observable_throwError__WEBPACK_IMPORTED_MODULE_3__["throwError"])(new _util_TimeoutError__WEBPACK_IMPORTED_MODULE_1__["TimeoutError"]()), scheduler);
-    }
+    } //# sourceMappingURL=timeout.js.map
+
     /***/
 
   },
@@ -119274,20 +121618,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(TimeoutWithSubscriber, _OuterSubscriber__WEB26);
 
       function TimeoutWithSubscriber(destination, absoluteTimeout, waitFor, withObservable, scheduler) {
-        var _this259;
+        var _this272;
 
         _classCallCheck(this, TimeoutWithSubscriber);
 
-        _this259 = _possibleConstructorReturn(this, _getPrototypeOf(TimeoutWithSubscriber).call(this, destination));
-        _this259.absoluteTimeout = absoluteTimeout;
-        _this259.waitFor = waitFor;
-        _this259.withObservable = withObservable;
-        _this259.scheduler = scheduler;
-        _this259.action = null;
+        _this272 = _possibleConstructorReturn(this, _getPrototypeOf(TimeoutWithSubscriber).call(this, destination));
+        _this272.absoluteTimeout = absoluteTimeout;
+        _this272.waitFor = waitFor;
+        _this272.withObservable = withObservable;
+        _this272.scheduler = scheduler;
+        _this272.action = null;
 
-        _this259.scheduleTimeout();
+        _this272.scheduleTimeout();
 
-        return _this259;
+        return _this272;
       }
 
       _createClass2(TimeoutWithSubscriber, [{
@@ -119329,7 +121673,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return TimeoutWithSubscriber;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_2__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_2__["OuterSubscriber"]); //# sourceMappingURL=timeoutWith.js.map
+
     /***/
 
   },
@@ -119384,7 +121729,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
       this.value = value;
       this.timestamp = timestamp;
-    };
+    }; //# sourceMappingURL=timestamp.js.map
+
     /***/
 
   },
@@ -119426,7 +121772,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function toArray() {
       return Object(_reduce__WEBPACK_IMPORTED_MODULE_0__["reduce"])(toArrayReducer, []);
-    }
+    } //# sourceMappingURL=toArray.js.map
+
     /***/
 
   },
@@ -119507,14 +121854,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(WindowSubscriber, _OuterSubscriber__WEB27);
 
       function WindowSubscriber(destination) {
-        var _this260;
+        var _this273;
 
         _classCallCheck(this, WindowSubscriber);
 
-        _this260 = _possibleConstructorReturn(this, _getPrototypeOf(WindowSubscriber).call(this, destination));
-        _this260.window = new _Subject__WEBPACK_IMPORTED_MODULE_0__["Subject"]();
-        destination.next(_this260.window);
-        return _this260;
+        _this273 = _possibleConstructorReturn(this, _getPrototypeOf(WindowSubscriber).call(this, destination));
+        _this273.window = new _Subject__WEBPACK_IMPORTED_MODULE_0__["Subject"]();
+        destination.next(_this273.window);
+        return _this273;
       }
 
       _createClass2(WindowSubscriber, [{
@@ -119570,7 +121917,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return WindowSubscriber;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_1__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_1__["OuterSubscriber"]); //# sourceMappingURL=window.js.map
+
     /***/
 
   },
@@ -119640,18 +121988,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(WindowCountSubscriber, _Subscriber__WEBPACK_45);
 
       function WindowCountSubscriber(destination, windowSize, startWindowEvery) {
-        var _this261;
+        var _this274;
 
         _classCallCheck(this, WindowCountSubscriber);
 
-        _this261 = _possibleConstructorReturn(this, _getPrototypeOf(WindowCountSubscriber).call(this, destination));
-        _this261.destination = destination;
-        _this261.windowSize = windowSize;
-        _this261.startWindowEvery = startWindowEvery;
-        _this261.windows = [new _Subject__WEBPACK_IMPORTED_MODULE_1__["Subject"]()];
-        _this261.count = 0;
-        destination.next(_this261.windows[0]);
-        return _this261;
+        _this274 = _possibleConstructorReturn(this, _getPrototypeOf(WindowCountSubscriber).call(this, destination));
+        _this274.destination = destination;
+        _this274.windowSize = windowSize;
+        _this274.startWindowEvery = startWindowEvery;
+        _this274.windows = [new _Subject__WEBPACK_IMPORTED_MODULE_1__["Subject"]()];
+        _this274.count = 0;
+        destination.next(_this274.windows[0]);
+        return _this274;
       }
 
       _createClass2(WindowCountSubscriber, [{
@@ -119715,7 +122063,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return WindowCountSubscriber;
-    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
+    }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]); //# sourceMappingURL=windowCount.js.map
+
     /***/
 
   },
@@ -119824,13 +122173,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(CountedSubject, _Subject__WEBPACK_IMP5);
 
       function CountedSubject() {
-        var _this262;
+        var _this275;
 
         _classCallCheck(this, CountedSubject);
 
-        _this262 = _possibleConstructorReturn(this, _getPrototypeOf(CountedSubject).apply(this, arguments));
-        _this262._numberOfNextedValues = 0;
-        return _this262;
+        _this275 = _possibleConstructorReturn(this, _getPrototypeOf(CountedSubject).apply(this, arguments));
+        _this275._numberOfNextedValues = 0;
+        return _this275;
       }
 
       _createClass2(CountedSubject, [{
@@ -119856,47 +122205,47 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(WindowTimeSubscriber, _Subscriber__WEBPACK_46);
 
       function WindowTimeSubscriber(destination, windowTimeSpan, windowCreationInterval, maxWindowSize, scheduler) {
-        var _this263;
+        var _this276;
 
         _classCallCheck(this, WindowTimeSubscriber);
 
-        _this263 = _possibleConstructorReturn(this, _getPrototypeOf(WindowTimeSubscriber).call(this, destination));
-        _this263.destination = destination;
-        _this263.windowTimeSpan = windowTimeSpan;
-        _this263.windowCreationInterval = windowCreationInterval;
-        _this263.maxWindowSize = maxWindowSize;
-        _this263.scheduler = scheduler;
-        _this263.windows = [];
+        _this276 = _possibleConstructorReturn(this, _getPrototypeOf(WindowTimeSubscriber).call(this, destination));
+        _this276.destination = destination;
+        _this276.windowTimeSpan = windowTimeSpan;
+        _this276.windowCreationInterval = windowCreationInterval;
+        _this276.maxWindowSize = maxWindowSize;
+        _this276.scheduler = scheduler;
+        _this276.windows = [];
 
-        var window = _this263.openWindow();
+        var window = _this276.openWindow();
 
         if (windowCreationInterval !== null && windowCreationInterval >= 0) {
           var closeState = {
-            subscriber: _assertThisInitialized(_this263),
+            subscriber: _assertThisInitialized(_this276),
             window: window,
             context: null
           };
           var creationState = {
             windowTimeSpan: windowTimeSpan,
             windowCreationInterval: windowCreationInterval,
-            subscriber: _assertThisInitialized(_this263),
+            subscriber: _assertThisInitialized(_this276),
             scheduler: scheduler
           };
 
-          _this263.add(scheduler.schedule(dispatchWindowClose, windowTimeSpan, closeState));
+          _this276.add(scheduler.schedule(dispatchWindowClose, windowTimeSpan, closeState));
 
-          _this263.add(scheduler.schedule(dispatchWindowCreation, windowCreationInterval, creationState));
+          _this276.add(scheduler.schedule(dispatchWindowCreation, windowCreationInterval, creationState));
         } else {
           var timeSpanOnlyState = {
-            subscriber: _assertThisInitialized(_this263),
+            subscriber: _assertThisInitialized(_this276),
             window: window,
             windowTimeSpan: windowTimeSpan
           };
 
-          _this263.add(scheduler.schedule(dispatchWindowTimeSpanOnly, windowTimeSpan, timeSpanOnlyState));
+          _this276.add(scheduler.schedule(dispatchWindowTimeSpanOnly, windowTimeSpan, timeSpanOnlyState));
         }
 
-        return _this263;
+        return _this276;
       }
 
       _createClass2(WindowTimeSubscriber, [{
@@ -120008,7 +122357,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
 
       subscriber.closeWindow(window);
-    }
+    } //# sourceMappingURL=windowTime.js.map
+
     /***/
 
   },
@@ -120089,18 +122439,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(WindowToggleSubscriber, _OuterSubscriber__WEB28);
 
       function WindowToggleSubscriber(destination, openings, closingSelector) {
-        var _this264;
+        var _this277;
 
         _classCallCheck(this, WindowToggleSubscriber);
 
-        _this264 = _possibleConstructorReturn(this, _getPrototypeOf(WindowToggleSubscriber).call(this, destination));
-        _this264.openings = openings;
-        _this264.closingSelector = closingSelector;
-        _this264.contexts = [];
+        _this277 = _possibleConstructorReturn(this, _getPrototypeOf(WindowToggleSubscriber).call(this, destination));
+        _this277.openings = openings;
+        _this277.closingSelector = closingSelector;
+        _this277.contexts = [];
 
-        _this264.add(_this264.openSubscription = Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_3__["subscribeToResult"])(_assertThisInitialized(_this264), openings, openings));
+        _this277.add(_this277.openSubscription = Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_3__["subscribeToResult"])(_assertThisInitialized(_this277), openings, openings));
 
-        return _this264;
+        return _this277;
       }
 
       _createClass2(WindowToggleSubscriber, [{
@@ -120109,9 +122459,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           var contexts = this.contexts;
 
           if (contexts) {
-            var _len41 = contexts.length;
+            var _len42 = contexts.length;
 
-            for (var i = 0; i < _len41; i++) {
+            for (var i = 0; i < _len42; i++) {
               contexts[i].window.next(value);
             }
           }
@@ -120123,10 +122473,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           this.contexts = null;
 
           if (contexts) {
-            var _len42 = contexts.length;
+            var _len43 = contexts.length;
             var index = -1;
 
-            while (++index < _len42) {
+            while (++index < _len43) {
               var context = contexts[index];
               context.window.error(err);
               context.subscription.unsubscribe();
@@ -120142,10 +122492,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           this.contexts = null;
 
           if (contexts) {
-            var _len43 = contexts.length;
+            var _len44 = contexts.length;
             var index = -1;
 
-            while (++index < _len43) {
+            while (++index < _len44) {
               var context = contexts[index];
               context.window.complete();
               context.subscription.unsubscribe();
@@ -120161,10 +122511,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           this.contexts = null;
 
           if (contexts) {
-            var _len44 = contexts.length;
+            var _len45 = contexts.length;
             var index = -1;
 
-            while (++index < _len44) {
+            while (++index < _len45) {
               var context = contexts[index];
               context.window.unsubscribe();
               context.subscription.unsubscribe();
@@ -120236,7 +122586,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return WindowToggleSubscriber;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_2__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_2__["OuterSubscriber"]); //# sourceMappingURL=windowToggle.js.map
+
     /***/
 
   },
@@ -120310,17 +122661,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(WindowSubscriber, _OuterSubscriber__WEB29);
 
       function WindowSubscriber(destination, closingSelector) {
-        var _this265;
+        var _this278;
 
         _classCallCheck(this, WindowSubscriber);
 
-        _this265 = _possibleConstructorReturn(this, _getPrototypeOf(WindowSubscriber).call(this, destination));
-        _this265.destination = destination;
-        _this265.closingSelector = closingSelector;
+        _this278 = _possibleConstructorReturn(this, _getPrototypeOf(WindowSubscriber).call(this, destination));
+        _this278.destination = destination;
+        _this278.closingSelector = closingSelector;
 
-        _this265.openWindow();
+        _this278.openWindow();
 
-        return _this265;
+        return _this278;
       }
 
       _createClass2(WindowSubscriber, [{
@@ -120398,7 +122749,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return WindowSubscriber;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_1__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_1__["OuterSubscriber"]); //# sourceMappingURL=windowWhen.js.map
+
     /***/
 
   },
@@ -120436,8 +122788,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     "./node_modules/rxjs/_esm2015/internal/util/subscribeToResult.js");
 
     function withLatestFrom() {
-      for (var _len45 = arguments.length, args = new Array(_len45), _key39 = 0; _key39 < _len45; _key39++) {
-        args[_key39] = arguments[_key39];
+      for (var _len46 = arguments.length, args = new Array(_len46), _key40 = 0; _key40 < _len46; _key40++) {
+        args[_key40] = arguments[_key40];
       }
 
       return function (source) {
@@ -120478,28 +122830,28 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(WithLatestFromSubscriber, _OuterSubscriber__WEB30);
 
       function WithLatestFromSubscriber(destination, observables, project) {
-        var _this266;
+        var _this279;
 
         _classCallCheck(this, WithLatestFromSubscriber);
 
-        _this266 = _possibleConstructorReturn(this, _getPrototypeOf(WithLatestFromSubscriber).call(this, destination));
-        _this266.observables = observables;
-        _this266.project = project;
-        _this266.toRespond = [];
+        _this279 = _possibleConstructorReturn(this, _getPrototypeOf(WithLatestFromSubscriber).call(this, destination));
+        _this279.observables = observables;
+        _this279.project = project;
+        _this279.toRespond = [];
         var len = observables.length;
-        _this266.values = new Array(len);
+        _this279.values = new Array(len);
 
         for (var i = 0; i < len; i++) {
-          _this266.toRespond.push(i);
+          _this279.toRespond.push(i);
         }
 
         for (var _i28 = 0; _i28 < len; _i28++) {
           var observable = observables[_i28];
 
-          _this266.add(Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_1__["subscribeToResult"])(_assertThisInitialized(_this266), observable, observable, _i28));
+          _this279.add(Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_1__["subscribeToResult"])(_assertThisInitialized(_this279), observable, observable, _i28));
         }
 
-        return _this266;
+        return _this279;
       }
 
       _createClass2(WithLatestFromSubscriber, [{
@@ -120549,7 +122901,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return WithLatestFromSubscriber;
-    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["OuterSubscriber"]);
+    }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["OuterSubscriber"]); //# sourceMappingURL=withLatestFrom.js.map
+
     /***/
 
   },
@@ -120581,14 +122934,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     "./node_modules/rxjs/_esm2015/internal/observable/zip.js");
 
     function zip() {
-      for (var _len46 = arguments.length, observables = new Array(_len46), _key40 = 0; _key40 < _len46; _key40++) {
-        observables[_key40] = arguments[_key40];
+      for (var _len47 = arguments.length, observables = new Array(_len47), _key41 = 0; _key41 < _len47; _key41++) {
+        observables[_key41] = arguments[_key41];
       }
 
       return function zipOperatorFunction(source) {
         return source.lift.call(Object(_observable_zip__WEBPACK_IMPORTED_MODULE_0__["zip"]).apply(void 0, [source].concat(observables)));
       };
-    }
+    } //# sourceMappingURL=zip.js.map
+
     /***/
 
   },
@@ -120623,7 +122977,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return function (source) {
         return source.lift(new _observable_zip__WEBPACK_IMPORTED_MODULE_0__["ZipOperator"](project));
       };
-    }
+    } //# sourceMappingURL=zipAll.js.map
+
     /***/
 
   },
@@ -120674,7 +123029,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return Action;
-    }(_Subscription__WEBPACK_IMPORTED_MODULE_0__["Subscription"]);
+    }(_Subscription__WEBPACK_IMPORTED_MODULE_0__["Subscription"]); //# sourceMappingURL=Action.js.map
+
     /***/
 
   },
@@ -120711,14 +123067,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(AnimationFrameAction, _AsyncAction__WEBPACK);
 
       function AnimationFrameAction(scheduler, work) {
-        var _this267;
+        var _this280;
 
         _classCallCheck(this, AnimationFrameAction);
 
-        _this267 = _possibleConstructorReturn(this, _getPrototypeOf(AnimationFrameAction).call(this, scheduler, work));
-        _this267.scheduler = scheduler;
-        _this267.work = work;
-        return _this267;
+        _this280 = _possibleConstructorReturn(this, _getPrototypeOf(AnimationFrameAction).call(this, scheduler, work));
+        _this280.scheduler = scheduler;
+        _this280.work = work;
+        return _this280;
       }
 
       _createClass2(AnimationFrameAction, [{
@@ -120754,7 +123110,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return AnimationFrameAction;
-    }(_AsyncAction__WEBPACK_IMPORTED_MODULE_0__["AsyncAction"]);
+    }(_AsyncAction__WEBPACK_IMPORTED_MODULE_0__["AsyncAction"]); //# sourceMappingURL=AnimationFrameAction.js.map
+
     /***/
 
   },
@@ -120826,7 +123183,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return AnimationFrameScheduler;
-    }(_AsyncScheduler__WEBPACK_IMPORTED_MODULE_0__["AsyncScheduler"]);
+    }(_AsyncScheduler__WEBPACK_IMPORTED_MODULE_0__["AsyncScheduler"]); //# sourceMappingURL=AnimationFrameScheduler.js.map
+
     /***/
 
   },
@@ -120869,14 +123227,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(AsapAction, _AsyncAction__WEBPACK2);
 
       function AsapAction(scheduler, work) {
-        var _this268;
+        var _this281;
 
         _classCallCheck(this, AsapAction);
 
-        _this268 = _possibleConstructorReturn(this, _getPrototypeOf(AsapAction).call(this, scheduler, work));
-        _this268.scheduler = scheduler;
-        _this268.work = work;
-        return _this268;
+        _this281 = _possibleConstructorReturn(this, _getPrototypeOf(AsapAction).call(this, scheduler, work));
+        _this281.scheduler = scheduler;
+        _this281.work = work;
+        return _this281;
       }
 
       _createClass2(AsapAction, [{
@@ -120911,7 +123269,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return AsapAction;
-    }(_AsyncAction__WEBPACK_IMPORTED_MODULE_1__["AsyncAction"]);
+    }(_AsyncAction__WEBPACK_IMPORTED_MODULE_1__["AsyncAction"]); //# sourceMappingURL=AsapAction.js.map
+
     /***/
 
   },
@@ -120983,7 +123342,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return AsapScheduler;
-    }(_AsyncScheduler__WEBPACK_IMPORTED_MODULE_0__["AsyncScheduler"]);
+    }(_AsyncScheduler__WEBPACK_IMPORTED_MODULE_0__["AsyncScheduler"]); //# sourceMappingURL=AsapScheduler.js.map
+
     /***/
 
   },
@@ -121020,15 +123380,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(AsyncAction, _Action__WEBPACK_IMPO);
 
       function AsyncAction(scheduler, work) {
-        var _this269;
+        var _this282;
 
         _classCallCheck(this, AsyncAction);
 
-        _this269 = _possibleConstructorReturn(this, _getPrototypeOf(AsyncAction).call(this, scheduler, work));
-        _this269.scheduler = scheduler;
-        _this269.work = work;
-        _this269.pending = false;
-        return _this269;
+        _this282 = _possibleConstructorReturn(this, _getPrototypeOf(AsyncAction).call(this, scheduler, work));
+        _this282.scheduler = scheduler;
+        _this282.work = work;
+        _this282.pending = false;
+        return _this282;
       }
 
       _createClass2(AsyncAction, [{
@@ -121131,7 +123491,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return AsyncAction;
-    }(_Action__WEBPACK_IMPORTED_MODULE_0__["Action"]);
+    }(_Action__WEBPACK_IMPORTED_MODULE_0__["Action"]); //# sourceMappingURL=AsyncAction.js.map
+
     /***/
 
   },
@@ -121168,23 +123529,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(AsyncScheduler, _Scheduler__WEBPACK_I);
 
       function AsyncScheduler(SchedulerAction) {
-        var _this270;
+        var _this283;
 
         var now = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : _Scheduler__WEBPACK_IMPORTED_MODULE_0__["Scheduler"].now;
 
         _classCallCheck(this, AsyncScheduler);
 
-        _this270 = _possibleConstructorReturn(this, _getPrototypeOf(AsyncScheduler).call(this, SchedulerAction, function () {
-          if (AsyncScheduler.delegate && AsyncScheduler.delegate !== _assertThisInitialized(_this270)) {
+        _this283 = _possibleConstructorReturn(this, _getPrototypeOf(AsyncScheduler).call(this, SchedulerAction, function () {
+          if (AsyncScheduler.delegate && AsyncScheduler.delegate !== _assertThisInitialized(_this283)) {
             return AsyncScheduler.delegate.now();
           } else {
             return now();
           }
         }));
-        _this270.actions = [];
-        _this270.active = false;
-        _this270.scheduled = undefined;
-        return _this270;
+        _this283.actions = [];
+        _this283.active = false;
+        _this283.scheduled = undefined;
+        return _this283;
       }
 
       _createClass2(AsyncScheduler, [{
@@ -121231,7 +123592,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return AsyncScheduler;
-    }(_Scheduler__WEBPACK_IMPORTED_MODULE_0__["Scheduler"]);
+    }(_Scheduler__WEBPACK_IMPORTED_MODULE_0__["Scheduler"]); //# sourceMappingURL=AsyncScheduler.js.map
+
     /***/
 
   },
@@ -121268,14 +123630,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(QueueAction, _AsyncAction__WEBPACK3);
 
       function QueueAction(scheduler, work) {
-        var _this271;
+        var _this284;
 
         _classCallCheck(this, QueueAction);
 
-        _this271 = _possibleConstructorReturn(this, _getPrototypeOf(QueueAction).call(this, scheduler, work));
-        _this271.scheduler = scheduler;
-        _this271.work = work;
-        return _this271;
+        _this284 = _possibleConstructorReturn(this, _getPrototypeOf(QueueAction).call(this, scheduler, work));
+        _this284.scheduler = scheduler;
+        _this284.work = work;
+        return _this284;
       }
 
       _createClass2(QueueAction, [{
@@ -121311,7 +123673,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return QueueAction;
-    }(_AsyncAction__WEBPACK_IMPORTED_MODULE_0__["AsyncAction"]);
+    }(_AsyncAction__WEBPACK_IMPORTED_MODULE_0__["AsyncAction"]); //# sourceMappingURL=QueueAction.js.map
+
     /***/
 
   },
@@ -121354,7 +123717,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
 
       return QueueScheduler;
-    }(_AsyncScheduler__WEBPACK_IMPORTED_MODULE_0__["AsyncScheduler"]);
+    }(_AsyncScheduler__WEBPACK_IMPORTED_MODULE_0__["AsyncScheduler"]); //# sourceMappingURL=QueueScheduler.js.map
+
     /***/
 
   },
@@ -121403,20 +123767,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(VirtualTimeScheduler, _AsyncScheduler__WEBP4);
 
       function VirtualTimeScheduler() {
-        var _this272;
+        var _this285;
 
         var SchedulerAction = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : VirtualAction;
         var maxFrames = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : Number.POSITIVE_INFINITY;
 
         _classCallCheck(this, VirtualTimeScheduler);
 
-        _this272 = _possibleConstructorReturn(this, _getPrototypeOf(VirtualTimeScheduler).call(this, SchedulerAction, function () {
-          return _this272.frame;
+        _this285 = _possibleConstructorReturn(this, _getPrototypeOf(VirtualTimeScheduler).call(this, SchedulerAction, function () {
+          return _this285.frame;
         }));
-        _this272.maxFrames = maxFrames;
-        _this272.frame = 0;
-        _this272.index = -1;
-        return _this272;
+        _this285.maxFrames = maxFrames;
+        _this285.frame = 0;
+        _this285.index = -1;
+        return _this285;
       }
 
       _createClass2(VirtualTimeScheduler, [{
@@ -121456,19 +123820,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _inherits(VirtualAction, _AsyncAction__WEBPACK4);
 
       function VirtualAction(scheduler, work) {
-        var _this273;
+        var _this286;
 
         var index = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : scheduler.index += 1;
 
         _classCallCheck(this, VirtualAction);
 
-        _this273 = _possibleConstructorReturn(this, _getPrototypeOf(VirtualAction).call(this, scheduler, work));
-        _this273.scheduler = scheduler;
-        _this273.work = work;
-        _this273.index = index;
-        _this273.active = true;
-        _this273.index = scheduler.index = index;
-        return _this273;
+        _this286 = _possibleConstructorReturn(this, _getPrototypeOf(VirtualAction).call(this, scheduler, work));
+        _this286.scheduler = scheduler;
+        _this286.work = work;
+        _this286.index = index;
+        _this286.active = true;
+        _this286.index = scheduler.index = index;
+        return _this286;
       }
 
       _createClass2(VirtualAction, [{
@@ -121528,7 +123892,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]);
 
       return VirtualAction;
-    }(_AsyncAction__WEBPACK_IMPORTED_MODULE_0__["AsyncAction"]);
+    }(_AsyncAction__WEBPACK_IMPORTED_MODULE_0__["AsyncAction"]); //# sourceMappingURL=VirtualTimeScheduler.js.map
+
     /***/
 
   },
@@ -121565,7 +123930,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ./AnimationFrameScheduler */
     "./node_modules/rxjs/_esm2015/internal/scheduler/AnimationFrameScheduler.js");
 
-    var animationFrame = new _AnimationFrameScheduler__WEBPACK_IMPORTED_MODULE_1__["AnimationFrameScheduler"](_AnimationFrameAction__WEBPACK_IMPORTED_MODULE_0__["AnimationFrameAction"]);
+    var animationFrame = new _AnimationFrameScheduler__WEBPACK_IMPORTED_MODULE_1__["AnimationFrameScheduler"](_AnimationFrameAction__WEBPACK_IMPORTED_MODULE_0__["AnimationFrameAction"]); //# sourceMappingURL=animationFrame.js.map
+
     /***/
   },
 
@@ -121601,7 +123967,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ./AsapScheduler */
     "./node_modules/rxjs/_esm2015/internal/scheduler/AsapScheduler.js");
 
-    var asap = new _AsapScheduler__WEBPACK_IMPORTED_MODULE_1__["AsapScheduler"](_AsapAction__WEBPACK_IMPORTED_MODULE_0__["AsapAction"]);
+    var asap = new _AsapScheduler__WEBPACK_IMPORTED_MODULE_1__["AsapScheduler"](_AsapAction__WEBPACK_IMPORTED_MODULE_0__["AsapAction"]); //# sourceMappingURL=asap.js.map
+
     /***/
   },
 
@@ -121637,7 +124004,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ./AsyncScheduler */
     "./node_modules/rxjs/_esm2015/internal/scheduler/AsyncScheduler.js");
 
-    var async = new _AsyncScheduler__WEBPACK_IMPORTED_MODULE_1__["AsyncScheduler"](_AsyncAction__WEBPACK_IMPORTED_MODULE_0__["AsyncAction"]);
+    var async = new _AsyncScheduler__WEBPACK_IMPORTED_MODULE_1__["AsyncScheduler"](_AsyncAction__WEBPACK_IMPORTED_MODULE_0__["AsyncAction"]); //# sourceMappingURL=async.js.map
+
     /***/
   },
 
@@ -121673,7 +124041,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ./QueueScheduler */
     "./node_modules/rxjs/_esm2015/internal/scheduler/QueueScheduler.js");
 
-    var queue = new _QueueScheduler__WEBPACK_IMPORTED_MODULE_1__["QueueScheduler"](_QueueAction__WEBPACK_IMPORTED_MODULE_0__["QueueAction"]);
+    var queue = new _QueueScheduler__WEBPACK_IMPORTED_MODULE_1__["QueueScheduler"](_QueueAction__WEBPACK_IMPORTED_MODULE_0__["QueueAction"]); //# sourceMappingURL=queue.js.map
+
     /***/
   },
 
@@ -121718,7 +124087,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }
 
     var iterator = getSymbolIterator();
-    var $$iterator = iterator;
+    var $$iterator = iterator; //# sourceMappingURL=iterator.js.map
+
     /***/
   },
 
@@ -121742,7 +124112,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return observable;
     });
 
-    var observable = typeof Symbol === 'function' && Symbol.observable || '@@observable';
+    var observable = typeof Symbol === 'function' && Symbol.observable || '@@observable'; //# sourceMappingURL=observable.js.map
+
     /***/
   },
 
@@ -121773,7 +124144,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     });
 
     var rxSubscriber = typeof Symbol === 'function' ? Symbol('rxSubscriber') : '@@rxSubscriber_' + Math.random();
-    var $$rxSubscriber = rxSubscriber;
+    var $$rxSubscriber = rxSubscriber; //# sourceMappingURL=rxSubscriber.js.map
+
     /***/
   },
 
@@ -121805,7 +124177,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }
 
     ArgumentOutOfRangeErrorImpl.prototype = Object.create(Error.prototype);
-    var ArgumentOutOfRangeError = ArgumentOutOfRangeErrorImpl;
+    var ArgumentOutOfRangeError = ArgumentOutOfRangeErrorImpl; //# sourceMappingURL=ArgumentOutOfRangeError.js.map
+
     /***/
   },
 
@@ -121837,7 +124210,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }
 
     EmptyErrorImpl.prototype = Object.create(Error.prototype);
-    var EmptyError = EmptyErrorImpl;
+    var EmptyError = EmptyErrorImpl; //# sourceMappingURL=EmptyError.js.map
+
     /***/
   },
 
@@ -121884,7 +124258,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       clearImmediate: function clearImmediate(handle) {
         delete tasksByHandle[handle];
       }
-    };
+    }; //# sourceMappingURL=Immediate.js.map
+
     /***/
   },
 
@@ -121916,7 +124291,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }
 
     ObjectUnsubscribedErrorImpl.prototype = Object.create(Error.prototype);
-    var ObjectUnsubscribedError = ObjectUnsubscribedErrorImpl;
+    var ObjectUnsubscribedError = ObjectUnsubscribedErrorImpl; //# sourceMappingURL=ObjectUnsubscribedError.js.map
+
     /***/
   },
 
@@ -121948,7 +124324,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }
 
     TimeoutErrorImpl.prototype = Object.create(Error.prototype);
-    var TimeoutError = TimeoutErrorImpl;
+    var TimeoutError = TimeoutErrorImpl; //# sourceMappingURL=TimeoutError.js.map
+
     /***/
   },
 
@@ -121983,7 +124360,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }
 
     UnsubscriptionErrorImpl.prototype = Object.create(Error.prototype);
-    var UnsubscriptionError = UnsubscriptionErrorImpl;
+    var UnsubscriptionError = UnsubscriptionErrorImpl; //# sourceMappingURL=UnsubscriptionError.js.map
+
     /***/
   },
 
@@ -122030,7 +124408,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
 
       return true;
-    }
+    } //# sourceMappingURL=canReportError.js.map
+
     /***/
 
   },
@@ -122059,7 +124438,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       setTimeout(function () {
         throw err;
       });
-    }
+    } //# sourceMappingURL=hostReportError.js.map
+
     /***/
 
   },
@@ -122086,7 +124466,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function identity(x) {
       return x;
-    }
+    } //# sourceMappingURL=identity.js.map
+
     /***/
 
   },
@@ -122113,7 +124494,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var isArray = Array.isArray || function (x) {
       return x && typeof x.length === 'number';
-    };
+    }; //# sourceMappingURL=isArray.js.map
+
     /***/
 
   },
@@ -122140,7 +124522,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var isArrayLike = function isArrayLike(x) {
       return x && typeof x.length === 'number' && typeof x !== 'function';
-    };
+    }; //# sourceMappingURL=isArrayLike.js.map
+
     /***/
 
   },
@@ -122167,7 +124550,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function isDate(value) {
       return value instanceof Date && !isNaN(+value);
-    }
+    } //# sourceMappingURL=isDate.js.map
+
     /***/
 
   },
@@ -122194,7 +124578,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function isFunction(x) {
       return typeof x === 'function';
-    }
+    } //# sourceMappingURL=isFunction.js.map
+
     /***/
 
   },
@@ -122227,7 +124612,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function isInteropObservable(input) {
       return input && typeof input[_symbol_observable__WEBPACK_IMPORTED_MODULE_0__["observable"]] === 'function';
-    }
+    } //# sourceMappingURL=isInteropObservable.js.map
+
     /***/
 
   },
@@ -122260,7 +124646,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function isIterable(input) {
       return input && typeof input[_symbol_iterator__WEBPACK_IMPORTED_MODULE_0__["iterator"]] === 'function';
-    }
+    } //# sourceMappingURL=isIterable.js.map
+
     /***/
 
   },
@@ -122293,7 +124680,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function isNumeric(val) {
       return !Object(_isArray__WEBPACK_IMPORTED_MODULE_0__["isArray"])(val) && val - parseFloat(val) + 1 >= 0;
-    }
+    } //# sourceMappingURL=isNumeric.js.map
+
     /***/
 
   },
@@ -122320,7 +124708,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function isObject(x) {
       return x !== null && typeof x === 'object';
-    }
+    } //# sourceMappingURL=isObject.js.map
+
     /***/
 
   },
@@ -122353,7 +124742,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function isObservable(obj) {
       return !!obj && (obj instanceof _Observable__WEBPACK_IMPORTED_MODULE_0__["Observable"] || typeof obj.lift === 'function' && typeof obj.subscribe === 'function');
-    }
+    } //# sourceMappingURL=isObservable.js.map
+
     /***/
 
   },
@@ -122380,7 +124770,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function isPromise(value) {
       return !!value && typeof value.subscribe !== 'function' && typeof value.then === 'function';
-    }
+    } //# sourceMappingURL=isPromise.js.map
+
     /***/
 
   },
@@ -122407,7 +124798,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function isScheduler(value) {
       return value && typeof value.schedule === 'function';
-    }
+    } //# sourceMappingURL=isScheduler.js.map
+
     /***/
 
   },
@@ -122432,7 +124824,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return noop;
     });
 
-    function noop() {}
+    function noop() {} //# sourceMappingURL=noop.js.map
+
     /***/
 
   },
@@ -122465,7 +124858,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       notPred.pred = pred;
       notPred.thisArg = thisArg;
       return notPred;
-    }
+    } //# sourceMappingURL=not.js.map
+
     /***/
 
   },
@@ -122503,8 +124897,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     "./node_modules/rxjs/_esm2015/internal/util/noop.js");
 
     function pipe() {
-      for (var _len47 = arguments.length, fns = new Array(_len47), _key41 = 0; _key41 < _len47; _key41++) {
-        fns[_key41] = arguments[_key41];
+      for (var _len48 = arguments.length, fns = new Array(_len48), _key42 = 0; _key42 < _len48; _key42++) {
+        fns[_key42] = arguments[_key42];
       }
 
       return pipeFromArray(fns);
@@ -122524,7 +124918,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           return fn(prev);
         }, input);
       };
-    }
+    } //# sourceMappingURL=pipe.js.map
+
     /***/
 
   },
@@ -122633,7 +125028,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         var msg = "You provided ".concat(value, " where a stream was expected.") + ' You can provide an Observable, Promise, Array, or Iterable.';
         throw new TypeError(msg);
       }
-    };
+    }; //# sourceMappingURL=subscribeTo.js.map
+
     /***/
 
   },
@@ -122660,7 +125056,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var subscribeToArray = function subscribeToArray(array) {
       return function (subscriber) {
-        for (var i = 0, _len48 = array.length; i < _len48 && !subscriber.closed; i++) {
+        for (var i = 0, _len49 = array.length; i < _len49 && !subscriber.closed; i++) {
           subscriber.next(array[i]);
         }
 
@@ -122668,7 +125064,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           subscriber.complete();
         }
       };
-    };
+    }; //# sourceMappingURL=subscribeToArray.js.map
+
     /***/
 
   },
@@ -122728,7 +125125,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         return subscriber;
       };
-    };
+    }; //# sourceMappingURL=subscribeToIterable.js.map
+
     /***/
 
   },
@@ -122769,7 +125167,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           return obs.subscribe(subscriber);
         }
       };
-    };
+    }; //# sourceMappingURL=subscribeToObservable.js.map
+
     /***/
 
   },
@@ -122812,7 +125211,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }).then(null, _hostReportError__WEBPACK_IMPORTED_MODULE_0__["hostReportError"]);
         return subscriber;
       };
-    };
+    }; //# sourceMappingURL=subscribeToPromise.js.map
+
     /***/
 
   },
@@ -122857,7 +125257,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
 
       return Object(_subscribeTo__WEBPACK_IMPORTED_MODULE_1__["subscribeTo"])(result)(destination);
-    }
+    } //# sourceMappingURL=subscribeToResult.js.map
+
     /***/
 
   },
@@ -122916,7 +125317,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
 
       return new _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"](nextOrObserver, error, complete);
-    }
+    } //# sourceMappingURL=toSubscriber.js.map
+
     /***/
 
   },
@@ -124175,7 +126577,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     __webpack_require__.d(__webpack_exports__, "zipAll", function () {
       return _internal_operators_zipAll__WEBPACK_IMPORTED_MODULE_102__["zipAll"];
-    });
+    }); //# sourceMappingURL=index.js.map
+
     /***/
 
   },
@@ -124895,13 +127298,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! @ngx-translate/core */
+    "./node_modules/@ngx-translate/core/fesm2015/ngx-translate-core.js");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! @angular/router */
     "./node_modules/@angular/router/fesm2015/router.js");
     /* harmony import */
 
 
-    var _app_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    var _app_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
     /*! ./app.component */
     "./src/app/app.component.ts");
     /**
@@ -124921,7 +127330,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     });
 
     function View_AppComponent_0(_l) {
-      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 1, "app-navbar", [], null, null, null, _components_navbar_navbar_component_ngfactory__WEBPACK_IMPORTED_MODULE_2__["View_NavbarComponent_0"], _components_navbar_navbar_component_ngfactory__WEBPACK_IMPORTED_MODULE_2__["RenderType_NavbarComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 114688, null, 0, _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_3__["NavbarComponent"], [], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](2, 16777216, null, null, 1, "router-outlet", [], null, null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](3, 212992, null, 0, _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterOutlet"], [_angular_router__WEBPACK_IMPORTED_MODULE_4__["ChildrenOutletContexts"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ComponentFactoryResolver"], [8, null], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], null, null)], function (_ck, _v) {
+      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 1, "app-navbar", [], null, null, null, _components_navbar_navbar_component_ngfactory__WEBPACK_IMPORTED_MODULE_2__["View_NavbarComponent_0"], _components_navbar_navbar_component_ngfactory__WEBPACK_IMPORTED_MODULE_2__["RenderType_NavbarComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 114688, null, 0, _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_3__["NavbarComponent"], [_ngx_translate_core__WEBPACK_IMPORTED_MODULE_4__["TranslateService"]], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](2, 16777216, null, null, 1, "router-outlet", [], null, null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](3, 212992, null, 0, _angular_router__WEBPACK_IMPORTED_MODULE_5__["RouterOutlet"], [_angular_router__WEBPACK_IMPORTED_MODULE_5__["ChildrenOutletContexts"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ComponentFactoryResolver"], [8, null], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], null, null)], function (_ck, _v) {
         _ck(_v, 1, 0);
 
         _ck(_v, 3, 0);
@@ -124929,10 +127338,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }
 
     function View_AppComponent_Host_0(_l) {
-      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 1, "app-root", [], null, null, null, View_AppComponent_0, RenderType_AppComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 49152, null, 0, _app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"], [], null, null)], null, null);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 1, "app-root", [], null, null, null, View_AppComponent_0, RenderType_AppComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 49152, null, 0, _app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"], [], null, null)], null, null);
     }
 
-    var AppComponentNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵccf"]("app-root", _app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"], View_AppComponent_Host_0, {}, {}, []);
+    var AppComponentNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵccf"]("app-root", _app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"], View_AppComponent_Host_0, {}, {}, []);
     /***/
 
   },
@@ -125066,37 +127475,43 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _services_data_service_service__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
+    var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
+    /*! @ngx-translate/core */
+    "./node_modules/@ngx-translate/core/fesm2015/ngx-translate-core.js");
+    /* harmony import */
+
+
+    var _services_data_service_service__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
     /*! ./services/data-service.service */
     "./src/app/services/data-service.service.ts");
     /* harmony import */
 
 
-    var _components_home_home_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
+    var _components_home_home_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
     /*! ./components/home/home.component */
     "./src/app/components/home/home.component.ts");
     /* harmony import */
 
 
-    var _components_countries_countries_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
+    var _components_countries_countries_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
     /*! ./components/countries/countries.component */
     "./src/app/components/countries/countries.component.ts");
     /* harmony import */
 
 
-    var _components_not_found_not_found_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
+    var _components_not_found_not_found_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
     /*! ./components/not-found/not-found.component */
     "./src/app/components/not-found/not-found.component.ts");
     /* harmony import */
 
 
-    var _app_routing_module__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
+    var _app_routing_module__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
     /*! ./app-routing.module */
     "./src/app/app-routing.module.ts");
     /* harmony import */
 
 
-    var angular_google_charts__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
+    var angular_google_charts__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
     /*! angular-google-charts */
     "./node_modules/angular-google-charts/fesm2015/angular-google-charts.js");
     /**
@@ -125114,22 +127529,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         return [p0_0];
       }, [_angular_router__WEBPACK_IMPORTED_MODULE_10__["ROUTER_INITIALIZER"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpXsrfTokenExtractor"], _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["ɵangular_packages_common_http_http_g"], [_angular_common__WEBPACK_IMPORTED_MODULE_8__["DOCUMENT"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["PLATFORM_ID"], _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["ɵangular_packages_common_http_http_e"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["ɵangular_packages_common_http_http_h"], _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["ɵangular_packages_common_http_http_h"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpXsrfTokenExtractor"], _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["ɵangular_packages_common_http_http_f"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](5120, _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HTTP_INTERCEPTORS"], function (p0_0) {
         return [p0_0];
-      }, [_angular_common_http__WEBPACK_IMPORTED_MODULE_11__["ɵangular_packages_common_http_http_h"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["ɵangular_packages_common_http_http_d"], _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["ɵangular_packages_common_http_http_d"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](6144, _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["XhrFactory"], null, [_angular_common_http__WEBPACK_IMPORTED_MODULE_11__["ɵangular_packages_common_http_http_d"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpXhrBackend"], _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpXhrBackend"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_11__["XhrFactory"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](6144, _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpBackend"], null, [_angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpXhrBackend"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpHandler"], _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["ɵHttpInterceptingHandler"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpBackend"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injector"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpClient"], _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpClient"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpHandler"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_forms__WEBPACK_IMPORTED_MODULE_12__["ɵangular_packages_forms_forms_o"], _angular_forms__WEBPACK_IMPORTED_MODULE_12__["ɵangular_packages_forms_forms_o"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _services_data_service_service__WEBPACK_IMPORTED_MODULE_13__["DataServiceService"], _services_data_service_service__WEBPACK_IMPORTED_MODULE_13__["DataServiceService"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpClient"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_common__WEBPACK_IMPORTED_MODULE_8__["CommonModule"], _angular_common__WEBPACK_IMPORTED_MODULE_8__["CommonModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1024, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ErrorHandler"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_9__["ɵangular_packages_platform_browser_platform_browser_a"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1024, _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgProbeToken"], function () {
+      }, [_angular_common_http__WEBPACK_IMPORTED_MODULE_11__["ɵangular_packages_common_http_http_h"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["ɵangular_packages_common_http_http_d"], _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["ɵangular_packages_common_http_http_d"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](6144, _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["XhrFactory"], null, [_angular_common_http__WEBPACK_IMPORTED_MODULE_11__["ɵangular_packages_common_http_http_d"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpXhrBackend"], _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpXhrBackend"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_11__["XhrFactory"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](6144, _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpBackend"], null, [_angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpXhrBackend"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpHandler"], _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["ɵHttpInterceptingHandler"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpBackend"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injector"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpClient"], _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpClient"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpHandler"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_forms__WEBPACK_IMPORTED_MODULE_12__["ɵangular_packages_forms_forms_o"], _angular_forms__WEBPACK_IMPORTED_MODULE_12__["ɵangular_packages_forms_forms_o"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](5120, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__["TranslateLoader"], _app_module__WEBPACK_IMPORTED_MODULE_1__["createTranslateLoader"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpClient"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__["TranslateCompiler"], _ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__["TranslateFakeCompiler"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__["TranslateParser"], _ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__["TranslateDefaultParser"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__["MissingTranslationHandler"], _ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__["FakeMissingTranslationHandler"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__["TranslateStore"], _ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__["TranslateStore"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__["TranslateService"], _ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__["TranslateService"], [_ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__["TranslateStore"], _ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__["TranslateLoader"], _ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__["TranslateCompiler"], _ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__["TranslateParser"], _ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__["MissingTranslationHandler"], _ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__["USE_DEFAULT_LANG"], _ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__["USE_STORE"], _ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__["USE_EXTEND"], _ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__["DEFAULT_LANGUAGE"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _services_data_service_service__WEBPACK_IMPORTED_MODULE_14__["DataServiceService"], _services_data_service_service__WEBPACK_IMPORTED_MODULE_14__["DataServiceService"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpClient"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_common__WEBPACK_IMPORTED_MODULE_8__["CommonModule"], _angular_common__WEBPACK_IMPORTED_MODULE_8__["CommonModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1024, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ErrorHandler"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_9__["ɵangular_packages_platform_browser_platform_browser_a"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1024, _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgProbeToken"], function () {
         return [_angular_router__WEBPACK_IMPORTED_MODULE_10__["ɵangular_packages_router_router_b"]()];
       }, []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](512, _angular_router__WEBPACK_IMPORTED_MODULE_10__["ɵangular_packages_router_router_h"], _angular_router__WEBPACK_IMPORTED_MODULE_10__["ɵangular_packages_router_router_h"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injector"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1024, _angular_core__WEBPACK_IMPORTED_MODULE_0__["APP_INITIALIZER"], function (p0_0, p1_0) {
         return [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_9__["ɵangular_packages_platform_browser_platform_browser_j"](p0_0), _angular_router__WEBPACK_IMPORTED_MODULE_10__["ɵangular_packages_router_router_i"](p1_0)];
       }, [[2, _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgProbeToken"]], _angular_router__WEBPACK_IMPORTED_MODULE_10__["ɵangular_packages_router_router_h"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](512, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ApplicationInitStatus"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ApplicationInitStatus"], [[2, _angular_core__WEBPACK_IMPORTED_MODULE_0__["APP_INITIALIZER"]]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](131584, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ApplicationRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ApplicationRef"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵConsole"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injector"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ErrorHandler"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ComponentFactoryResolver"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ApplicationInitStatus"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ApplicationModule"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ApplicationModule"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ApplicationRef"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_platform_browser__WEBPACK_IMPORTED_MODULE_9__["BrowserModule"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_9__["BrowserModule"], [[3, _angular_platform_browser__WEBPACK_IMPORTED_MODULE_9__["BrowserModule"]]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1024, _angular_router__WEBPACK_IMPORTED_MODULE_10__["ɵangular_packages_router_router_a"], _angular_router__WEBPACK_IMPORTED_MODULE_10__["ɵangular_packages_router_router_e"], [[3, _angular_router__WEBPACK_IMPORTED_MODULE_10__["Router"]]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](512, _angular_router__WEBPACK_IMPORTED_MODULE_10__["UrlSerializer"], _angular_router__WEBPACK_IMPORTED_MODULE_10__["DefaultUrlSerializer"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](512, _angular_router__WEBPACK_IMPORTED_MODULE_10__["ChildrenOutletContexts"], _angular_router__WEBPACK_IMPORTED_MODULE_10__["ChildrenOutletContexts"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](512, _angular_common__WEBPACK_IMPORTED_MODULE_8__["LocationStrategy"], _angular_common__WEBPACK_IMPORTED_MODULE_8__["HashLocationStrategy"], [_angular_common__WEBPACK_IMPORTED_MODULE_8__["PlatformLocation"], [2, _angular_common__WEBPACK_IMPORTED_MODULE_8__["APP_BASE_HREF"]]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](512, _angular_common__WEBPACK_IMPORTED_MODULE_8__["Location"], _angular_common__WEBPACK_IMPORTED_MODULE_8__["Location"], [_angular_common__WEBPACK_IMPORTED_MODULE_8__["LocationStrategy"], _angular_common__WEBPACK_IMPORTED_MODULE_8__["PlatformLocation"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](512, _angular_core__WEBPACK_IMPORTED_MODULE_0__["Compiler"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["Compiler"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](512, _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModuleFactoryLoader"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["SystemJsNgModuleLoader"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["Compiler"], [2, _angular_core__WEBPACK_IMPORTED_MODULE_0__["SystemJsNgModuleLoaderConfig"]]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1024, _angular_router__WEBPACK_IMPORTED_MODULE_10__["ROUTES"], function () {
         return [[{
           path: "",
-          component: _components_home_home_component__WEBPACK_IMPORTED_MODULE_14__["HomeComponent"]
+          component: _components_home_home_component__WEBPACK_IMPORTED_MODULE_15__["HomeComponent"]
         }, {
           path: "countries",
-          component: _components_countries_countries_component__WEBPACK_IMPORTED_MODULE_15__["CountriesComponent"]
+          component: _components_countries_countries_component__WEBPACK_IMPORTED_MODULE_16__["CountriesComponent"]
         }, {
           path: "**",
-          component: _components_not_found_not_found_component__WEBPACK_IMPORTED_MODULE_16__["NotFoundComponent"]
+          component: _components_not_found_not_found_component__WEBPACK_IMPORTED_MODULE_17__["NotFoundComponent"]
         }]];
-      }, []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](256, _angular_router__WEBPACK_IMPORTED_MODULE_10__["ROUTER_CONFIGURATION"], {}, []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1024, _angular_router__WEBPACK_IMPORTED_MODULE_10__["Router"], _angular_router__WEBPACK_IMPORTED_MODULE_10__["ɵangular_packages_router_router_f"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ApplicationRef"], _angular_router__WEBPACK_IMPORTED_MODULE_10__["UrlSerializer"], _angular_router__WEBPACK_IMPORTED_MODULE_10__["ChildrenOutletContexts"], _angular_common__WEBPACK_IMPORTED_MODULE_8__["Location"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injector"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModuleFactoryLoader"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["Compiler"], _angular_router__WEBPACK_IMPORTED_MODULE_10__["ROUTES"], _angular_router__WEBPACK_IMPORTED_MODULE_10__["ROUTER_CONFIGURATION"], [2, _angular_router__WEBPACK_IMPORTED_MODULE_10__["UrlHandlingStrategy"]], [2, _angular_router__WEBPACK_IMPORTED_MODULE_10__["RouteReuseStrategy"]]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_router__WEBPACK_IMPORTED_MODULE_10__["RouterModule"], _angular_router__WEBPACK_IMPORTED_MODULE_10__["RouterModule"], [[2, _angular_router__WEBPACK_IMPORTED_MODULE_10__["ɵangular_packages_router_router_a"]], [2, _angular_router__WEBPACK_IMPORTED_MODULE_10__["Router"]]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _app_routing_module__WEBPACK_IMPORTED_MODULE_17__["AppRoutingModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_17__["AppRoutingModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpClientXsrfModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpClientXsrfModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpClientModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpClientModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_forms__WEBPACK_IMPORTED_MODULE_12__["ɵangular_packages_forms_forms_d"], _angular_forms__WEBPACK_IMPORTED_MODULE_12__["ɵangular_packages_forms_forms_d"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_forms__WEBPACK_IMPORTED_MODULE_12__["FormsModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_12__["FormsModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, angular_google_charts__WEBPACK_IMPORTED_MODULE_18__["GoogleChartsModule"], angular_google_charts__WEBPACK_IMPORTED_MODULE_18__["GoogleChartsModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _app_module__WEBPACK_IMPORTED_MODULE_1__["AppModule"], _app_module__WEBPACK_IMPORTED_MODULE_1__["AppModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](256, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵAPP_ROOT"], true, []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](256, _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["ɵangular_packages_common_http_http_e"], "XSRF-TOKEN", []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](256, _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["ɵangular_packages_common_http_http_f"], "X-XSRF-TOKEN", [])]);
+      }, []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](256, _angular_router__WEBPACK_IMPORTED_MODULE_10__["ROUTER_CONFIGURATION"], {}, []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1024, _angular_router__WEBPACK_IMPORTED_MODULE_10__["Router"], _angular_router__WEBPACK_IMPORTED_MODULE_10__["ɵangular_packages_router_router_f"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ApplicationRef"], _angular_router__WEBPACK_IMPORTED_MODULE_10__["UrlSerializer"], _angular_router__WEBPACK_IMPORTED_MODULE_10__["ChildrenOutletContexts"], _angular_common__WEBPACK_IMPORTED_MODULE_8__["Location"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injector"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModuleFactoryLoader"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["Compiler"], _angular_router__WEBPACK_IMPORTED_MODULE_10__["ROUTES"], _angular_router__WEBPACK_IMPORTED_MODULE_10__["ROUTER_CONFIGURATION"], [2, _angular_router__WEBPACK_IMPORTED_MODULE_10__["UrlHandlingStrategy"]], [2, _angular_router__WEBPACK_IMPORTED_MODULE_10__["RouteReuseStrategy"]]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_router__WEBPACK_IMPORTED_MODULE_10__["RouterModule"], _angular_router__WEBPACK_IMPORTED_MODULE_10__["RouterModule"], [[2, _angular_router__WEBPACK_IMPORTED_MODULE_10__["ɵangular_packages_router_router_a"]], [2, _angular_router__WEBPACK_IMPORTED_MODULE_10__["Router"]]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _app_routing_module__WEBPACK_IMPORTED_MODULE_18__["AppRoutingModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_18__["AppRoutingModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpClientXsrfModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpClientXsrfModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpClientModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpClientModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_forms__WEBPACK_IMPORTED_MODULE_12__["ɵangular_packages_forms_forms_d"], _angular_forms__WEBPACK_IMPORTED_MODULE_12__["ɵangular_packages_forms_forms_d"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_forms__WEBPACK_IMPORTED_MODULE_12__["FormsModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_12__["FormsModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, angular_google_charts__WEBPACK_IMPORTED_MODULE_19__["GoogleChartsModule"], angular_google_charts__WEBPACK_IMPORTED_MODULE_19__["GoogleChartsModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__["TranslateModule"], _ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__["TranslateModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _app_module__WEBPACK_IMPORTED_MODULE_1__["AppModule"], _app_module__WEBPACK_IMPORTED_MODULE_1__["AppModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](256, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵAPP_ROOT"], true, []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](256, _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["ɵangular_packages_common_http_http_e"], "XSRF-TOKEN", []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](256, _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["ɵangular_packages_common_http_http_f"], "X-XSRF-TOKEN", []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](256, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__["USE_STORE"], undefined, []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](256, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__["USE_DEFAULT_LANG"], undefined, []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](256, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__["USE_EXTEND"], undefined, []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](256, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__["DEFAULT_LANGUAGE"], "en", [])]);
     });
     /***/
 
@@ -125141,7 +127556,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     !*** ./src/app/app.module.ts ***!
     \*******************************/
 
-  /*! exports provided: AppModule */
+  /*! exports provided: AppModule, createTranslateLoader */
 
   /***/
   function srcAppAppModuleTs(module, __webpack_exports__, __webpack_require__) {
@@ -125154,10 +127569,32 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     __webpack_require__.d(__webpack_exports__, "AppModule", function () {
       return AppModule;
     });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "createTranslateLoader", function () {
+      return createTranslateLoader;
+    });
+    /* harmony import */
+
+
+    var _angular_common_http__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/common/http */
+    "./node_modules/@angular/common/fesm2015/http.js");
+    /* harmony import */
+
+
+    var _ngx_translate_http_loader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @ngx-translate/http-loader */
+    "./node_modules/@ngx-translate/http-loader/fesm2015/ngx-translate-http-loader.js");
 
     var AppModule = function AppModule() {
       _classCallCheck(this, AppModule);
     };
+
+    function createTranslateLoader(http) {
+      return new _ngx_translate_http_loader__WEBPACK_IMPORTED_MODULE_1__["TranslateHttpLoader"](http, "./assets/i18n/", ".json");
+    }
     /***/
 
   },
@@ -125257,37 +127694,43 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _dashboard_card_dashboard_card_component_ngfactory__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! @ngx-translate/core */
+    "./node_modules/@ngx-translate/core/fesm2015/ngx-translate-core.js");
+    /* harmony import */
+
+
+    var _dashboard_card_dashboard_card_component_ngfactory__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! ../dashboard-card/dashboard-card.component.ngfactory */
     "./src/app/components/dashboard-card/dashboard-card.component.ngfactory.js");
     /* harmony import */
 
 
-    var _dashboard_card_dashboard_card_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    var _dashboard_card_dashboard_card_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
     /*! ../dashboard-card/dashboard-card.component */
     "./src/app/components/dashboard-card/dashboard-card.component.ts");
     /* harmony import */
 
 
-    var _node_modules_angular_google_charts_angular_google_charts_ngfactory__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    var _node_modules_angular_google_charts_angular_google_charts_ngfactory__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
     /*! ../../../../node_modules/angular-google-charts/angular-google-charts.ngfactory */
     "./node_modules/angular-google-charts/angular-google-charts.ngfactory.js");
     /* harmony import */
 
 
-    var angular_google_charts__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    var angular_google_charts__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
     /*! angular-google-charts */
     "./node_modules/angular-google-charts/fesm2015/angular-google-charts.js");
     /* harmony import */
 
 
-    var _countries_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+    var _countries_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
     /*! ./countries.component */
     "./src/app/components/countries/countries.component.ts");
     /* harmony import */
 
 
-    var _services_data_service_service__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    var _services_data_service_service__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
     /*! ../../services/data-service.service */
     "./src/app/services/data-service.service.ts");
     /**
@@ -125326,85 +127769,113 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       });
     }
 
-    function View_CountriesComponent_2(_l) {
-      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 7, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 1, "td", [["scope", "row"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](2, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](3, 0, null, null, 2, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](4, null, ["", ""])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵppd"](5, 1), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](6, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](7, null, ["", ""]))], null, function (_ck, _v) {
-        var currVal_0 = _v.context.index + 1;
+    function View_CountriesComponent_3(_l) {
+      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 2, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](1, null, ["", ""])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵppd"](2, 1)], null, function (_ck, _v) {
+        var currVal_0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 1, 0, _ck(_v, 2, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v.parent.parent, 0), _v.parent.context.$implicit.date));
 
-        _ck(_v, 2, 0, currVal_0);
-
-        var currVal_1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 4, 0, _ck(_v, 5, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v.parent, 0), _v.context.$implicit.date));
-
-        _ck(_v, 4, 0, currVal_1);
-
-        var currVal_2 = _v.context.$implicit.cases;
-
-        _ck(_v, 7, 0, currVal_2);
+        _ck(_v, 1, 0, currVal_0);
       });
     }
 
+    function View_CountriesComponent_4(_l) {
+      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](1, null, ["", ""]))], null, function (_ck, _v) {
+        var currVal_0 = _v.parent.context.$implicit.cases;
+
+        _ck(_v, 1, 0, currVal_0);
+      });
+    }
+
+    function View_CountriesComponent_2(_l) {
+      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 4, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](16777216, null, null, 1, null, View_CountriesComponent_3)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](2, 16384, null, 0, _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"]], {
+        ngIf: [0, "ngIf"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](16777216, null, null, 1, null, View_CountriesComponent_4)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](4, 16384, null, 0, _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"]], {
+        ngIf: [0, "ngIf"]
+      }, null)], function (_ck, _v) {
+        var currVal_0 = _v.context.$implicit.cases > 0;
+
+        _ck(_v, 2, 0, currVal_0);
+
+        var currVal_1 = _v.context.$implicit.cases > 0;
+
+        _ck(_v, 4, 0, currVal_1);
+      }, null);
+    }
+
     function View_CountriesComponent_0(_l) {
-      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpid"](0, _angular_common__WEBPACK_IMPORTED_MODULE_3__["DatePipe"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["LOCALE_ID"]]), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 2, "div", [["class", "ui inverted dimmer"]], [[2, "active", null]], null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](2, 0, null, null, 1, "div", [["class", "ui text loader"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Loading"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, null, 28, "div", [["class", "jumbotron bg-white text-center"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](5, 0, null, null, 1, "h1", [["class", "display-4"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Corona Covid-19 Tracker Country wise"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](7, 0, null, null, 0, "hr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](8, 0, null, null, 6, "div", [["class", "mx-auto"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](9, 0, null, null, 5, "div", [["class", "form-group col-lg-5 mx-auto"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](10, 0, null, null, 1, "label", [["for", "c"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Select Country"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](12, 0, [["input", 1]], null, 2, "select", [["class", "form-control"], ["id", "c"], ["name", ""]], null, [[null, "change"]], function (_v, en, $event) {
+      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpid"](0, _angular_common__WEBPACK_IMPORTED_MODULE_3__["DatePipe"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["LOCALE_ID"]]), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 2, "div", [["class", "ui inverted dimmer"]], [[2, "active", null]], null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](2, 0, null, null, 1, "div", [["class", "ui text loader"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Loading"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, null, 29, "div", [["class", "jumbotron bg-white text-center"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](5, 0, null, null, 2, "h1", [["class", "display-4"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](6, null, ["", ""])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpid"](131072, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_4__["TranslatePipe"], [_ngx_translate_core__WEBPACK_IMPORTED_MODULE_4__["TranslateService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]]), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](8, 0, null, null, 0, "hr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](9, 0, null, null, 7, "div", [["class", "mx-auto"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](10, 0, null, null, 6, "div", [["class", "form-group col-lg-5 mx-auto"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](11, 0, null, null, 2, "label", [["for", "c"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](12, null, ["", ""])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpid"](131072, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_4__["TranslatePipe"], [_ngx_translate_core__WEBPACK_IMPORTED_MODULE_4__["TranslateService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]]), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](14, 0, [["input", 1]], null, 2, "select", [["class", "form-control"], ["id", "c"], ["name", ""]], null, [[null, "change"]], function (_v, en, $event) {
         var ad = true;
         var _co = _v.component;
 
         if ("change" === en) {
-          var pd_0 = _co.updateValues(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 12).value) !== false;
+          var pd_0 = _co.updateValues(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 14).value) !== false;
           ad = pd_0 && ad;
         }
 
         return ad;
-      }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](16777216, null, null, 1, null, View_CountriesComponent_1)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](14, 278528, null, 0, _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["IterableDiffers"]], {
+      }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](16777216, null, null, 1, null, View_CountriesComponent_1)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](16, 278528, null, 0, _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["IterableDiffers"]], {
         ngForOf: [0, "ngForOf"]
-      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](15, 0, null, null, 1, "app-dashboard-card", [], null, null, null, _dashboard_card_dashboard_card_component_ngfactory__WEBPACK_IMPORTED_MODULE_4__["View_DashboardCardComponent_0"], _dashboard_card_dashboard_card_component_ngfactory__WEBPACK_IMPORTED_MODULE_4__["RenderType_DashboardCardComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](16, 114688, null, 0, _dashboard_card_dashboard_card_component__WEBPACK_IMPORTED_MODULE_5__["DashboardCardComponent"], [], {
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](17, 0, null, null, 1, "app-dashboard-card", [], null, null, null, _dashboard_card_dashboard_card_component_ngfactory__WEBPACK_IMPORTED_MODULE_5__["View_DashboardCardComponent_0"], _dashboard_card_dashboard_card_component_ngfactory__WEBPACK_IMPORTED_MODULE_5__["RenderType_DashboardCardComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](18, 114688, null, 0, _dashboard_card_dashboard_card_component__WEBPACK_IMPORTED_MODULE_6__["DashboardCardComponent"], [_ngx_translate_core__WEBPACK_IMPORTED_MODULE_4__["TranslateService"]], {
         totalConfirmed: [0, "totalConfirmed"],
         totalRecovered: [1, "totalRecovered"],
         totalDeaths: [2, "totalDeaths"],
         totalActive: [3, "totalActive"]
-      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](17, 0, null, null, 15, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](18, 0, null, null, 11, "table", [["class", "table col"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](19, 0, null, null, 7, "thead", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](20, 0, null, null, 6, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](21, 0, null, null, 1, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Sno"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](23, 0, null, null, 1, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Date"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](25, 0, null, null, 1, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Cases"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](27, 0, null, null, 2, "tbody", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](16777216, null, null, 1, null, View_CountriesComponent_2)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](29, 278528, null, 0, _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["IterableDiffers"]], {
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](19, 0, null, null, 14, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](20, 0, null, null, 10, "table", [["class", "table col"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](21, 0, null, null, 6, "thead", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](22, 0, null, null, 5, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](23, 0, null, null, 1, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Date"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](25, 0, null, null, 2, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](26, null, ["", ""])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpid"](131072, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_4__["TranslatePipe"], [_ngx_translate_core__WEBPACK_IMPORTED_MODULE_4__["TranslateService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]]), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](28, 0, null, null, 2, "tbody", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](16777216, null, null, 1, null, View_CountriesComponent_2)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](30, 278528, null, 0, _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["IterableDiffers"]], {
         ngForOf: [0, "ngForOf"]
-      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](30, 0, null, null, 2, "div", [["class", "col"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](31, 0, null, null, 1, "google-chart", [["class", "google-chart"], ["style", "width: 100%;"]], null, null, null, _node_modules_angular_google_charts_angular_google_charts_ngfactory__WEBPACK_IMPORTED_MODULE_6__["View_GoogleChartComponent_0"], _node_modules_angular_google_charts_angular_google_charts_ngfactory__WEBPACK_IMPORTED_MODULE_6__["RenderType_GoogleChartComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](32, 638976, null, 0, angular_google_charts__WEBPACK_IMPORTED_MODULE_7__["GoogleChartComponent"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], angular_google_charts__WEBPACK_IMPORTED_MODULE_7__["ScriptLoaderService"], [2, angular_google_charts__WEBPACK_IMPORTED_MODULE_7__["DashboardComponent"]]], {
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](31, 0, null, null, 2, "div", [["class", "col"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](32, 0, null, null, 1, "google-chart", [["class", "google-chart"], ["style", "width: 100%;"]], null, null, null, _node_modules_angular_google_charts_angular_google_charts_ngfactory__WEBPACK_IMPORTED_MODULE_7__["View_GoogleChartComponent_0"], _node_modules_angular_google_charts_angular_google_charts_ngfactory__WEBPACK_IMPORTED_MODULE_7__["RenderType_GoogleChartComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](33, 638976, null, 0, angular_google_charts__WEBPACK_IMPORTED_MODULE_8__["GoogleChartComponent"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], angular_google_charts__WEBPACK_IMPORTED_MODULE_8__["ScriptLoaderService"], [2, angular_google_charts__WEBPACK_IMPORTED_MODULE_8__["DashboardComponent"]]], {
         type: [0, "type"],
         data: [1, "data"],
         height: [2, "height"],
         options: [3, "options"]
       }, null)], function (_ck, _v) {
         var _co = _v.component;
-        var currVal_1 = _co.contries;
+        var currVal_3 = _co.contries;
 
-        _ck(_v, 14, 0, currVal_1);
+        _ck(_v, 16, 0, currVal_3);
 
-        var currVal_2 = _co.totalConfirmed;
-        var currVal_3 = _co.totalRecovered;
-        var currVal_4 = _co.totalDeaths;
-        var currVal_5 = _co.totalActive;
+        var currVal_4 = _co.totalConfirmed;
+        var currVal_5 = _co.totalRecovered;
+        var currVal_6 = _co.totalDeaths;
+        var currVal_7 = _co.totalActive;
 
-        _ck(_v, 16, 0, currVal_2, currVal_3, currVal_4, currVal_5);
+        _ck(_v, 18, 0, currVal_4, currVal_5, currVal_6, currVal_7);
 
-        var currVal_6 = _co.SelectedCountryData;
+        var currVal_9 = _co.SelectedCountryData;
 
-        _ck(_v, 29, 0, currVal_6);
+        _ck(_v, 30, 0, currVal_9);
 
-        var currVal_7 = _co.chart.LineChart;
-        var currVal_8 = _co.dataTable;
-        var currVal_9 = _co.chart.height;
-        var currVal_10 = _co.chart.options;
+        var currVal_10 = _co.chart.LineChart;
+        var currVal_11 = _co.dataTable;
+        var currVal_12 = _co.chart.height;
+        var currVal_13 = _co.chart.options;
 
-        _ck(_v, 32, 0, currVal_7, currVal_8, currVal_9, currVal_10);
+        _ck(_v, 33, 0, currVal_10, currVal_11, currVal_12, currVal_13);
       }, function (_ck, _v) {
         var _co = _v.component;
         var currVal_0 = _co.loading;
 
         _ck(_v, 1, 0, currVal_0);
+
+        var currVal_1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 6, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 7).transform("TITLE_CONT"));
+
+        _ck(_v, 6, 0, currVal_1);
+
+        var currVal_2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 12, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 13).transform("SELECT_CONT"));
+
+        _ck(_v, 12, 0, currVal_2);
+
+        var currVal_8 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 26, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 27).transform("Cases"));
+
+        _ck(_v, 26, 0, currVal_8);
       });
     }
 
     function View_CountriesComponent_Host_0(_l) {
-      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 1, "app-countries", [], null, null, null, View_CountriesComponent_0, RenderType_CountriesComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 114688, null, 0, _countries_component__WEBPACK_IMPORTED_MODULE_8__["CountriesComponent"], [_services_data_service_service__WEBPACK_IMPORTED_MODULE_9__["DataServiceService"]], null, null)], function (_ck, _v) {
+      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 1, "app-countries", [], null, null, null, View_CountriesComponent_0, RenderType_CountriesComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 114688, null, 0, _countries_component__WEBPACK_IMPORTED_MODULE_9__["CountriesComponent"], [_services_data_service_service__WEBPACK_IMPORTED_MODULE_10__["DataServiceService"], _ngx_translate_core__WEBPACK_IMPORTED_MODULE_4__["TranslateService"]], null, null)], function (_ck, _v) {
         _ck(_v, 1, 0);
       }, null);
     }
 
-    var CountriesComponentNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵccf"]("app-countries", _countries_component__WEBPACK_IMPORTED_MODULE_8__["CountriesComponent"], View_CountriesComponent_Host_0, {}, {}, []);
+    var CountriesComponentNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵccf"]("app-countries", _countries_component__WEBPACK_IMPORTED_MODULE_9__["CountriesComponent"], View_CountriesComponent_Host_0, {}, {}, []);
     /***/
 
   },
@@ -125450,10 +127921,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var CountriesComponent =
     /*#__PURE__*/
     function () {
-      function CountriesComponent(dataSer) {
+      function CountriesComponent(dataSer, translate) {
         _classCallCheck(this, CountriesComponent);
 
         this.dataSer = dataSer;
+        this.translate = translate;
         this.contries = [];
         this.totalConfirmed = 0;
         this.totalActive = 0;
@@ -125477,49 +127949,49 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(CountriesComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this274 = this;
+          var _this287 = this;
 
           Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["merge"])(this.dataSer.getDateWiseData().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (result) {
-            _this274.dateWiseData = result;
+            _this287.dateWiseData = result;
           })), this.dataSer.getGlobalData().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (result) {
-            _this274.data = result;
+            _this287.data = result;
 
-            _this274.data.forEach(function (cs) {
-              _this274.contries.push(cs.country);
+            _this287.data.forEach(function (cs) {
+              _this287.contries.push(cs.country);
             });
           }))).subscribe({
             complete: function complete() {
               /* this.SelectedCountryData = this.dateWiseData["Tunisia"];
               this.updateChart();*/
-              _this274.updateValues("US");
+              _this287.updateValues("US");
 
-              _this274.loading = false;
+              _this287.loading = false;
             }
           });
         }
       }, {
         key: "updateChart",
         value: function updateChart() {
-          var _this275 = this;
+          var _this288 = this;
 
           this.dataTable = []; //this.dataTable.push(["Date", "Cases"]);
 
           this.SelectedCountryData.forEach(function (cs) {
-            _this275.dataTable.push([cs.date, cs.cases]);
+            _this288.dataTable.push([cs.date, cs.cases]);
           });
         }
       }, {
         key: "updateValues",
         value: function updateValues(country) {
-          var _this276 = this;
+          var _this289 = this;
 
           // console.log(country);
           this.data.forEach(function (cs) {
             if (cs.country === country) {
-              _this276.totalActive = cs.active;
-              _this276.totalConfirmed = cs.confirmed;
-              _this276.totalRecovered = cs.recovered;
-              _this276.totalDeaths = cs.deaths;
+              _this289.totalActive = cs.active;
+              _this289.totalConfirmed = cs.confirmed;
+              _this289.totalRecovered = cs.recovered;
+              _this289.totalDeaths = cs.deaths;
             }
           });
           this.SelectedCountryData = this.dateWiseData[country]; // console.log(this.SelectedCountryData);
@@ -125623,7 +128095,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _dashboard_card_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! @ngx-translate/core */
+    "./node_modules/@ngx-translate/core/fesm2015/ngx-translate-core.js");
+    /* harmony import */
+
+
+    var _dashboard_card_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! ./dashboard-card.component */
     "./src/app/components/dashboard-card/dashboard-card.component.ts");
     /**
@@ -125643,34 +128121,46 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     });
 
     function View_DashboardCardComponent_0(_l) {
-      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpid"](0, _angular_common__WEBPACK_IMPORTED_MODULE_2__["DecimalPipe"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["LOCALE_ID"]]), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 32, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](2, 0, null, null, 7, "div", [["class", "card col p-3 m-3"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](3, 0, null, null, 6, "div", [["class", "ui statistic"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, null, 2, "div", [["class", "label"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](5, 0, null, null, 1, "h3", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["CONFIRMED"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](7, 0, null, null, 2, "div", [["class", "value"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](8, null, [" ", " "])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵppd"](9, 1), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](10, 0, null, null, 7, "div", [["class", "card col p-3 m-3"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](11, 0, null, null, 6, "div", [["class", "ui statistic"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](12, 0, null, null, 2, "div", [["class", "label"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](13, 0, null, null, 1, "h3", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["RECOVERED"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](15, 0, null, null, 2, "div", [["class", "value"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](16, null, [" ", " "])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵppd"](17, 1), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](18, 0, null, null, 7, "div", [["class", "card col p-3 m-3"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](19, 0, null, null, 6, "div", [["class", "ui statistic"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](20, 0, null, null, 2, "div", [["class", "label"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](21, 0, null, null, 1, "h3", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["DEATHS"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](23, 0, null, null, 2, "div", [["class", "value"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](24, null, [" ", " "])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵppd"](25, 1), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](26, 0, null, null, 7, "div", [["class", "card col p-3 m-3"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](27, 0, null, null, 6, "div", [["class", "ui statistic"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](28, 0, null, null, 2, "div", [["class", "label"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](29, 0, null, null, 1, "h3", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["ACTIVE"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](31, 0, null, null, 2, "div", [["class", "value"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](32, null, [" ", " "])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵppd"](33, 1)], null, function (_ck, _v) {
+      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpid"](0, _angular_common__WEBPACK_IMPORTED_MODULE_2__["DecimalPipe"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["LOCALE_ID"]]), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 35, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](2, 0, null, null, 8, "div", [["class", "card col-md-3 mb-col-2 col-12 p-3"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](3, 0, null, null, 7, "div", [["class", "ui statistic"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, null, 3, "div", [["class", "label"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](5, 0, null, null, 2, "h3", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](6, null, ["", ""])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpid"](131072, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_3__["TranslatePipe"], [_ngx_translate_core__WEBPACK_IMPORTED_MODULE_3__["TranslateService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]]), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](8, 0, null, null, 2, "div", [["class", "value"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](9, null, [" ", " "])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵppd"](10, 1), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](11, 0, null, null, 8, "div", [["class", "card col-md-3 col-12 p-3"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](12, 0, null, null, 7, "div", [["class", "ui statistic"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](13, 0, null, null, 3, "div", [["class", "label"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](14, 0, null, null, 2, "h3", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](15, null, ["", ""])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpid"](131072, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_3__["TranslatePipe"], [_ngx_translate_core__WEBPACK_IMPORTED_MODULE_3__["TranslateService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]]), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](17, 0, null, null, 2, "div", [["class", "value"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](18, null, [" ", " "])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵppd"](19, 1), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](20, 0, null, null, 8, "div", [["class", "card col-md-3 col-12 p-3"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](21, 0, null, null, 7, "div", [["class", "ui statistic"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](22, 0, null, null, 3, "div", [["class", "label"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](23, 0, null, null, 2, "h3", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](24, null, ["", ""])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpid"](131072, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_3__["TranslatePipe"], [_ngx_translate_core__WEBPACK_IMPORTED_MODULE_3__["TranslateService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]]), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](26, 0, null, null, 2, "div", [["class", "value"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](27, null, [" ", " "])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵppd"](28, 1), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](29, 0, null, null, 7, "div", [["class", "card col-md-3 col-12 p-3"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](30, 0, null, null, 6, "div", [["class", "ui statistic"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](31, 0, null, null, 2, "div", [["class", "label"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](32, 0, null, null, 1, "h3", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["ACTIVE"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](34, 0, null, null, 2, "div", [["class", "value"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](35, null, [" ", " "])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵppd"](36, 1)], null, function (_ck, _v) {
         var _co = _v.component;
 
-        var currVal_0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 8, 0, _ck(_v, 9, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 0), _co.totalConfirmed));
+        var currVal_0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 6, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 7).transform("CONFIRMED"));
 
-        _ck(_v, 8, 0, currVal_0);
+        _ck(_v, 6, 0, currVal_0);
 
-        var currVal_1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 16, 0, _ck(_v, 17, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 0), _co.totalRecovered));
+        var currVal_1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 9, 0, _ck(_v, 10, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 0), _co.totalConfirmed));
 
-        _ck(_v, 16, 0, currVal_1);
+        _ck(_v, 9, 0, currVal_1);
 
-        var currVal_2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 24, 0, _ck(_v, 25, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 0), _co.totalDeaths));
+        var currVal_2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 15, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 16).transform("RECOVERED"));
 
-        _ck(_v, 24, 0, currVal_2);
+        _ck(_v, 15, 0, currVal_2);
 
-        var currVal_3 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 32, 0, _ck(_v, 33, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 0), _co.totalActive));
+        var currVal_3 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 18, 0, _ck(_v, 19, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 0), _co.totalRecovered));
 
-        _ck(_v, 32, 0, currVal_3);
+        _ck(_v, 18, 0, currVal_3);
+
+        var currVal_4 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 24, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 25).transform("DEATHS"));
+
+        _ck(_v, 24, 0, currVal_4);
+
+        var currVal_5 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 27, 0, _ck(_v, 28, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 0), _co.totalDeaths));
+
+        _ck(_v, 27, 0, currVal_5);
+
+        var currVal_6 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 35, 0, _ck(_v, 36, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 0), _co.totalActive));
+
+        _ck(_v, 35, 0, currVal_6);
       });
     }
 
     function View_DashboardCardComponent_Host_0(_l) {
-      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 1, "app-dashboard-card", [], null, null, null, View_DashboardCardComponent_0, RenderType_DashboardCardComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 114688, null, 0, _dashboard_card_component__WEBPACK_IMPORTED_MODULE_3__["DashboardCardComponent"], [], null, null)], function (_ck, _v) {
+      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 1, "app-dashboard-card", [], null, null, null, View_DashboardCardComponent_0, RenderType_DashboardCardComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 114688, null, 0, _dashboard_card_component__WEBPACK_IMPORTED_MODULE_4__["DashboardCardComponent"], [_ngx_translate_core__WEBPACK_IMPORTED_MODULE_3__["TranslateService"]], null, null)], function (_ck, _v) {
         _ck(_v, 1, 0);
       }, null);
     }
 
-    var DashboardCardComponentNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵccf"]("app-dashboard-card", _dashboard_card_component__WEBPACK_IMPORTED_MODULE_3__["DashboardCardComponent"], View_DashboardCardComponent_Host_0, {
+    var DashboardCardComponentNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵccf"]("app-dashboard-card", _dashboard_card_component__WEBPACK_IMPORTED_MODULE_4__["DashboardCardComponent"], View_DashboardCardComponent_Host_0, {
       totalConfirmed: "totalConfirmed",
       totalRecovered: "totalRecovered",
       totalDeaths: "totalDeaths",
@@ -125709,8 +128199,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var DashboardCardComponent =
     /*#__PURE__*/
     function () {
-      function DashboardCardComponent() {
+      function DashboardCardComponent(translate) {
         _classCallCheck(this, DashboardCardComponent);
+
+        this.translate = translate;
       }
 
       _createClass2(DashboardCardComponent, [{
@@ -125807,37 +128299,43 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _dashboard_card_dashboard_card_component_ngfactory__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @ngx-translate/core */
+    "./node_modules/@ngx-translate/core/fesm2015/ngx-translate-core.js");
+    /* harmony import */
+
+
+    var _dashboard_card_dashboard_card_component_ngfactory__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! ../dashboard-card/dashboard-card.component.ngfactory */
     "./src/app/components/dashboard-card/dashboard-card.component.ngfactory.js");
     /* harmony import */
 
 
-    var _dashboard_card_dashboard_card_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    var _dashboard_card_dashboard_card_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! ../dashboard-card/dashboard-card.component */
     "./src/app/components/dashboard-card/dashboard-card.component.ts");
     /* harmony import */
 
 
-    var _node_modules_angular_google_charts_angular_google_charts_ngfactory__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    var _node_modules_angular_google_charts_angular_google_charts_ngfactory__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! ../../../../node_modules/angular-google-charts/angular-google-charts.ngfactory */
     "./node_modules/angular-google-charts/angular-google-charts.ngfactory.js");
     /* harmony import */
 
 
-    var angular_google_charts__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    var angular_google_charts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
     /*! angular-google-charts */
     "./node_modules/angular-google-charts/fesm2015/angular-google-charts.js");
     /* harmony import */
 
 
-    var _home_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    var _home_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
     /*! ./home.component */
     "./src/app/components/home/home.component.ts");
     /* harmony import */
 
 
-    var _services_data_service_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    var _services_data_service_service__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
     /*! ../../services/data-service.service */
     "./src/app/services/data-service.service.ts");
     /**
@@ -125857,32 +128355,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     });
 
     function View_HomeComponent_0(_l) {
-      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 2, "div", [["class", "ui inverted dimmer"]], [[2, "active", null]], null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 1, "div", [["class", "ui text loader"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Loading"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](3, 0, null, null, 5, "div", [["class", "jumbotron bg-white text-center"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, null, 1, "h1", [["class", "display-4"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Corona Covid-19 Tracker"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](6, 0, null, null, 0, "hr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](7, 0, null, null, 1, "app-dashboard-card", [], null, null, null, _dashboard_card_dashboard_card_component_ngfactory__WEBPACK_IMPORTED_MODULE_2__["View_DashboardCardComponent_0"], _dashboard_card_dashboard_card_component_ngfactory__WEBPACK_IMPORTED_MODULE_2__["RenderType_DashboardCardComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](8, 114688, null, 0, _dashboard_card_dashboard_card_component__WEBPACK_IMPORTED_MODULE_3__["DashboardCardComponent"], [], {
+      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 2, "div", [["class", "ui inverted dimmer"]], [[2, "active", null]], null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 1, "div", [["class", "ui text loader"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Loading"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](3, 0, null, null, 6, "div", [["class", "jumbotron bg-white text-center"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, null, 2, "h1", [["class", "display-4"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](5, null, ["", ""])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpid"](131072, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_2__["TranslatePipe"], [_ngx_translate_core__WEBPACK_IMPORTED_MODULE_2__["TranslateService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]]), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](7, 0, null, null, 0, "hr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](8, 0, null, null, 1, "app-dashboard-card", [], null, null, null, _dashboard_card_dashboard_card_component_ngfactory__WEBPACK_IMPORTED_MODULE_3__["View_DashboardCardComponent_0"], _dashboard_card_dashboard_card_component_ngfactory__WEBPACK_IMPORTED_MODULE_3__["RenderType_DashboardCardComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](9, 114688, null, 0, _dashboard_card_dashboard_card_component__WEBPACK_IMPORTED_MODULE_4__["DashboardCardComponent"], [_ngx_translate_core__WEBPACK_IMPORTED_MODULE_2__["TranslateService"]], {
         totalConfirmed: [0, "totalConfirmed"],
         totalRecovered: [1, "totalRecovered"],
         totalDeaths: [2, "totalDeaths"],
         totalActive: [3, "totalActive"]
-      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](9, 0, null, null, 0, "hr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](10, 0, null, null, 30, "div", [["class", "ui form ml-4"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](11, 0, null, null, 22, "div", [["class", "inline fields"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](12, 0, null, null, 1, "label", [["for", "fruit"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Select Case Type:"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](14, 0, null, null, 4, "div", [["class", "field"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](15, 0, null, null, 3, "div", [["class", "ui radio checkbox"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](16, 0, [["c", 1]], null, 0, "input", [["checked", ""], ["class", "hidden"], ["id", "c"], ["name", "casetype"], ["tabindex", "0"], ["type", "radio"], ["value", "c"]], null, [[null, "click"]], function (_v, en, $event) {
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](10, 0, null, null, 0, "hr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](11, 0, null, null, 36, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](12, 0, null, null, 35, "div", [["class", "col-12"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](13, 0, null, null, 27, "div", [["class", "ui form ml-4"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](14, 0, null, null, 26, "div", [["class", "inline fields"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](15, 0, null, null, 2, "label", [["for", "fruit"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](16, null, ["", ""])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpid"](131072, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_2__["TranslatePipe"], [_ngx_translate_core__WEBPACK_IMPORTED_MODULE_2__["TranslateService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]]), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](18, 0, null, null, 5, "div", [["class", "field"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](19, 0, null, null, 4, "div", [["class", "ui radio checkbox"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](20, 0, [["c", 1]], null, 0, "input", [["checked", ""], ["class", "hidden"], ["id", "c"], ["name", "casetype"], ["tabindex", "0"], ["type", "radio"], ["value", "c"]], null, [[null, "click"]], function (_v, en, $event) {
         var ad = true;
         var _co = _v.component;
 
         if ("click" === en) {
-          var pd_0 = _co.updateChart(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 16)) !== false;
+          var pd_0 = _co.updateChart(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 20)) !== false;
           ad = pd_0 && ad;
         }
 
         return ad;
-      }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](17, 0, null, null, 1, "label", [["for", "c"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Confirmed"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](19, 0, null, null, 4, "div", [["class", "field"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](20, 0, null, null, 3, "div", [["class", "ui radio checkbox"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](21, 0, [["d", 1]], null, 0, "input", [["class", "hidden"], ["id", "d"], ["name", "casetype"], ["tabindex", "0"], ["type", "radio"], ["value", "d"]], null, [[null, "click"]], function (_v, en, $event) {
-        var ad = true;
-        var _co = _v.component;
-
-        if ("click" === en) {
-          var pd_0 = _co.updateChart(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 21)) !== false;
-          ad = pd_0 && ad;
-        }
-
-        return ad;
-      }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](22, 0, null, null, 1, "label", [["for", "d"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Deaths"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](24, 0, null, null, 4, "div", [["class", "field"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](25, 0, null, null, 3, "div", [["class", "ui radio checkbox"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](26, 0, [["r", 1]], null, 0, "input", [["class", "hidden"], ["id", "r"], ["name", "casetype"], ["tabindex", "0"], ["type", "radio"], ["value", "r"]], null, [[null, "click"]], function (_v, en, $event) {
+      }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](21, 0, null, null, 2, "label", [["for", "c"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](22, null, ["", ""])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpid"](131072, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_2__["TranslatePipe"], [_ngx_translate_core__WEBPACK_IMPORTED_MODULE_2__["TranslateService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]]), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](24, 0, null, null, 5, "div", [["class", "field"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](25, 0, null, null, 4, "div", [["class", "ui radio checkbox"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](26, 0, [["d", 1]], null, 0, "input", [["class", "hidden"], ["id", "d"], ["name", "casetype"], ["tabindex", "0"], ["type", "radio"], ["value", "d"]], null, [[null, "click"]], function (_v, en, $event) {
         var ad = true;
         var _co = _v.component;
 
@@ -125892,63 +128380,93 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
 
         return ad;
-      }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](27, 0, null, null, 1, "label", [["for", "r"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Recovered"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](29, 0, null, null, 4, "div", [["class", "field"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](30, 0, null, null, 3, "div", [["class", "ui radio checkbox"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](31, 0, [["a", 1]], null, 0, "input", [["class", "hidden"], ["id", "a"], ["name", "casetype"], ["tabindex", "0"], ["type", "radio"], ["value", "a"]], null, [[null, "click"]], function (_v, en, $event) {
+      }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](27, 0, null, null, 2, "label", [["for", "d"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](28, null, ["", ""])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpid"](131072, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_2__["TranslatePipe"], [_ngx_translate_core__WEBPACK_IMPORTED_MODULE_2__["TranslateService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]]), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](30, 0, null, null, 5, "div", [["class", "field"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](31, 0, null, null, 4, "div", [["class", "ui radio checkbox"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](32, 0, [["r", 1]], null, 0, "input", [["class", "hidden"], ["id", "r"], ["name", "casetype"], ["tabindex", "0"], ["type", "radio"], ["value", "r"]], null, [[null, "click"]], function (_v, en, $event) {
         var ad = true;
         var _co = _v.component;
 
         if ("click" === en) {
-          var pd_0 = _co.updateChart(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 31)) !== false;
+          var pd_0 = _co.updateChart(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 32)) !== false;
           ad = pd_0 && ad;
         }
 
         return ad;
-      }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](32, 0, null, null, 1, "label", [["for", "a"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Active"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](34, 0, null, null, 6, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](35, 0, null, null, 2, "div", [["class", "col"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](36, 0, null, null, 1, "google-chart", [["class", "google-chart"], ["style", "width: 100%;"]], null, null, null, _node_modules_angular_google_charts_angular_google_charts_ngfactory__WEBPACK_IMPORTED_MODULE_4__["View_GoogleChartComponent_0"], _node_modules_angular_google_charts_angular_google_charts_ngfactory__WEBPACK_IMPORTED_MODULE_4__["RenderType_GoogleChartComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](37, 638976, null, 0, angular_google_charts__WEBPACK_IMPORTED_MODULE_5__["GoogleChartComponent"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], angular_google_charts__WEBPACK_IMPORTED_MODULE_5__["ScriptLoaderService"], [2, angular_google_charts__WEBPACK_IMPORTED_MODULE_5__["DashboardComponent"]]], {
+      }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](33, 0, null, null, 2, "label", [["for", "r"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](34, null, ["", ""])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpid"](131072, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_2__["TranslatePipe"], [_ngx_translate_core__WEBPACK_IMPORTED_MODULE_2__["TranslateService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]]), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](36, 0, null, null, 4, "div", [["class", "field"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](37, 0, null, null, 3, "div", [["class", "ui radio checkbox"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](38, 0, [["a", 1]], null, 0, "input", [["class", "hidden"], ["id", "a"], ["name", "casetype"], ["tabindex", "0"], ["type", "radio"], ["value", "a"]], null, [[null, "click"]], function (_v, en, $event) {
+        var ad = true;
+        var _co = _v.component;
+
+        if ("click" === en) {
+          var pd_0 = _co.updateChart(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 38)) !== false;
+          ad = pd_0 && ad;
+        }
+
+        return ad;
+      }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](39, 0, null, null, 1, "label", [["for", "a"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Active"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](41, 0, null, null, 6, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](42, 0, null, null, 2, "div", [["class", "col-12 col-md-6"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](43, 0, null, null, 1, "google-chart", [["class", "google-chart"], ["style", "width: 100%;"]], null, null, null, _node_modules_angular_google_charts_angular_google_charts_ngfactory__WEBPACK_IMPORTED_MODULE_5__["View_GoogleChartComponent_0"], _node_modules_angular_google_charts_angular_google_charts_ngfactory__WEBPACK_IMPORTED_MODULE_5__["RenderType_GoogleChartComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](44, 638976, null, 0, angular_google_charts__WEBPACK_IMPORTED_MODULE_6__["GoogleChartComponent"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], angular_google_charts__WEBPACK_IMPORTED_MODULE_6__["ScriptLoaderService"], [2, angular_google_charts__WEBPACK_IMPORTED_MODULE_6__["DashboardComponent"]]], {
         type: [0, "type"],
         data: [1, "data"],
         height: [2, "height"],
         options: [3, "options"]
-      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](38, 0, null, null, 2, "div", [["class", "col"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](39, 0, null, null, 1, "google-chart", [["class", "google-chart"], ["style", "width: 100%;"]], null, null, null, _node_modules_angular_google_charts_angular_google_charts_ngfactory__WEBPACK_IMPORTED_MODULE_4__["View_GoogleChartComponent_0"], _node_modules_angular_google_charts_angular_google_charts_ngfactory__WEBPACK_IMPORTED_MODULE_4__["RenderType_GoogleChartComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](40, 638976, null, 0, angular_google_charts__WEBPACK_IMPORTED_MODULE_5__["GoogleChartComponent"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], angular_google_charts__WEBPACK_IMPORTED_MODULE_5__["ScriptLoaderService"], [2, angular_google_charts__WEBPACK_IMPORTED_MODULE_5__["DashboardComponent"]]], {
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](45, 0, null, null, 2, "div", [["class", "col-12 col-md-6"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](46, 0, null, null, 1, "google-chart", [["class", "google-chart"], ["style", "width: 100%;"]], null, null, null, _node_modules_angular_google_charts_angular_google_charts_ngfactory__WEBPACK_IMPORTED_MODULE_5__["View_GoogleChartComponent_0"], _node_modules_angular_google_charts_angular_google_charts_ngfactory__WEBPACK_IMPORTED_MODULE_5__["RenderType_GoogleChartComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](47, 638976, null, 0, angular_google_charts__WEBPACK_IMPORTED_MODULE_6__["GoogleChartComponent"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], angular_google_charts__WEBPACK_IMPORTED_MODULE_6__["ScriptLoaderService"], [2, angular_google_charts__WEBPACK_IMPORTED_MODULE_6__["DashboardComponent"]]], {
         type: [0, "type"],
         data: [1, "data"],
         height: [2, "height"],
         options: [3, "options"]
       }, null)], function (_ck, _v) {
         var _co = _v.component;
-        var currVal_1 = _co.totalConfirmed;
-        var currVal_2 = _co.totalRecovered;
-        var currVal_3 = _co.totalDeaths;
-        var currVal_4 = _co.totalActive;
+        var currVal_2 = _co.totalConfirmed;
+        var currVal_3 = _co.totalRecovered;
+        var currVal_4 = _co.totalDeaths;
+        var currVal_5 = _co.totalActive;
 
-        _ck(_v, 8, 0, currVal_1, currVal_2, currVal_3, currVal_4);
+        _ck(_v, 9, 0, currVal_2, currVal_3, currVal_4, currVal_5);
 
-        var currVal_5 = _co.chart.PieChart;
-        var currVal_6 = _co.datatable;
-        var currVal_7 = _co.chart.height;
-        var currVal_8 = _co.chart.options;
+        var currVal_10 = _co.chart.PieChart;
+        var currVal_11 = _co.datatable;
+        var currVal_12 = _co.chart.height;
+        var currVal_13 = _co.chart.options;
 
-        _ck(_v, 37, 0, currVal_5, currVal_6, currVal_7, currVal_8);
+        _ck(_v, 44, 0, currVal_10, currVal_11, currVal_12, currVal_13);
 
-        var currVal_9 = _co.chart.ColumnChart;
-        var currVal_10 = _co.datatable;
-        var currVal_11 = _co.chart.height;
-        var currVal_12 = _co.chart.options;
+        var currVal_14 = _co.chart.ColumnChart;
+        var currVal_15 = _co.datatable;
+        var currVal_16 = _co.chart.height;
+        var currVal_17 = _co.chart.options;
 
-        _ck(_v, 40, 0, currVal_9, currVal_10, currVal_11, currVal_12);
+        _ck(_v, 47, 0, currVal_14, currVal_15, currVal_16, currVal_17);
       }, function (_ck, _v) {
         var _co = _v.component;
         var currVal_0 = _co.loading;
 
         _ck(_v, 0, 0, currVal_0);
+
+        var currVal_1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 5, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 6).transform("Tracker"));
+
+        _ck(_v, 5, 0, currVal_1);
+
+        var currVal_6 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 16, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 17).transform("SELECT"));
+
+        _ck(_v, 16, 0, currVal_6);
+
+        var currVal_7 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 22, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 23).transform("CONFIRMED"));
+
+        _ck(_v, 22, 0, currVal_7);
+
+        var currVal_8 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 28, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 29).transform("DEATHS"));
+
+        _ck(_v, 28, 0, currVal_8);
+
+        var currVal_9 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 34, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 35).transform("RECOVERED"));
+
+        _ck(_v, 34, 0, currVal_9);
       });
     }
 
     function View_HomeComponent_Host_0(_l) {
-      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 1, "app-home", [], null, null, null, View_HomeComponent_0, RenderType_HomeComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 114688, null, 0, _home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"], [_services_data_service_service__WEBPACK_IMPORTED_MODULE_7__["DataServiceService"]], null, null)], function (_ck, _v) {
+      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 1, "app-home", [], null, null, null, View_HomeComponent_0, RenderType_HomeComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 114688, null, 0, _home_component__WEBPACK_IMPORTED_MODULE_7__["HomeComponent"], [_services_data_service_service__WEBPACK_IMPORTED_MODULE_8__["DataServiceService"], _ngx_translate_core__WEBPACK_IMPORTED_MODULE_2__["TranslateService"]], null, null)], function (_ck, _v) {
         _ck(_v, 1, 0);
       }, null);
     }
 
-    var HomeComponentNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵccf"]("app-home", _home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"], View_HomeComponent_Host_0, {}, {}, []);
+    var HomeComponentNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵccf"]("app-home", _home_component__WEBPACK_IMPORTED_MODULE_7__["HomeComponent"], View_HomeComponent_Host_0, {}, {}, []);
     /***/
 
   },
@@ -125982,10 +128500,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var HomeComponent =
     /*#__PURE__*/
     function () {
-      function HomeComponent(dataSer) {
+      function HomeComponent(dataSer, translate) {
         _classCallCheck(this, HomeComponent);
 
         this.dataSer = dataSer;
+        this.translate = translate;
         this.totalConfirmed = 0;
         this.totalActive = 0;
         this.totalDeaths = 0;
@@ -126010,7 +128529,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(HomeComponent, [{
         key: "initChart",
         value: function initChart(caseType) {
-          var _this277 = this;
+          var _this290 = this;
 
           // this.datatable.push(["Country", " Cases"]);
           this.datatable = [];
@@ -126041,31 +128560,31 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               }
             }
 
-            _this277.datatable.push([cs.country, value]);
+            _this290.datatable.push([cs.country, value]);
           });
         }
       }, {
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this278 = this;
+          var _this291 = this;
 
           this.dataSer.getGlobalData().subscribe({
             next: function next(result) {
               // console.log(result);
-              _this278.globalData = result;
+              _this291.globalData = result;
               result.forEach(function (cs) {
                 if (!Number.isNaN(cs.confirmed)) {
-                  _this278.totalActive += cs.active;
-                  _this278.totalConfirmed += cs.confirmed;
-                  _this278.totalDeaths += cs.deaths;
-                  _this278.totalRecovered += cs.recovered;
+                  _this291.totalActive += cs.active;
+                  _this291.totalConfirmed += cs.confirmed;
+                  _this291.totalDeaths += cs.deaths;
+                  _this291.totalRecovered += cs.recovered;
                 }
               });
 
-              _this278.initChart("c");
+              _this291.initChart("c");
             },
             complete: function complete() {
-              _this278.loading = false;
+              _this291.loading = false;
             }
           });
         }
@@ -126110,7 +128629,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var styles = [""];
+    var styles = [".router-link-active[_ngcontent-%COMP%] {\n  color: #000;\n  font-weight: bold;\n}"];
     /***/
   },
 
@@ -126178,7 +128697,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _navbar_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! @ngx-translate/core */
+    "./node_modules/@ngx-translate/core/fesm2015/ngx-translate-core.js");
+    /* harmony import */
+
+
+    var _navbar_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! ./navbar.component */
     "./src/app/components/navbar/navbar.component.ts");
     /**
@@ -126198,7 +128723,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     });
 
     function View_NavbarComponent_0(_l) {
-      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 17, "nav", [["class", "navbar navbar-expand-sm navbar-light bg-light"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 2, "a", [["class", "navbar-brand"], ["routerLink", "/"]], [[1, "target", 0], [8, "href", 4]], [[null, "click"]], function (_v, en, $event) {
+      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 31, "nav", [["class", "navbar navbar-expand-sm navbar-light bg-light"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 2, "a", [["class", "navbar-brand"], ["routerLink", "/"]], [[1, "target", 0], [8, "href", 4]], [[null, "click"]], function (_v, en, $event) {
         var ad = true;
 
         if ("click" === en) {
@@ -126209,7 +128734,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         return ad;
       }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](2, 671744, null, 0, _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"], [_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["LocationStrategy"]], {
         routerLink: [0, "routerLink"]
-      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Covid-19 Tracker"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, null, 1, "button", [["aria-controls", "collapsibleNavId"], ["aria-expanded", "false"], ["aria-label", "Toggle navigation"], ["class", "navbar-toggler d-lg-none"], ["data-target", "#collapsibleNavId"], ["data-toggle", "collapse"], ["type", "button"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](5, 0, null, null, 0, "span", [["class", "navbar-toggler-icon"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](6, 0, null, null, 11, "div", [["class", "collapse navbar-collapse"], ["id", "collapsibleNavId"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](7, 0, null, null, 10, "ul", [["class", "navbar-nav mr-auto mt-2 mt-lg-0"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](8, 0, null, null, 5, "li", [["class", "nav-item active"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](9, 0, null, null, 4, "a", [["class", "nav-link"], ["routerLink", "/"]], [[1, "target", 0], [8, "href", 4]], [[null, "click"]], function (_v, en, $event) {
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Covid-19 Tracker"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, null, 1, "button", [["aria-controls", "collapsibleNavId"], ["aria-expanded", "false"], ["aria-label", "Toggle navigation"], ["class", "navbar-toggler d-lg-none"], ["data-target", "#collapsibleNavId"], ["data-toggle", "collapse"], ["type", "button"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](5, 0, null, null, 0, "span", [["class", "navbar-toggler-icon"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](6, 0, null, null, 25, "div", [["class", "collapse navbar-collapse"], ["id", "collapsibleNavId"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](7, 0, null, null, 16, "ul", [["class", "navbar-nav mr-auto mt-2 mt-lg-0"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](8, 0, null, null, 7, "li", [["class", "nav-item"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](9, 0, null, null, 6, "a", [["class", "nav-link"], ["routerLink", "/"], ["routerLinkActive", "router-link-active"]], [[1, "target", 0], [8, "href", 4]], [[null, "click"]], function (_v, en, $event) {
         var ad = true;
 
         if ("click" === en) {
@@ -126218,20 +128743,52 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
 
         return ad;
-      }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](10, 671744, null, 0, _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"], [_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["LocationStrategy"]], {
+      }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](10, 671744, [[2, 4]], 0, _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"], [_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["LocationStrategy"]], {
         routerLink: [0, "routerLink"]
-      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Home "])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](12, 0, null, null, 1, "span", [["class", "sr-only"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["(current)"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](14, 0, null, null, 3, "li", [["class", "nav-item"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](15, 0, null, null, 2, "a", [["class", "nav-link"], ["routerLink", "countries"]], [[1, "target", 0], [8, "href", 4]], [[null, "click"]], function (_v, en, $event) {
+      }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](11, 1720320, null, 2, _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkActive"], [_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"], [2, _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLink"]], [2, _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"]]], {
+        routerLinkActive: [0, "routerLinkActive"]
+      }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵqud"](603979776, 1, {
+        links: 1
+      }), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵqud"](603979776, 2, {
+        linksWithHrefs: 1
+      }), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](14, null, ["", " "])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpid"](131072, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_4__["TranslatePipe"], [_ngx_translate_core__WEBPACK_IMPORTED_MODULE_4__["TranslateService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]]), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](16, 0, null, null, 7, "li", [["class", "nav-item"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](17, 0, null, null, 6, "a", [["class", "nav-link"], ["routerLink", "countries"], ["routerLinkActive", "router-link-active"]], [[1, "target", 0], [8, "href", 4]], [[null, "click"]], function (_v, en, $event) {
         var ad = true;
 
         if ("click" === en) {
-          var pd_0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 16).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false;
+          var pd_0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 18).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false;
           ad = pd_0 && ad;
         }
 
         return ad;
-      }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](16, 671744, null, 0, _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"], [_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["LocationStrategy"]], {
+      }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](18, 671744, [[4, 4]], 0, _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"], [_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["LocationStrategy"]], {
         routerLink: [0, "routerLink"]
-      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Countries"]))], function (_ck, _v) {
+      }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](19, 1720320, null, 2, _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkActive"], [_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"], [2, _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLink"]], [2, _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"]]], {
+        routerLinkActive: [0, "routerLinkActive"]
+      }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵqud"](603979776, 3, {
+        links: 1
+      }), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵqud"](603979776, 4, {
+        linksWithHrefs: 1
+      }), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](22, null, ["", ""])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpid"](131072, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_4__["TranslatePipe"], [_ngx_translate_core__WEBPACK_IMPORTED_MODULE_4__["TranslateService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]]), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](24, 0, null, null, 7, "div", [["class", "dropdown"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](25, 0, null, null, 1, "button", [["aria-expanded", "false"], ["aria-haspopup", "true"], ["class", "btn btn-secondary dropdown-toggle"], ["data-toggle", "dropdown"], ["id", "dropdownMenuButton"], ["type", "button"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, [" Languages "])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](27, 0, null, null, 4, "div", [["aria-labelledby", "dropdownMenuButton"], ["class", "dropdown-menu"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](28, 0, null, null, 1, "a", [["class", "dropdown-item"], ["style", "cursor: pointer;"]], null, [[null, "click"]], function (_v, en, $event) {
+        var ad = true;
+        var _co = _v.component;
+
+        if ("click" === en) {
+          var pd_0 = _co.changeCurrentLang("en") !== false;
+          ad = pd_0 && ad;
+        }
+
+        return ad;
+      }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["English"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](30, 0, null, null, 1, "a", [["class", "dropdown-item"], ["style", "cursor: pointer;"]], null, [[null, "click"]], function (_v, en, $event) {
+        var ad = true;
+        var _co = _v.component;
+
+        if ("click" === en) {
+          var pd_0 = _co.changeCurrentLang("fr") !== false;
+          ad = pd_0 && ad;
+        }
+
+        return ad;
+      }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["French"]))], function (_ck, _v) {
         var currVal_2 = "/";
 
         _ck(_v, 2, 0, currVal_2);
@@ -126240,9 +128797,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _ck(_v, 10, 0, currVal_5);
 
-        var currVal_8 = "countries";
+        var currVal_6 = "router-link-active";
 
-        _ck(_v, 16, 0, currVal_8);
+        _ck(_v, 11, 0, currVal_6);
+
+        var currVal_10 = "countries";
+
+        _ck(_v, 18, 0, currVal_10);
+
+        var currVal_11 = "router-link-active";
+
+        _ck(_v, 19, 0, currVal_11);
       }, function (_ck, _v) {
         var currVal_0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 2).target;
 
@@ -126256,21 +128821,29 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _ck(_v, 9, 0, currVal_3, currVal_4);
 
-        var currVal_6 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 16).target;
+        var currVal_7 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 14, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 15).transform("Home"));
 
-        var currVal_7 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 16).href;
+        _ck(_v, 14, 0, currVal_7);
 
-        _ck(_v, 15, 0, currVal_6, currVal_7);
+        var currVal_8 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 18).target;
+
+        var currVal_9 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 18).href;
+
+        _ck(_v, 17, 0, currVal_8, currVal_9);
+
+        var currVal_12 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 22, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 23).transform("Countries"));
+
+        _ck(_v, 22, 0, currVal_12);
       });
     }
 
     function View_NavbarComponent_Host_0(_l) {
-      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 1, "app-navbar", [], null, null, null, View_NavbarComponent_0, RenderType_NavbarComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 114688, null, 0, _navbar_component__WEBPACK_IMPORTED_MODULE_4__["NavbarComponent"], [], null, null)], function (_ck, _v) {
+      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 1, "app-navbar", [], null, null, null, View_NavbarComponent_0, RenderType_NavbarComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 114688, null, 0, _navbar_component__WEBPACK_IMPORTED_MODULE_5__["NavbarComponent"], [_ngx_translate_core__WEBPACK_IMPORTED_MODULE_4__["TranslateService"]], null, null)], function (_ck, _v) {
         _ck(_v, 1, 0);
       }, null);
     }
 
-    var NavbarComponentNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵccf"]("app-navbar", _navbar_component__WEBPACK_IMPORTED_MODULE_4__["NavbarComponent"], View_NavbarComponent_Host_0, {}, {}, []);
+    var NavbarComponentNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵccf"]("app-navbar", _navbar_component__WEBPACK_IMPORTED_MODULE_5__["NavbarComponent"], View_NavbarComponent_Host_0, {}, {}, []);
     /***/
 
   },
@@ -126304,13 +128877,24 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var NavbarComponent =
     /*#__PURE__*/
     function () {
-      function NavbarComponent() {
+      function NavbarComponent(translate) {
         _classCallCheck(this, NavbarComponent);
+
+        this.translate = translate;
       }
 
       _createClass2(NavbarComponent, [{
         key: "ngOnInit",
-        value: function ngOnInit() {}
+        value: function ngOnInit() {
+          this.currentLang = localStorage.getItem("currentLang") || "en";
+          this.translate.use(this.currentLang);
+        }
+      }, {
+        key: "changeCurrentLang",
+        value: function changeCurrentLang(lang) {
+          this.translate.use(lang);
+          localStorage.setItem("currentLang", lang);
+        }
       }]);
 
       return NavbarComponent;
@@ -126558,7 +129142,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         _classCallCheck(this, DataServiceService);
 
         this.http = http;
-        this.globalDataUrl = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-10-2020.csv";
+        this.nowDate = new Date();
+        this.nowdDay = this.nowDate.getDate() - 1;
+        this.nowMonth = this.nowDate.getMonth() + 1;
+        this.globalDataUrl = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/0".concat(this.nowMonth, "-").concat(this.nowdDay, "-2020.csv");
         this.dateWiseDataUrl = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv";
       }
 

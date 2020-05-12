@@ -1,6 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { DataServiceService } from "src/app/services/data-service.service";
 import { GlobalDataSummary } from "src/app/models/global-data";
+import { TranslateService } from "@ngx-translate/core";
 
 @Component({
   selector: "app-home",
@@ -20,6 +21,7 @@ export class HomeComponent implements OnInit {
     ColumnChart: "ColumnChart",
     LineChart: "LineChart",
     height: 500,
+
     options: {
       animation: {
         duration: 1000,
@@ -29,7 +31,10 @@ export class HomeComponent implements OnInit {
     },
   };
 
-  constructor(private dataSer: DataServiceService) {}
+  constructor(
+    private dataSer: DataServiceService,
+    public translate: TranslateService
+  ) {}
   initChart(caseType: string) {
     // this.datatable.push(["Country", " Cases"]);
     this.datatable = [];

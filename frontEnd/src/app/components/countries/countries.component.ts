@@ -4,6 +4,7 @@ import { GlobalDataSummary } from "src/app/models/global-data";
 import { DateWiseData } from "src/app/models/date-wise-data";
 import { merge } from "rxjs";
 import { map } from "rxjs/operators";
+import { TranslateService } from "@ngx-translate/core";
 
 @Component({
   selector: "app-countries",
@@ -19,6 +20,7 @@ export class CountriesComponent implements OnInit {
   totalRecovered = 0;
   loading = true;
   SelectedCountryData: DateWiseData[];
+  SelectedCountry: DateWiseData[];
   dateWiseData;
   chart = {
     LineChart: "LineChart",
@@ -32,7 +34,10 @@ export class CountriesComponent implements OnInit {
     },
   };
   dataTable = [];
-  constructor(private dataSer: DataServiceService) {}
+  constructor(
+    private dataSer: DataServiceService,
+    public translate: TranslateService
+  ) {}
 
   ngOnInit() {
     merge(
@@ -78,6 +83,7 @@ export class CountriesComponent implements OnInit {
     });
     this.SelectedCountryData = this.dateWiseData[country];
     // console.log(this.SelectedCountryData);
+
     this.updateChart();
   }
 }
