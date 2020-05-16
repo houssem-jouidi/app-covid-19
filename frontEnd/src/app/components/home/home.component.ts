@@ -19,7 +19,7 @@ export class HomeComponent implements OnInit {
   chart = {
     PieChart: "PieChart",
     ColumnChart: "ColumnChart",
-    LineChart: "LineChart",
+
     height: 500,
 
     options: {
@@ -27,6 +27,7 @@ export class HomeComponent implements OnInit {
         duration: 1000,
         easing: "out",
       },
+
       is3D: true,
     },
   };
@@ -41,7 +42,7 @@ export class HomeComponent implements OnInit {
     this.globalData.forEach((cs) => {
       let value: number;
       if (caseType === "c") {
-        if (cs.confirmed > 6000) {
+        if (cs.confirmed > 2000) {
           value = cs.confirmed;
         }
       }

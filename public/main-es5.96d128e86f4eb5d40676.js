@@ -127819,9 +127819,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         totalRecovered: [1, "totalRecovered"],
         totalDeaths: [2, "totalDeaths"],
         totalActive: [3, "totalActive"]
-      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](19, 0, null, null, 14, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](20, 0, null, null, 10, "table", [["class", "table col"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](21, 0, null, null, 6, "thead", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](22, 0, null, null, 5, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](23, 0, null, null, 1, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Date"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](25, 0, null, null, 2, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](26, null, ["", ""])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpid"](131072, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_4__["TranslatePipe"], [_ngx_translate_core__WEBPACK_IMPORTED_MODULE_4__["TranslateService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]]), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](28, 0, null, null, 2, "tbody", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](16777216, null, null, 1, null, View_CountriesComponent_2)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](30, 278528, null, 0, _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["IterableDiffers"]], {
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](19, 0, null, null, 14, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](20, 0, null, null, 10, "table", [["class", "table col-md-7 col-12"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](21, 0, null, null, 6, "thead", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](22, 0, null, null, 5, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](23, 0, null, null, 1, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Date"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](25, 0, null, null, 2, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](26, null, ["", ""])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpid"](131072, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_4__["TranslatePipe"], [_ngx_translate_core__WEBPACK_IMPORTED_MODULE_4__["TranslateService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]]), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](28, 0, null, null, 2, "tbody", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](16777216, null, null, 1, null, View_CountriesComponent_2)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](30, 278528, null, 0, _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["IterableDiffers"]], {
         ngForOf: [0, "ngForOf"]
-      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](31, 0, null, null, 2, "div", [["class", "col"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](32, 0, null, null, 1, "google-chart", [["class", "google-chart"], ["style", "width: 100%;"]], null, null, null, _node_modules_angular_google_charts_angular_google_charts_ngfactory__WEBPACK_IMPORTED_MODULE_7__["View_GoogleChartComponent_0"], _node_modules_angular_google_charts_angular_google_charts_ngfactory__WEBPACK_IMPORTED_MODULE_7__["RenderType_GoogleChartComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](33, 638976, null, 0, angular_google_charts__WEBPACK_IMPORTED_MODULE_8__["GoogleChartComponent"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], angular_google_charts__WEBPACK_IMPORTED_MODULE_8__["ScriptLoaderService"], [2, angular_google_charts__WEBPACK_IMPORTED_MODULE_8__["DashboardComponent"]]], {
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](31, 0, null, null, 2, "div", [["class", "col-md-5 col-12"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](32, 0, null, null, 1, "google-chart", [["class", "google-chart"], ["style", "width: 100%;"]], null, null, null, _node_modules_angular_google_charts_angular_google_charts_ngfactory__WEBPACK_IMPORTED_MODULE_7__["View_GoogleChartComponent_0"], _node_modules_angular_google_charts_angular_google_charts_ngfactory__WEBPACK_IMPORTED_MODULE_7__["RenderType_GoogleChartComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](33, 638976, null, 0, angular_google_charts__WEBPACK_IMPORTED_MODULE_8__["GoogleChartComponent"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], angular_google_charts__WEBPACK_IMPORTED_MODULE_8__["ScriptLoaderService"], [2, angular_google_charts__WEBPACK_IMPORTED_MODULE_8__["DashboardComponent"]]], {
         type: [0, "type"],
         data: [1, "data"],
         height: [2, "height"],
@@ -128405,7 +128405,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         data: [1, "data"],
         height: [2, "height"],
         options: [3, "options"]
-      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](45, 0, null, null, 2, "div", [["class", "col-12 col-md-6"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](46, 0, null, null, 1, "google-chart", [["class", "google-chart"], ["style", "width: 100%;"]], null, null, null, _node_modules_angular_google_charts_angular_google_charts_ngfactory__WEBPACK_IMPORTED_MODULE_5__["View_GoogleChartComponent_0"], _node_modules_angular_google_charts_angular_google_charts_ngfactory__WEBPACK_IMPORTED_MODULE_5__["RenderType_GoogleChartComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](47, 638976, null, 0, angular_google_charts__WEBPACK_IMPORTED_MODULE_6__["GoogleChartComponent"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], angular_google_charts__WEBPACK_IMPORTED_MODULE_6__["ScriptLoaderService"], [2, angular_google_charts__WEBPACK_IMPORTED_MODULE_6__["DashboardComponent"]]], {
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](45, 0, null, null, 2, "div", [["class", "col-12 col-md-6"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](46, 0, null, null, 1, "google-chart", [["class", "google-chart"], ["style", "height: 600px; width: 100%;"]], null, null, null, _node_modules_angular_google_charts_angular_google_charts_ngfactory__WEBPACK_IMPORTED_MODULE_5__["View_GoogleChartComponent_0"], _node_modules_angular_google_charts_angular_google_charts_ngfactory__WEBPACK_IMPORTED_MODULE_5__["RenderType_GoogleChartComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](47, 638976, null, 0, angular_google_charts__WEBPACK_IMPORTED_MODULE_6__["GoogleChartComponent"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], angular_google_charts__WEBPACK_IMPORTED_MODULE_6__["ScriptLoaderService"], [2, angular_google_charts__WEBPACK_IMPORTED_MODULE_6__["DashboardComponent"]]], {
         type: [0, "type"],
         data: [1, "data"],
         height: [2, "height"],
@@ -128514,7 +128514,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         this.chart = {
           PieChart: "PieChart",
           ColumnChart: "ColumnChart",
-          LineChart: "LineChart",
           height: 500,
           options: {
             animation: {
@@ -128537,7 +128536,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             var value;
 
             if (caseType === "c") {
-              if (cs.confirmed > 6000) {
+              if (cs.confirmed > 2000) {
                 value = cs.confirmed;
               }
             }
@@ -128629,7 +128628,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var styles = [".router-link-active[_ngcontent-%COMP%] {\n  color: #000;\n  font-weight: bold;\n}"];
+    var styles = [".router-link-active[_ngcontent-%COMP%] {\n  color: #000;\n  font-weight: bold;\n}\n@media (max-width: 600px) {\n  .navbar[_ngcontent-%COMP%] {\n    padding-bottom: 30px !important;\n  }\n}"];
     /***/
   },
 
