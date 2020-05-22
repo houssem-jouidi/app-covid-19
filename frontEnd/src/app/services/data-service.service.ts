@@ -10,7 +10,7 @@ import { DateWiseData } from "../models/date-wise-data";
 })
 export class DataServiceService {
   nowDate = new Date();
-  nowdDay = this.nowDate.getDate() - 1;
+  nowdDay = this.nowDate.getDate() - 2;
   nowMonth = this.nowDate.getMonth() + 1;
   private globalDataUrl = `https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/0${this.nowMonth}-${this.nowdDay}-2020.csv`;
   private dateWiseDataUrl = `https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv`;
