@@ -129142,9 +129142,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         this.http = http;
         this.nowDate = new Date();
-        this.nowdDay = this.nowDate.getDate() - 2;
+        this.nowdDay = this.nowDate.getDate() - 7;
         this.nowMonth = this.nowDate.getMonth() + 1;
-        this.globalDataUrl = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/0".concat(this.nowMonth, "-").concat(this.nowdDay, "-2020.csv");
+        this.globalDataUrl = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/06-03-2020.csv";
         this.dateWiseDataUrl = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv";
       }
 
