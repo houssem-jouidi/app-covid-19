@@ -8,7 +8,7 @@ import { TranslateService } from "@ngx-translate/core";
 })
 export class DashboardCardComponent implements OnInit {
   @Input("totalConfirmed") totalConfirmed;
-  @Input("totalRecovered ") totalRecovered;
+  @Input("totalRecovered") totalRecovered;
   @Input("totalDeaths") totalDeaths;
   @Input("totalActive") totalActive;
   constructor(public translate: TranslateService) {}

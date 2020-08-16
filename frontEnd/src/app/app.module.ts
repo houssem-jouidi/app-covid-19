@@ -1,6 +1,10 @@
 import { BrowserModule } from "@angular/platform-browser";
-import { NgModule } from "@angular/core";
-
+import {
+  NgModule,
+  CUSTOM_ELEMENTS_SCHEMA,
+  NO_ERRORS_SCHEMA,
+} from "@angular/core";
+import { NgxPaginationModule } from "ngx-pagination";
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { NavbarComponent } from "./components/navbar/navbar.component";
@@ -29,6 +33,7 @@ import { TranslateHttpLoader } from "@ngx-translate/http-loader";
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
+    NgxPaginationModule,
     GoogleChartsModule,
     TranslateModule.forRoot({
       defaultLanguage: "en",
@@ -39,6 +44,7 @@ import { TranslateHttpLoader } from "@ngx-translate/http-loader";
       },
     }),
   ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA],
   providers: [
     DataServiceService,
     {

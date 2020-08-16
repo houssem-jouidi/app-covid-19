@@ -9,12 +9,24 @@ import { DateWiseData } from "../models/date-wise-data";
   providedIn: "root",
 })
 export class DataServiceService {
-  nowDate = new Date();
-  nowdDay = this.nowDate.getDate() - 7;
-  nowMonth = this.nowDate.getMonth() + 1;
-  private globalDataUrl = `https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/06-03-2020.csv`;
-  private dateWiseDataUrl = `https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv`;
-  constructor(private http: HttpClient) {}
+  nowDate;
+  nowMonth;
+  nowYear;
+  globalDataUrl;
+  dateWiseDataUrl;
+  constructor(private http: HttpClient) {
+    this.nowDate = this.addDays(2).getDate();
+    this.nowMonth = this.addDays(2).getMonth() + 1;
+    this.nowYear = this.addDays(2).getFullYear();
+    if (this.nowMonth < 10) {
+      this.nowMonth = "0" + this.nowMonth;
+    }
+    if (this.nowDate < 10) {
+      this.nowDate = "0" + this.nowDate;
+    }
+    this.globalDataUrl = `https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/${this.nowMonth}-${this.nowDate}-${this.nowYear}.csv`;
+    this.dateWiseDataUrl = `https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv`;
+  }
   getDateWiseData() {
     return this.http.get(this.dateWiseDataUrl, { responseType: "text" }).pipe(
       map((result) => {
@@ -77,5 +89,10 @@ export class DataServiceService {
         return <GlobalDataSummary[]>Object.values(raw);
       })
     );
+  }
+  addDays(days) {
+    const result = new Date();
+    result.setDate(result.getDate() - days);
+    return result;
   }
 }

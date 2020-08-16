@@ -28,24 +28,23 @@
     [totalActive]="totalActive"
   ></app-dashboard-card>
   <div class="row">
-    <table class="table col-md-7 col-12">
-      <thead>
-        <tr>
-          <!--  <th>Sno</th>-->
-          <th>Date</th>
-          <th>{{ "Cases" | translate }}</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor="let cs of SelectedCountryData; index as i">
-          <!--  <td *ngIf="cs.cases > 0" scope="row">
-            {{ i + 1 }}
-          </td> -->
-          <td *ngIf="cs.cases > 0">{{ cs.date | date }}</td>
-          <td *ngIf="cs.cases > 0">{{ cs.cases }}</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="col-md-7 col-12">
+      <table class="table">
+        <thead>
+          <tr>
+            <!--  <th>Sno</th>-->
+            <th>Date</th>
+            <th>{{ "Cases" | translate }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let cs of SelectedCountryData">
+            <td *ngIf="cs.cases > 0">{{ cs.date | date }}</td>
+            <td *ngIf="cs.cases > 0">{{ cs.cases }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
     <div class="col-md-5 col-12">
       <google-chart
         [type]="chart.LineChart"
